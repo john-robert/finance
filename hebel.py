@@ -34,9 +34,10 @@ import newspaper
 class Logger(object):
 
 	""" 
-		Print commands are shown in shell and written to 'logfile'
-		at the same time !
-	    Usage: sys.stdout = Logger(logfile)
+	Print commands are shown in shell and written to 'logfile'
+	at the same time !
+	Usage: 
+	sys.stdout = Logger(logfile)
 	"""
 
 	def __init__(self, logfile):
@@ -54,7 +55,8 @@ class Logger(object):
 		#you might want to specify some extra behavior here.
 		pass 
 
-		# general helpers
+
+
 def get_news(hostname_news_page, forget_articles_off_last_time=True, outfile=None):
 
 	"""
@@ -76,8 +78,7 @@ def get_news(hostname_news_page, forget_articles_off_last_time=True, outfile=Non
 		article.parse()																# parse html to extract meaningful content like authors, body-text, .. (article needs to be downloaded first)
 		article.nlp()																# Natural Languange Properties (nlp). Need to call download and parse before ...
 
-		print(u'- - - ' * 30)
-		match = re.search(r'(\d{2}.\d{2}.\d{4}\s*/\s*\d{2}:\d{2})',article.html)	# 2018-02-26/17:41 20.02.2018 / 08:30
+		match = re.search(r'(\d{2}.\d{2}.\d{4}\s*/\s*\d{2}:\d{2})',article.html)	# find often on article page date/time as: 20.02.2018 / 08:30
 		if match:
 			time_extracted        = match.group()
 			time_object           = datetime.datetime.strptime(time_extracted, '%d.%m.%Y / %H:%M')
@@ -85,6 +86,7 @@ def get_news(hostname_news_page, forget_articles_off_last_time=True, outfile=Non
 		else:
 			date_time             = '---'
 
+		print(u'- - - ' * 30)
 		print(u'URL:\t\t%s'   % article.url)
 		print(u'TIME:\t\t%s'  % date_time)											# not specified by finanznachrichten.de, solved manually
 		print(u'TITLE:\t\t%s' % article.title)
@@ -109,6 +111,4 @@ def main():
 
 ######################  _ _ N A M E _ _ = = " _ _ M A I N _ _ "  ##############
 if __name__ == "__main__":
-	#os.system('clear') 
-	#os.system('tabs -4') 
 	main()
