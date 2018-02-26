@@ -55,7 +55,7 @@ class Logger(object):
 		#this handles the flush command by doing nothing.
 		#you might want to specify some extra behavior here.
 		pass 
-def make_random_user_agent(update_database=False):
+def make_random_user_agent(update_database=False, ua_fallback='Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0'):
 
 	"""
 	Uses fake_useragent libary from:
@@ -73,8 +73,7 @@ def make_random_user_agent(update_database=False):
     package sends this user agent: python-requests/2.18.1
 	"""
 
-	ua_db_file  = 'fake_useragent%s.json' % fake_useragent.VERSION														# when path given, database file is stored and accessed here
-	ua_fallback = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0' 					# case of any exceptions/failures use this. from Mac OS X, Firefox
+	ua_db_file  = os.path.join( os.path.realpath(__file__), 'files/fake_useragent%s.json' % fake_useragent.VERSION)		# when path given, database file is stored and accessed here
 	ua          = fake_useragent.UserAgent(path=ua_db_file, fallback=ua_fallback)
 	if update_database:
 		ua.update()
