@@ -4,9 +4,8 @@
 #----------------------------------------------------------------------
 #   Filename:  hebel.py
 """ Box of self-written helper functions for Python. """
-#   Author:    John - Robert Scholz
+#   Author:    JRS
 #   Date:      Feb 2018
-#   Email:     john.robert.scholz@gmail.com
 #   License:   GPLv3
 #---------------------------------------------------------------------
 
