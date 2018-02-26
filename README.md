@@ -1,5 +1,4 @@
 # kampfname
-A libary to develop ...
 
 
 Execute in Python3 environment (newspaper and fake_useragent packages installed):
