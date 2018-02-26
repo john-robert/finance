@@ -12,7 +12,7 @@
 
 
 #---------------------------------------------------------------------
-#---------------------- use of: PYTHON 3 -----------------------------
+#------------------------ use of: PYTHON 3 ---------------------------
 #---------------------------------------------------------------------
 
 
@@ -32,6 +32,8 @@ import newspaper
 import fake_useragent
 
 
+
+######################  functions and classes  ######################
 class Logger(object):
 
 	""" 
@@ -73,12 +75,12 @@ def make_random_user_agent(update_database=False, ua_fallback='Mozilla/5.0 (Maci
     package sends this user agent: python-requests/2.18.1
 	"""
 
-	ua_db_file  = os.path.join( os.path.realpath(__file__), 'files/fake_useragent%s.json' % fake_useragent.VERSION)		# when path given, database file is stored and accessed here
+	ua_db_file  = 'files/fake_useragent%s.json' % fake_useragent.VERSION										# when path given, database file is stored and accessed here
 	ua          = fake_useragent.UserAgent(path=ua_db_file, fallback=ua_fallback)
 	if update_database:
 		ua.update()
-	return ua.random 																									# random user agent from real world statistic via w3schools.com
-def get_news(hostname_news_page, forget_articles_of_last_time=True, outfile=None):
+	return ua.random 																							# random user agent from real world statistic via w3schools.com
+def get_news(hostname_news_page, forget_articles_of_last_time=True, outfile='files/log.txt'):
 
 	"""
 	Pass hostname of news paper page. E.g.: "http://www.finanznachrichten.de"
@@ -125,9 +127,8 @@ def get_news(hostname_news_page, forget_articles_of_last_time=True, outfile=None
 
 	print(u'Finished. Got %s news.' % len(news_page.articles))
 	if outfile:
-		print(u'Written to:\n%s' % outfile)
+		print(u'Written to: %s' % outfile)
 		sys.stdout = sys.__stdout__													# reset stdout to normal 
-
 
 
 ######################  main  ######################
