@@ -29,6 +29,7 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 import newspaper
+import fake_useragent
 
 
 class Logger(object):
@@ -54,14 +55,35 @@ class Logger(object):
 		#this handles the flush command by doing nothing.
 		#you might want to specify some extra behavior here.
 		pass 
-
-
-
-def get_news(hostname_news_page, forget_articles_off_last_time=True, outfile=None):
+def make_random_user_agent(update_database=False):
 
 	"""
-	Pass hostname of news paper page. E.g. "http://www.finanznachrichten.de"
-	Print URL, time, title, summary into shell and also into outfile (if that is given).
+	Uses fake_useragent libary from:
+
+	  https://pypi.python.org/pypi/fake-useragent
+
+    - grabs up to date useragent from useragentstring.com
+    - randomize with real world statistic via w3schools.com
+
+    ==> Allows to construct strings of "USER_AGENT". These are used
+        in html request headers to send basic information 
+        (parse engine, browser, OS, ) to web servers.
+
+    If no other user_agent is used, the "request" package via the "torrequest"
+    package sends this user agent: python-requests/2.18.1
+	"""
+
+	ua_db_file  = 'fake_useragent%s.json' % fake_useragent.VERSION														# when path given, database file is stored and accessed here
+	ua_fallback = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0' 					# case of any exceptions/failures use this. from Mac OS X, Firefox
+	ua          = fake_useragent.UserAgent(path=ua_db_file, fallback=ua_fallback)
+	if update_database:
+		ua.update()
+	return ua.random 																									# random user agent from real world statistic via w3schools.com
+def get_news(hostname_news_page, forget_articles_of_last_time=True, outfile=None):
+
+	"""
+	Pass hostname of news paper page. E.g.: "http://www.finanznachrichten.de"
+	Print URL, time, title, summary ... into shell and also into outfile (if that is given).
 	"""
 
 
@@ -70,29 +92,35 @@ def get_news(hostname_news_page, forget_articles_off_last_time=True, outfile=Non
 		sys.stdout = Logger(outfile)												# prints everything into shell but also into the logfile! Basically, I redirected standard out to both. stdout is set to normal at end of script.
 
 
+	# random user_agent
+	user_agent     = make_random_user_agent()
+
+
 	# get news from page
-	news_page      = newspaper.build(hostname_news_page, language='de', memoize_articles=forget_articles_off_last_time)
+	news_page      = newspaper.build(hostname_news_page, language='de', memoize_articles=forget_articles_of_last_time, fetch_images=False, browser_user_agent=user_agent)
 	for article in news_page.articles:
 
 		article.download()															# download article (obviously)
 		article.parse()																# parse html to extract meaningful content like authors, body-text, .. (article needs to be downloaded first)
 		article.nlp()																# Natural Languange Properties (nlp). Need to call download and parse before ...
 
-		match = re.search(r'(\d{2}.\d{2}.\d{4}\s*/\s*\d{2}:\d{2})',article.html)	# find often on article page date/time as: 20.02.2018 / 08:30
-		if match:
-			time_extracted        = match.group()
-			time_object           = datetime.datetime.strptime(time_extracted, '%d.%m.%Y / %H:%M')
-			date_time             = time_object.strftime('%Y-%m-%d %H:%M Uhr')
-		else:
-			date_time             = '---'
+		match = re.search(r'(\d{2}.\d{2}.\d{4})\s*.\s*(\d{2}:\d{2})',article.html)	# find often on finanznachrichte.de date/time as: 20.02.2018 / 08:30 (for now does not work for other pages)
+		try:
+			date                 = match.group(1)
+			time                 = match.group(2)
+			time_object          = datetime.datetime.strptime('%s %s' % (date, time), '%d.%m.%Y %H:%M')
+			date_time            = time_object.strftime('%Y-%m-%d, %H:%M Uhr')
+		except Exception:
+			date_time            = '---'
 
 		print(u'- - - ' * 30)
-		print(u'URL:\t\t%s'   % article.url)
-		print(u'TIME:\t\t%s'  % date_time)											# not specified by finanznachrichten.de, solved manually
-		print(u'TITLE:\t\t%s' % article.title)
-		#print(u'AUTHOR:\t\t%s' % article.authors)									# not specified by finanznachrichten.de
-		#print(u'TEXT:\t\t%s'  % article.text)										# needs parse
-		print(u'SUMMARY:\t%s' % article.summary.replace('\n','\n\t\t'))				# needs nlp, replace() is prepend to each new line two tabs (just so output is nice)
+		print(u'URL:        %s'  % article.url)
+		print(u'TIME:       %s'  % date_time)										# not specified by finanznachrichten.de, solved manually
+		print(u'TITLE:      %s'  % article.title)
+		#print(u'AUTHOR:     %s'  % article.authors)								# not specified by finanznachrichten.de
+		#print(u'TEXT:       %s'  % article.text)									# needs parse
+		print(u'SUMMARY:    %s'  % article.summary.replace('\n','\n            '))	# needs nlp, replace() is prepend to each new line spaces (just so output is nice)
+		print(u'KEYWORDS:   %s'  % ', '.join(article.keywords))						# needs nlp
 		print(u'- - - ' * 30)
 		print(u'')
 
