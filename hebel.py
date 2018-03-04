@@ -20,9 +20,16 @@ import os
 import re
 import sys
 import uuid
+import smtplib
 import datetime as dt
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
+
+from secrets.util import gmail_auth							# private libaries
+from email.mime.multipart import MIMEMultipart
+from email.utils import formatdate
+
+
 
 import newspaper
 import fake_useragent
@@ -30,6 +37,8 @@ import pandas_datareader.data as web
 import pandas as pd
 import requests
 import csv
+
+
 
 ######################  functions and classes  ######################
 class Logger(object):
@@ -207,12 +216,199 @@ def get_google_finance_intraday(ticker, period=60, days=1):
 	print(stuff)
 
 
+###  e-mail  ###
+def validMail(mail):
+
+	"""
+	Check if passed variable 'mail' is string. If not, make it string.
+	Then, check if 'mail' matches e-mail pattern, if yes, return mail with
+	preceding and succeeding white blancs stripped.
+	If pattern isn't matched, return False (without doing lstrip() / rstrip())
+	
+	:return: mail / False 
+	"""
+
+	if not isinstance(mail, str) or not re.search(r"\w.@\w+\.\w+", mail):
+		sys.exit(u'ERROR:    Given SENDER adress is no valid e-mail string. Exit.')
+	return mail.lstrip().rstrip()
+def valid_listMail(list_adresses):
+
+	"""
+	Check if passed list is a list, if yes, check if entries are valid mail
+	adresses. Strips preceding and succeeding white blancs. Return a list only 
+	with valid adresses, if there is no valid adress at all, return empty list.
+	
+	:return list_adress
+	"""
+	
+	adresses = []
+	if isinstance(list_adresses, list):
+		pass
+	elif isinstance(list_adresses, tuple):
+		list_adresses = list(list_adresses)
+	elif isinstance(list_adresses, str):
+		list_adresses = [list_adresses]
+	else:
+		sys.exit(u'ERROR:    Given ADDRESSES are no valid list or tuple format. Exit.')
+		
+	for adress in list_adresses:
+		if validMail(adress):
+			adresses.append(adress)
+
+	return adresses
+def headerMail(msgBasis, sender, recipients, carbon, bcarbon, replyto, subject):
+
+	"""
+	Fill header information of passed 'msgBasis' instance. 
+	
+	:return: 'msgBasis' and all other passed variable
+	"""
+
+	# date
+	msgBasis['Date'] = formatdate(localtime=True)		# dt.datetime.now().strftime('%Y-%m-%d, %H:%M Uhr')
+	#print(msgBasis['Date'])
+	
+	# sender
+	msgBasis['From'] = validMail(sender)
+
+	# recipients
+	recipients       = valid_listMail(recipients)
+	msgBasis['To']   = ', '.join(recipients)
+	
+	# carbon copies
+	carbon           = valid_listMail(carbon)
+	msgBasis['Cc']   = ', '.join(carbon)
+	
+	# blind carbon copies
+	bcarbon          = valid_listMail(bcarbon)
+	msgBasis['Bcc']  = ', '.join(bcarbon)
+	
+	# reply-to
+	replyto          = valid_listMail(replyto)		
+	msgBasis.add_header('reply-to', ', '.join(replyto))
+	
+	# subject
+	try:
+		msgBasis['Subject'] = str(subject)
+	except:
+		msgBasis['Subject'] = ''
+
+	# preamble
+	msgBasis.preamble = "PREAMBLE:   How to learn sending e-mails with Python's SMTP!"
+	
+	return msgBasis, recipients, carbon, bcarbon, replyto
+def attachmentsMail(msgBasis, attachments):
+
+	"""
+	Attach files past as list 'attachments' to e-mail message 'msgBasis' instance.
+	If given attachment cannot be found, it is removed from list.
+	
+	:return: 'msgBasis' (e-mail message instance) & 'attachments'
+	"""
+
+	### check if attachments is list (or can be converted to
+	try:
+		attachments = [str(ele) for ele in attachments]
+	except:
+		sys.exit(u'ERROR:    Given ATTACHMENTS are no valid list or tuple format of strings. Exit.')
+
+	### attach files, if can not be found, state warning and delete from attachment list
+	for i in range(len(attachments)):
+
+		part = MIMEBase('application', "octet-stream")
+		try: 
+			part.set_payload(open(file, "rb").read())
+			Encoders.encode_base64(part)
+			part.add_header('Content-Disposition', 'attachment; filename="%s"' % os.path.basename(file))
+			msgBasis.attach(part)
+		except: 
+			print(u"WARNING:    Attachment '%s' not found and thus not attached." % file)
+			continue
+		
+	return msgBasis
+def connectSMPT(client, username, password):
+
+	"""
+	Connect to SMTP mail server.
+	
+	:return: smtplib server
+	"""
+
+	try:
+		if client.lower() == 'tls':
+			try:
+				server = smtplib.SMTP('smtp.gmail.com', 587)
+				server.ehlo()
+				#server.esmtp_features['starttls']
+				server.starttls()
+				server.ehlo()
+				server.login(username,password)
+				return server
+			except Exception as err:
+				print(u"WARNING:     Couldn't establish '%s' connection to server. Proceed with 'ssh', port '465'. Error message:\n%s" % (client, err))  
+				server.quit()
+				client = 'ssl'
+
+		if client.lower() == 'ssl':
+			server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+			server.ehlo()
+			server.login(username,password)
+			return server
+		
+		if client.lower() == 'localhost':
+			command = 'python3 -m smtpd -n localhost:25'
+			server  = smtplib.SMTP('localhost', 25)
+			server.set_debuglevel(1)
+			return server
+
+		sys.exit(u"ERROR:    You want to connect to a SMTP server which is not known of the time being (choose 'localhost' or 'gmail'). Exit.")
+
+	except smtplib.SMTPHeloError as err:
+		sys.exit(u"ERROR:    Sever didn't reply properly to HELO GREETING! Exit.")
+
+	except smtplib.SMTPAuthenticationError as err:
+		sys.exit(u"ERROR:    Username and/or password not accepted to connect to SMTP server! Exit.")
+
+	except smtplib.socket.error as err:
+		if client.lower() == 'localhost':
+			print(u'Did you started a local SMTP server? If not, try:%s' % command)
+		sys.exit(u"ERROR:    Couldn't connect to '%s' server. Error message:\n%s." % (client, err))
+
+	except smtplib.SMTPServerDisconnected as err: 
+		sys.exit(u'ERROR:    Just try again! Error message:\n%s.' % err)
+
+	except Exception as err:
+		sys.exit(u'ERROR:    Error message:\n%s' % err)
+def sendMail(sender, recipients, cc=[], bcc=[], replyto=[], subject='', text='', attachments=[], connection='ssl'):
+			
+	"""
+	
+	"""
+
+	### Mail container
+	msgBasis                               = MIMEMultipart('mixed')
+	
+	### Mail header
+	msgBasis, recipients, cc, bcc, replyto = headerMail(msgBasis, sender, recipients, cc, bcc, replyto, subject)
+	
+	### Mail attachments
+	msgBasis                               = attachmentsMail(msgBasis, attachments)
+
+	### Mail send via SMPT
+	username, password                     = gmail_auth()
+	server                                 = connectSMPT(connection, username, password)
+	#server.verify(sender)
+	server.sendmail(sender, recipients + cc + bcc, text)
+	server.quit()
+
 ######################  main  ######################
 def main():
-	argues = sys.argv
-	eval(argues[1])
 
+	"""
+	Main program.
+	"""
 
 ######################  _ _ N A M E _ _ = = " _ _ M A I N _ _ "  ##############
 if __name__ == "__main__":
-	main()
+	argues = sys.argv
+	eval(argues[1])
