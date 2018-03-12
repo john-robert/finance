@@ -53,7 +53,7 @@ class Logger(object):
 	def __init__(self, logfile):
 		self.terminal = sys.stdout
 		self.logfile  = logfile
-		self.log      = open(self.logfile, "w")
+		self.log      = open(self.logfile, "a")
 
 	def write(self, message):
 		self.terminal.write(message)
