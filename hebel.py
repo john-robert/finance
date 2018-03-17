@@ -166,8 +166,7 @@ def get_news(hostname_news_page, forget_articles_of_last_time=True, outfile='./L
 			date                 = match.group(1)
 			time                 = match.group(2)
 			time_object          = dt.datetime.strptime('%s %s' % (date, time), '%d.%m.%Y %H:%M')
-			date_time            = time_object.strftime('%Y-%m-%d, %H:%M Uhr')
-			time_zone            = ' (UTC %+dh, summertime: %s)' % (int(-time.timezone/3600),time.localtime().tm_isdst)
+			date_time            = time_object.strftime('%Y-%m-%d, %H:%M Uhr (UTC +1h)')
 			uuid_hash            = make_uuid()
 		except Exception:
 			continue
@@ -175,7 +174,7 @@ def get_news(hostname_news_page, forget_articles_of_last_time=True, outfile='./L
 		print(u'')
 		print(u'- - - ' * 30)
 		print(u'URL:        %s'  % article.url)
-		print(u'TIME:       %s'  % date_time+time_zone)								# not specified by finanznachrichten.de, solved manually
+		print(u'TIME:       %s'  % date_time)										# not specified by finanznachrichten.de, solved manually
 		print(u'UUID:       %s'  % uuid_hash)
 		print(u'TITLE:      %s'  % article.title)
 		#print(u'AUTHOR:     %s'  % article.authors)								# not specified by finanznachrichten.de
@@ -286,7 +285,7 @@ def timed_job(interval_in_s, job, *args, **kwargs):
 	time_in_s = time.time()
 	while True:
 		
-		print(u"Execute '%s', on: %s (UTC %+dh, summertime: %s)" % (job.__name__, dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), int(-time.timezone/3600),time.localtime().tm_isdst ))
+		print(u"Execute '%s', on: %s (UTC %+dh)" % (job.__name__, dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), int(-time.timezone/3600) ))
 		job(*args, **kwargs)
 		print(u'')
 
