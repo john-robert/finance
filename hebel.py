@@ -35,7 +35,7 @@ from email.utils import formatdate
 import newspaper
 import fake_useragent
 #import pandas_datareader.data as web
-#import pandas as pd
+import pandas as pd
 #import requests
 #import csv
 
@@ -136,133 +136,70 @@ def make_uuid(version=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
 
 
 ###  news $ stock related  ###
-def get_news(hostname_news_page, forget_articles_of_last_time=True, outfile='./LOG/log.txt'):
+def get_news(hostname_news_page, forget_articles_of_last_time=True):
 
 	"""
 	Pass hostname of news paper page. E.g.: "http://www.finanznachrichten.de"
-	Print URL, time, UUID, title, summary ... into shell and also into outfile (if that is given).
+	Download, parse and return atricles as list of 'article' object
 	"""
 
+	# random user_agent
+	user_agent     = make_random_useragent()
+
+	# get news from page
+	news_page      = newspaper.build(hostname_news_page, language='de', memoize_articles=forget_articles_of_last_time, fetch_images=False, browser_user_agent=user_agent)
+	articles       = news_page.articles
+
+	return articles
+def print_article(article, outfile='./LOG/log.txt'):
+
+	"""
+
+	"""
 
 	# if outfile given (and no error occurs, e.g., directory does not exist ...)
 	if outfile:
 		sys.stdout = Logger(outfile)												# prints everything into shell but also into the logfile! Basically, I redirected standard out to both. stdout is set to normal at end of script.
 
+	article.download()					# download article (obviously)
+	article.parse()						# parse html to extract meaningful content like authors, body-text, .. (article needs to be downloaded first)
+	article.nlp()						# Natural Languange Properties (nlp). Need to call download and parse before ...
 
-	# random user_agent
-	user_agent     = make_random_useragent()
+	match = re.search(r'(\d{2}.\d{2}.\d{4})\s*.\s*(\d{2}:\d{2})',article.html)	# find often on finanznachrichte.de date/time as: 20.02.2018 / 08:30 (for now does not work for other pages)
+	try:
+		date                 = match.group(1)
+		time                 = match.group(2)
+		time_object          = dt.datetime.strptime('%s %s' % (date, time), '%d.%m.%Y %H:%M')
+		date_time            = time_object.strftime('%Y-%m-%d, %H:%M Uhr (UTC %+dh)' % int(-time.timezone/3600))
+		uuid_hash            = make_uuid()
+	except Exception:
+		return
 
-
-	# get news from page
-	news_page      = newspaper.build(hostname_news_page, language='de', memoize_articles=forget_articles_of_last_time, fetch_images=False, browser_user_agent=user_agent)
-	for article in news_page.articles:
-
-		article.download()															# download article (obviously)
-		article.parse()																# parse html to extract meaningful content like authors, body-text, .. (article needs to be downloaded first)
-		article.nlp()																# Natural Languange Properties (nlp). Need to call download and parse before ...
-
-		match = re.search(r'(\d{2}.\d{2}.\d{4})\s*.\s*(\d{2}:\d{2})',article.html)	# find often on finanznachrichte.de date/time as: 20.02.2018 / 08:30 (for now does not work for other pages)
-		try:
-			date                 = match.group(1)
-			time                 = match.group(2)
-			time_object          = dt.datetime.strptime('%s %s' % (date, time), '%d.%m.%Y %H:%M')
-			date_time            = time_object.strftime('%Y-%m-%d, %H:%M Uhr (UTC +1h)')
-			uuid_hash            = make_uuid()
-		except Exception:
-			continue
-
-		print(u'')
-		print(u'- - - ' * 30)
-		print(u'URL:        %s'  % article.url)
-		print(u'TIME:       %s'  % date_time)										# not specified by finanznachrichten.de, solved manually
-		print(u'UUID:       %s'  % uuid_hash)
-		print(u'TITLE:      %s'  % article.title)
-		#print(u'AUTHOR:     %s'  % article.authors)								# not specified by finanznachrichten.de
-		#print(u'TEXT:       %s'  % article.text)									# needs parse
-		print(u'SUMMARY:    %s'  % article.summary.replace('\n','\n            '))	# needs nlp, replace() is prepend to each new line spaces (just so output is nice)
-		print(u'KEYWORDS:   %s'  % ', '.join(article.keywords))						# needs nlp
-		print(u'- - - ' * 30)
+	print(u'')
+	print(u'- - - ' * 30)
+	print(u'URL:        %s'  % article.url)
+	print(u'TIME:       %s'  % date_time)										# not specified by finanznachrichten.de, solved manually
+	print(u'UUID:       %s'  % uuid_hash)
+	print(u'TITLE:      %s'  % article.title)
+	#print(u'AUTHOR:     %s'  % article.authors)								# not specified by finanznachrichten.de
+	#print(u'TEXT:       %s'  % article.text)									# needs parse
+	print(u'SUMMARY:    %s'  % article.summary.replace('\n','\n            '))	# needs nlp, replace() is prepend to each new line spaces (just so output is nice)
+	print(u'KEYWORDS:   %s'  % ', '.join(article.keywords))						# needs nlp
+	print(u'- - - ' * 30)
 
 	if outfile:
-		sys.stdout = sys.__stdout__													# reset stdout to normal 
+		sys.stdout = sys.__stdout__												# reset stdout to normal 
+def testlauf(hostname_news_page):
 
-	if len(news_page.articles)>0:
-		print(u'Written %s news to: %s' % (len(news_page.articles),outfile))
+	articles = get_news(hostname_news_page)
+
+	for article in articles:
+		print_article(article)
+
+	if len(articles)>0:
+		print(u'%s news to' % articles)
 	else:
 		print(u'No news.')
-def get_share_values(ticker, data_source, start, end):
-
-	"""
-
-	"""
-def get_google_finance_intraday(ticker, period=60, days=1):
-	url = 'https://finance.google.com/finance/getprices?p={}d&f=d,o,h,l,c,v&q={}&i={}'.format(days, ticker, period)
-	
-	doc = requests.get(url)
-	
-	data = csv.reader(doc.text.splitlines())
-	
-	columns = ['Open', 'High', 'Low', 'Close', 'Volume']
-	rows = []
-	times = []
-	for row in data:
-	    if re.match('^[a\d]', row[0]):
-	        if row[0].startswith('a'):
-	            start = datetime.datetime.fromtimestamp(int(row[0][1:]))
-	            times.append(start)
-	        else:
-	            times.append(start+datetime.timedelta(seconds=period*int(row[0])))
-	        rows.append(map(float, row[1:]))
-	if len(rows):
-	    stuff = pd.DataFrame(rows, index=pd.DatetimeIndex(times, name='Date'), columns=columns)
-	else:
-	    stuff = pd.DataFrame(rows, index=pd.DatetimeIndex(times, name='Date'))
-	
-	print(stuff)
-def get_google_finance_intraday(ticker, period=60, days=1):
-    """
-    Retrieve intraday stock data from Google Finance.
-
-    Parameters
-    ----------
-    ticker : str
-        Company ticker symbol.
-    period : int
-        Interval between stock values in seconds.
-    days : int
-        Number of days of data to retrieve.
-
-    Returns
-    -------
-    df : pandas.DataFrame
-        DataFrame containing the opening price, high price, low price,
-        closing price, and volume. The index contains the times associated with
-        the retrieved price values.
-    """
-
-    uri = 'https://finance.google.com/finance/getprices' \
-          '?i={period}&p={days}d&f=d,o,h,l,c,v&df=cpct&q={ticker}'.format(ticker=ticker,
-                                                                          period=period,
-                                                                          days=days)
-    page = requests.get(uri)
-    print(uri)
-    reader = csv.reader(page.content.splitlines())
-    columns = ['Open', 'High', 'Low', 'Close', 'Volume']
-    rows = []
-    times = []
-    for row in reader:
-        if re.match('^[a\d]', row[0]):
-            if row[0].startswith('a'):
-                start = datetime.datetime.fromtimestamp(int(row[0][1:]))
-                times.append(start)
-            else:
-                times.append(start+datetime.timedelta(seconds=period*int(row[0])))
-            rows.append(map(float, row[1:]))
-    if len(rows):
-        return pd.DataFrame(rows, index=pd.DatetimeIndex(times, name='Date'),
-                            columns=columns)
-    else:
-        return pd.DataFrame(rows, index=pd.DatetimeIndex(times, name='Date'))
 
 
 ###  infracstructure  ###
@@ -294,7 +231,11 @@ def timed_job(interval_in_s, job, *args, **kwargs):
 			time.sleep(time_in_s - time.time())			# if negative, i.e., job took longer than 'interval_in_s', it raises ValueError
 		except ValueError as err:
 			pass 										# no sleeping, i.e., go right away into next iteration and do job
+def get_share_values(ticker, data_source, start, end):
 
+	"""
+
+	"""
 
 ###  e-mail  ###
 def validMail(mail):
@@ -488,10 +429,10 @@ def main():
 	"""
 	Main program.
 	"""
+	alpha_vantage_APIkey = u'7NSGBW8REI0PSVAC'
+	hostname_news_page   = u'http://www.finanznachrichten.de'
 
-	hostname_news_page = u'http://www.finanznachrichten.de'
-
-	Thread             = threading.Thread(target=timed_job, args=(300, get_news, hostname_news_page), kwargs={})
+	Thread               = threading.Thread(target=timed_job, args=(300, testlauf, hostname_news_page), kwargs={})
 	#Thread.daemon = True
 	Thread.start()
 	#print(threading.currentThread())

@@ -1,0 +1,3261 @@
+;Company;Symbol
+0;American Airlines Gp;AAL
+1;Atlantic Amer Cp;AAME
+2;Applied Optoelect;AAOI
+3;Aaon Inc;AAON
+4;Apple Inc;AAPL
+5;Atlas Air Ww;AAWW
+6;Ishares Aca X-Japan ETF;AAXJ
+7;Axon Inc;AAXN
+8;Aoxin Tianli Grp;ABAC
+9;Abaxis Inc;ABAX
+10;Ameris Bancorp;ABCB
+11;Cambium Learning Grp;ABCD
+12;Alcentra Capital Com;ABDC
+13;Abeona Therapeutics;ABEO
+14;Abeona Thera Wts;ABEOW
+15;Ability Inc;ABIL
+16;Arca Biopharma Inc;ABIO
+17;Ablynx Nv;ABLX
+18;Abiomed Inc;ABMD
+19;Allegiance Banc CS;ABTX
+20;Arbutus Biopharma Cp;ABUS
+21;Acadia Pharmaceutica;ACAD
+22;Atlantic Capital;ACBI
+23;Acer Therapeutics Inc;ACER
+24;Acer Therapeutics Inc WT;ACERW
+25;Aceto Cp;ACET
+26;Atlantic Coast Finl;ACFC
+27;Arch Capital Grp Ltd;ACGL
+28;Arch Capital Group Ltd ADR;ACGLO
+29;Arch Capital Group Ltd;ACGLP
+30;Acadia Healthcr Co;ACHC
+31;Achillion Pharmaceut;ACHN
+32;Achieve Life Sciences Inc;ACHV
+33;Acacia Communica;ACIA
+34;AC Immune S.A.;ACIU
+35;Aci Worldwide Inc;ACIW
+36;Axcelis Tech Inc;ACLS
+37;Acm Research Inc;ACMR
+38;Acnb Corp;ACNB
+39;Acorda Therapeutics;ACOR
+40;Aclaris Therapts;ACRS
+41;Acelrx Pharmaceutica;ACRX
+42;American Capital Sen;ACSF
+43;Acasti Pharma;ACST
+44;Advisorshares Vice ETF;ACT
+45;Acacia Res-Acacia;ACTG
+46;Ishares ACWI ETF;ACWI
+47;Ishares ACWI Ex-US ETF;ACWX
+48;Acxiom Cp;ACXM
+49;Adaptimmune Ther Ads;ADAP
+50;Adobe Systems Inc;ADBE
+51;Advanced Emissions Solutions Inc;ADES
+52;Analog Devices;ADI
+53;Adma Biologics;ADMA
+54;Adamis Pharmaceuticl;ADMP
+55;Adamas Pharma;ADMS
+56;Adomani Inc;ADOM
+57;Automatic Data Procs;ADP
+58;Bldrs Asia 50 Fd;ADRA
+59;Bldrs Dev Mkts 100;ADRD
+60;Bldrs EM Mkts 50;ADRE
+61;Aduro Biotech;ADRO
+62;Bldrs EUR 100 Fd;ADRU
+63;Autodesk Inc;ADSK
+64;Adtran Inc;ADTN
+65;Addus Homecare Corpo;ADUS
+66;Adverum Biotechnlgs;ADVM
+67;Advaxis Inc;ADXS
+68;Advaxis Inc Wts;ADXSW
+69;Aegion Corp;AEGN
+70;Aehr Test Systems;AEHR
+71;Advanced Energy;AEIS
+72;Aethlon Medical;AEMD
+73;Aerie Pharmaceutical;AERI
+74;American Electric Te;AETI
+75;Addvantage Techs Grp;AEY
+76;Aeterna Zentaris;AEZS
+77;Almost Family Inc;AFAM
+78;Atlas Fincl Hld Ord;AFH
+79;Atlas Financial Holdings Inc 6.625% Senior Uns;AFHBL
+80;Affimed N.V.;AFMD
+81;Amtrust Financial;AFSI
+82;Agenus Inc;AGEN
+83;Agrofresh Solutions;AGFS
+84;Agrofresh Sol Wrrnts;AGFSW
+85;Argo Group Intl Hlds;AGII
+86;Argo Grp Itl Snr NTS;AGIIL
+87;Agios Pharmaceutical;AGIO
+88;Aeglea Biothera;AGLE
+89;American Capital Age;AGNC
+90;American Cap Agy Cor;AGNCB
+91;Agnc Investment Corp;AGNCN
+92;Wisdomtree Neg Duration US Agg Bond Fund;AGND
+93;Agile Therap;AGRX
+94;Applied Genetic Tech;AGTC
+95;Agilysys Inc;AGYS
+96;Wisdomtree Int Rate US Agg Bond Fund;AGZD
+97;Alliance Holdings Gp;AHGP
+98;Avista Healthcare Public Acquisition Corp Class;AHPA
+99;Avista Healthcare Public Acquisition Corp Warra;AHPAW
+100;Allied Healthcare;AHPI
+101;Ishares Asia 50 ETF;AIA
+102;Altra Indtl Mtn;AIMC
+103;Aimmune Therap;AIMT
+104;Apollo Investment Co;AINV
+105;Precision Therapeutics Inc.;AIPT
+106;Airgain Inc;AIRG
+107;Rba American Industrial Renaissance ETF FT;AIRR
+108;Air T Inc;AIRT
+109;Akamai Technologies;AKAM
+110;Achaogen Inc;AKAO
+111;Akebia Therapeutics;AKBA
+112;Akcea Therapeutics Inc;AKCA
+113;Akers Biosciences;AKER
+114;Akorn Inc;AKRX
+115;Akoustis Technologies Inc;AKTS
+116;Akari Therapeutics;AKTX
+117;Albireo Pharma Inc;ALBO
+118;Alico Inc;ALCO
+119;Alder Biopharma;ALDR
+120;Aldeyra Therapeu;ALDX
+121;Align Technology I;ALGN
+122;Allegiant Travel Com;ALGT
+123;Alimera Sciences Inc;ALIM
+124;Alj Regional Hold;ALJJ
+125;Alkermes Plc;ALKS
+126;Allot Communications;ALLT
+127;Allena Pharmaceuticals Inc;ALNA
+128;Alnylam Pharmaceut;ALNY
+129;Analogic Cp;ALOG
+130;Astronova Inc;ALOT
+131;Alpine Immune Sciences Inc;ALPN
+132;Alliqua Biomedical;ALQA
+133;Alarm.Com;ALRM
+134;Aileron Therapeutics Inc;ALRN
+135;Alaska Commun Sys;ALSK
+136;Altimmune Inc;ALT
+137;Altair Engineering Inc Class A;ALTR
+138;G-X Super Dividend Alternatives ETF;ALTY
+139;Alexion Pharm Inc;ALXN
+140;Amag Pharmaceuticals;AMAG
+141;Applied Materials;AMAT
+142;Ambarella Inc;AMBA
+143;Ambac Financial Grp;AMBC
+144;Ambac Financial Grp;AMBCW
+145;Ishares Russell 1000 Pure U.S. Revenue ETF;AMCA
+146;Airmedia Group Inc;AMCN
+147;Amc Networks Cl A;AMCX
+148;Adv Micro Devices;AMD
+149;Amedica Corp;AMDA
+150;Amedisys Inc;AMED
+151;Apollo Medical Holdings Inc;AMEH
+152;Amgen;AMGN
+153;Amkor Technology;AMKR
+154;Alliance Mma Inc;AMMA
+155;American Natl Bksh;AMNB
+156;Allied Motion Tech;AMOT
+157;Amphastar Pharma;AMPH
+158;Alta Mesa Resources Inc.;AMR
+159;American River Bkshs;AMRB
+160;Ameri Holdings Inc;AMRH
+161;Ameri Holdings Inc Warrant;AMRHW
+162;A-Mark Precious Meta;AMRK
+163;Amarin Corp Ads;AMRN
+164;Amyris Inc;AMRS
+165;Alta Mesa Resources Inc. Wt.;AMRWW
+166;Amer Superconductor;AMSC
+167;Amerisafe Inc;AMSF
+168;Amer Software Inc;AMSWA
+169;TD Ameritrade HD;AMTD
+170;Aemetis Inc;AMTX
+171;Amer Woodmark Cp;AMWD
+172;Amazon.Com Inc;AMZN
+173;Anaptysbio Inc;ANAB
+174;Amer Natl Insurance;ANAT
+175;Anchor Bancorp;ANCB
+176;Access National Corp;ANCX
+177;Andina Acq Cp Ord Sh;ANDA
+178;Andina Acq Cp Rt;ANDAR
+179;Andina Acq Cp WT;ANDAW
+180;Andersons Inc;ANDE
+181;Homeservices Inc;ANGI
+182;Angiodynamics Inc;ANGO
+183;Anika Therapeutics;ANIK
+184;ANI Pharma Inc;ANIP
+185;Ansys Inc;ANSS
+186;Anthera Pharmaceutic;ANTH
+187;Sphere 3D Corp;ANY
+188;American Outdoor Brands Corp;AOBC
+189;Alpha and Omega Semi;AOSL
+190;Applied Dna Scns;APDN
+191;Applied Dna Sci Wrnt;APDNW
+192;American Pub. Edu.;APEI
+193;Apollo Endosurgery Inc;APEN
+194;Archrock Partners LP;APLP
+195;Apellis Pharmaceuticals Inc;APLS
+196;Apogee Entrpr Inc;APOG
+197;Cellect Biotechnology Ltd;APOP
+198;Cellect Biotechnology Ltd;APOPW
+199;Appfolio Cl A;APPF
+200;Appian Corporation Class A;APPN
+201;Digital Turbine;APPS
+202;Apricus Biosc Inc;APRI
+203;Apptio Inc;APTI
+204;Aptose Bioscns;APTO
+205;Aptevo Therapeutics Inc;APVO
+206;Asia Pacific Wire & Cable;APWC
+207;Aquabounty Technologies Inc;AQB
+208;Aqua Metals Inc;AQMS
+209;Aquinox Pharmaceutic;AQXP
+210;Accuray Incorporated;ARAY
+211;Arcbest Corp;ARCB
+212;Ares Capital Corp;ARCC
+213;Applnc Rcycl Ct Amer;ARCI
+214;Arcturus Therapeutics Ltd;ARCT
+215;Arc Group Worldwide;ARCW
+216;Aradigm Corp;ARDM
+217;Ardelyx Inc;ARDX
+218;Approach Res. Inc;AREX
+219;Argos Therapeutics;ARGS
+220;Argenx Se Ads;ARGX
+221;American Railcar Ind;ARII
+222;Ark Restaurants Cp;ARKR
+223;Alliance Resource Pt;ARLP
+224;Aralez Pharm Inc;ARLZ
+225;Armo Biosciences Inc.;ARMO
+226;Arena Pharmaceutical;ARNA
+227;Arrow Financial Corp;AROW
+228;Arqule Inc;ARQL
+229;Arris Group Inc;ARRS
+230;Array Biopharma Inc;ARRY
+231;Artesian Res Cp A;ARTNA
+232;Art S Way MFG Co I;ARTW
+233;Arotech Corp;ARTX
+234;Arrowhead Pharma;ARWR
+235;Ascent Capital Group;ASCMA
+236;Flexshares Real Assets Allocation Index Fund;ASET
+237;Asta Funding Inc;ASFI
+238;Assembly Biosciences;ASMB
+239;Asml Hldg NY Reg;ASML
+240;Ascena Retail Grp;ASNA
+241;Ascendis Pharma Ads;ASND
+242;Arsanis Inc;ASNS
+243;Altisource Portfolio;ASPS
+244;Aspen Group Inc;ASPU
+245;Ameriserv Financial;ASRV
+246;Ameriserv Fin Cap;ASRVP
+247;Astrotech Corp;ASTC
+248;Astec Inds Inc;ASTE
+249;Asure Software;ASUR
+250;Asv Holdings Inc;ASV
+251;Amtech Systems Inc;ASYS
+252;Atlantic Acquisition Corp;ATAC
+253;Atlantic Acquisition Corp Right;ATACR
+254;Atlantic Acquisition Corp Unit;ATACU
+255;Ata Inc ADR;ATAI
+256;Amer First Mf Inv;ATAX
+257;Alphatec Holdings;ATEC
+258;Athenahealth Inc;ATHN
+259;Athersys Inc;ATHX
+260;Atlanticus Hldg Cp;ATLC
+261;Ames Natl Corp;ATLO
+262;Atn International;ATNI
+263;Athenex Inc;ATNX
+264;Atomera Inc;ATOM
+265;Atossa Genetics Inc;ATOS
+266;Atara Biotherap;ATRA
+267;Atricure Inc;ATRC
+268;Atrion Corp;ATRI
+269;Astronics Cp;ATRO
+270;Antares Pharma;ATRS
+271;Air Transport;ATSG
+272;Attunity Ltd;ATTU
+273;Activision Blizzard;ATVI
+274;Avenue Therapeutics Inc;ATXI
+275;Auburn Natl Bncp I;AUBN
+276;Audiocodes Ltd;AUDC
+277;Aurinia Pharm Ord;AUPH
+278;Autoweb Inc;AUTO
+279;Aerovironment Inc;AVAV
+280;Avadel Pharmaceuticals Plc;AVDL
+281;Aveo Pharmaceuticals;AVEO
+282;Broadcom Ltd;AVGO
+283;Avinger Inc;AVGR
+284;A V Homes Inc;AVHI
+285;Avid Tech Inc;AVID
+286;Aviat Networks Inc;AVNW
+287;Anavex Lf SC;AVXL
+288;Avexis Inc;AVXS
+289;Aware Inc;AWRE
+290;Abraxas Petro Corp;AXAS
+291;Accelerate Diagnosti;AXDX
+292;Axogen Inc;AXGN
+293;Axovant Sciences Ltd;AXON
+294;Axsome Thera;AXSM
+295;Axt Inc;AXTI
+296;Atlantica Yield Plc;AY
+297;Aytu Bioscience Inc;AYTU
+298;Aspen Technology;AZPN
+299;Azurrx Biopharma Inc;AZRX
+300;Natus Medical Inc;BABY
+301;Bandwidth Inc;BAND
+302;Bancfirst Corp;BANF
+303;Bfc Capital Trust II;BANFP
+304;Banner Corp;BANR
+305;Stonecastle Fncl Cp;BANX
+306;Bioanalytical Syst;BASI
+307;Liberty Braves CS A;BATRA
+308;Liberty Braves CS C;BATRK
+309;Bed Bath & Beyond;BBBY
+310;Beasley Brdcst Gr;BBGI
+311;Biotech Vaneck ETF;BBH
+312;Black Box Cp;BBOX
+313;Bravo Brio Restauran;BBRG
+314;Barrett Business S;BBSI
+315;Bison Capital Acquistion Corp Ordinary Shares;BCAC
+316;Bison Capital Acquistion Corp Rights;BCACR
+317;Bison Capital Acquisition Corp Unit;BCACU
+318;Bison Capital Acquistion Corp Warrant;BCACW
+319;Bcb Bancorp Inc;BCBP
+320;Brainstorm Cell;BCLI
+321;B Communications Ltd;BCOM
+322;Blucora Inc;BCOR
+323;Brightcove Inc;BCOV
+324;Balchem Cp;BCPC
+325;Biocryst Pharma Inc;BCRX
+326;Bancorp 34 Inc;BCTF
+327;Bridge Bancorp Inc;BDGE
+328;Biodelivery Sci Intl;BDSI
+329;Biotelemetry Inc;BEAT
+330;Beacon Roofing Suppl;BECN
+331;Bel Fuse Cl A;BELFA
+332;Bel Fuse Inc Cl B;BELFB
+333;Bankfinancial Corpor;BFIN
+334;G-X Health & Wellness Thematic Et;BFIT
+335;Biofrontera Ag ADR;BFRA
+336;Bgc Partners Cl A;BGCP
+337;Big 5 Sporting;BGFV
+338;Beigene Ltd Ads;BGNE
+339;Barington/Hilco Acq;BHAC
+340;Barington/Hilco Rgts;BHACR
+341;Barington/Hilco Wts;BHACW
+342;Blue Hills Bancorp;BHBK
+343;Brighthouse Financial Inc;BHF
+344;Ultra Nasdaq Biotech Proshares;BIB
+345;BICK Index Fund FT;BICK
+346;Baidu Inc;BIDU
+347;Biogen Inc;BIIB
+348;Biocept Inc;BIOC
+349;Biolase Inc;BIOL
+350;Bioscrip Inc;BIOS
+351;Ultrashort Biotechnology Proshares;BIS
+352;Bioverativ Inc;BIVV
+353;Bj's Restaurants Inc;BJRI
+354;Blackrock Cptl Invt;BKCC
+355;Blueknight Energy LP;BKEP
+356;Blueknight Srs A Uts;BKEPP
+357;Booking Holdings Inc.;BKNG
+358;Bank of So Car Cp;BKSC
+359;Bio-Key Intl Inc;BKYI
+360;Blackline Inc;BL
+361;Blue Bird Corp;BLBD
+362;Bellicum Pharma Comm;BLCM
+363;Reality Shares Nasdaq Nextgen Economy ETF;BLCN
+364;Ballard Power Sys;BLDP
+365;Builders Firstsource;BLDR
+366;Biolife Solutions;BLFS
+367;Bridgeline Digital;BLIN
+368;Blackbaud Inc;BLKB
+369;Bloomin' Brands Inc;BLMN
+370;Bsb Bancorp Inc;BLMT
+371;Blink Charging Co;BLNK
+372;Blink Charging Co. Warrant;BLNKW
+373;Bellerophon Ther Com;BLPH
+374;Biolinerx Ltd;BLRX
+375;Bluebird Bio;BLUE
+376;Bmc Stock Holdings;BMCH
+377;Bank of Montreal BMO Elkhorn DWA MLP Select;BMLP
+378;Biomerica Inc;BMRA
+379;Bank of Marin Bancrp;BMRC
+380;Biomarin Pharmaceut;BMRN
+381;Bryn Mawr Bank Corp;BMTC
+382;Beneficial Bancorp;BNCL
+383;Total Intl Bond ETF Vanguard;BNDX
+384;Benefitfocus;BNFT
+385;Bonso Elec Intl In;BNSO
+386;Benitec Biopharm Ads;BNTC
+387;Benitec Biopharm Wrt;BNTCW
+388;Bank of Commerce Hld;BOCH
+389;Bofi Holding Inc;BOFI
+390;Bofi Hld Sub Not;BOFIL
+391;Bojangles Inc CS;BOJA
+392;Bok Financial Corp;BOKF
+393;Bok Financial Corp;BOKFL
+394;Audentes Therapeutics Inc;BOLD
+395;Boston Omaha Corporation Class A;BOMN
+396;Dynamic Materials;BOOM
+397;Bos Better Online;BOSC
+398;Bank of The Jame Fnl;BOTJ
+399;G-X Robotics & Artificial Intel Thmtc ETF;BOTZ
+400;Boxlight Corporation Class A;BOXL
+401;Boston Pvt Finl Hldg;BPFH
+402;Boston Private Dep S;BPFHP
+403;Boston Private Wts;BPFHW
+404;Blueprint Medi Cm ST;BPMC
+405;Popular Inc;BPOP
+406;Popular Inc Trust II;BPOPM
+407;Popular Inc Trust I;BPOPN
+408;Bank of Princeton;BPRN
+409;Bio-Path Holdings;BPTH
+410;Brookfield Property Partners L;BPY
+411;Black Ridge Acquisition Corp;BRAC
+412;Black Ridge Acquisition Corp Right;BRACR
+413;Black Ridge Acquisition Corp Unit;BRACU
+414;Black Ridge Acquisition Corp Warrant;BRACW
+415;Craft Brew Alliance;BREW
+416;Bridgford Foods Cp;BRID
+417;Brookline Bancorp;BRKL
+418;Bruker Corp;BRKR
+419;Brooks Automation;BRKS
+420;Big Rock Partners Acquisition Corp;BRPA
+421;Big Rock Partners Acquisition Corp Right;BRPAR
+422;Big Rock Partners Acquisition Corp Unit;BRPAU
+423;Big Rock Partners Acquisition Corp Warrant;BRPAW
+424;Borqs Technologies Inc;BRQS
+425;Bassett Furniture;BSET
+426;Bear State Fin Inc;BSF
+427;Biostar Pharmaceutic;BSPM
+428;Bsquare Corp;BSQR
+429;Sierra Bancorp;BSRR
+430;Biospecifics Tech Cp;BSTC
+431;Bioxcel Therapeutics Inc.;BTAI
+432;Principal Healthcare Innovators Index;BTEC
+433;Blue Buffalo Pet;BUFF
+434;Burcon Nutrascience;BUR
+435;Chanticleer Hldgs;BURG
+436;First Busey Corp;BUSE
+437;Brandes Investment Trust Brandes Value Nextshare;BVNSC
+438;Broadvision Inc;BVSN
+439;Biondvax Pharma Ads;BVXV
+440;Biondvax Pharma WT;BVXVW
+441;Broadwind Energy Inc;BWEN
+442;Bankwell Financial;BWFG
+443;Baldwin Lyons Cl A;BWINA
+444;Baldwin Lyons Cl B;BWINB
+445;Bay Bancorp Inc;BYBK
+446;Broadway Fin Cp;BYFC
+447;Beyondspring Inc Ordinary Shares;BYSI
+448;Baozun Inc Ads;BZUN
+449;CA Inc;CA
+450;China Automotive Sys;CAAS
+451;Camden Natl Cp;CAC
+452;Credit Acceptance;CACC
+453;Legg Clearbridge All Cap Growth ETF;CACG
+454;China Advanced Const;CADC
+455;8Point3 Energy Cl A;CAFD
+456;Cheesecake Fact;CAKE
+457;Calithera Biosci Com;CALA
+458;Callidus Software;CALD
+459;China Auto Logistics;CALI
+460;Magicjack Vocaltec L;CALL
+461;Cal-Maine Foods In;CALM
+462;Calamp Corp;CAMP
+463;Camtek Ltd;CAMT
+464;Capricor Therap;CAPR
+465;Avis Budget Group I;CAR
+466;Cara Therapeutics;CARA
+467;Carbonite Inc;CARB
+468;Cargurus Inc Class A;CARG
+469;Carolina Financial Corp;CARO
+470;Carolina Trust Bank;CART
+471;Carver Bancorp;CARV
+472;Nasdaq Global Auto Index Fund FT;CARZ
+473;Casa Systems Inc;CASA
+474;Cascadian Therapeutics Inc;CASC
+475;Meta Financial Grp;CASH
+476;Casi Phrmactcls Inc;CASI
+477;Cas Medical Sys Inc;CASM
+478;Cass Information Sys;CASS
+479;Casey's General Stor;CASY
+480;Catabasis Pharma;CATB
+481;Cambridge Bancorp;CATC
+482;G-X S&P 500 Catholic Values ETF;CATH
+483;Cardtronics Inc;CATM
+484;Catasys Inc;CATS
+485;Cathay Genl Bncp;CATY
+486;Cavium Inc;CAVM
+487;China Bak Battery;CBAK
+488;Colony Bankcorp Inc;CBAN
+489;Cymabay Therapeutics;CBAY
+490;Cb Financial Svc;CBFV
+491;Catalyst Bio;CBIO
+492;Cleveland Biolabs;CBLI
+493;Cellular Biomedicine;CBMG
+494;CBOE Global Markets Inc;CBOE
+495;China Biologic Produ;CBPO
+496;Cracker Barrel;CBRL
+497;Commerce Bancshares;CBSH
+498;Commerce BNC B Dep;CBSHP
+499;Cbtx Inc;CBTX
+500;Capital City Bank Gr;CCBG
+501;China Ceramics Co;CCCL
+502;China Commercial Cre;CCCR
+503;Calams Dy Cnv In;CCD
+504;Chinacache Hldgs ADR;CCIH
+505;CSI Compressco;CCLP
+506;Cabot Microelectron;CCMP
+507;Cnb Financial Corp;CCNE
+508;Cogent Comm Hldgs;CCOI
+509;China Customer Ord;CCRC
+510;Cross Ctry Hlthcr;CCRN
+511;Concurrent Computer;CCUR
+512;Chemocentryx Inc;CCXI
+513;Victory US Eqty Income Ehnd Vol Wtd ETF;CDC
+514;Centennial Resource Development Inc;CDEV
+515;Cdk Global Inc;CDK
+516;Victory US Largecap Hi Div Vol Wtd ETF;CDL
+517;Cardlytics Inc.;CDLX
+518;Avid Bioservices Inc.;CDMO
+519;Avid Bioservices Inc.;CDMOP
+520;Caredx Inc;CDNA
+521;Cadence Design Sys;CDNS
+522;Clean Diesel Technol;CDTI
+523;Cidara Thera;CDTX
+524;CDW Corp;CDW
+525;Chromadex Corp CS;CDXC
+526;Codexis Inc;CDXS
+527;Cadiz Inc;CDZI
+528;C E C O Envir;CECE
+529;Career Education;CECO
+530;Celcuity Inc;CELC
+531;Celgene Corp;CELG
+532;Celgene Cp Cvr;CELGZ
+533;Celsius Holdings Inc;CELH
+534;Chembio Diagnostics;CEMI
+535;Central Garden;CENT
+536;Central Garden & Pet;CENTA
+537;Century Aluminum C;CENX
+538;Cerecor Inc;CERC
+539;Cerecor Inc Cl A WT;CERCW
+540;Cerner Corp;CERN
+541;Cerus Corp;CERS
+542;Central EUR Med A;CETV
+543;Cemtrex Inc;CETX
+544;Cemtrex Inc Series 1 Pfd.;CETXP
+545;Cemtrex Inc Series 1 Warrant;CETXW
+546;Ceva Inc;CEVA
+547;Victoryshares Emerging Market High Div Vol Wtd E;CEY
+548;Victory EM Vol Wtd ETF;CEZ
+549;Victory US 500 Vol ETF ETF;CFA
+550;Community First Bancshares Inc;CFBI
+551;Central Fed Cp;CFBK
+552;C&F Financial Corp;CFFI
+553;Capitol Fed Finl Inc;CFFN
+554;Conformis Inc CS;CFMS
+555;Victory US 500 Ehnd Vol Wtd ETF;CFO
+556;Contrafect;CFRX
+557;The Carlyle Group;CG
+558;Tcg Bdc Inc;CGBD
+559;Compugen Ltd;CGEN
+560;Cancer Genetics Inc;CGIX
+561;Cogentix Medical In;CGNT
+562;Cognex Cp;CGNX
+563;Calamos Glb Ttl Rtn;CGO
+564;Comstock Hldgs Cos;CHCI
+565;City Holding Co;CHCO
+566;Churchill Downs In;CHDN
+567;The Chefs Warehouse;CHEF
+568;Check-Cap Ltd Ord;CHEK
+569;Check-Cap Ltd A WT;CHEKW
+570;Chemical Financial;CHFC
+571;Charter Finl Corp;CHFN
+572;Chf Solutions Inc;CHFS
+573;Calamos Cv Opp & Inc;CHI
+574;Cherokee Inc;CHKE
+575;Check Point Software;CHKP
+576;Chiasma Inc;CHMA
+577;Chemung Financial Cp;CHMG
+578;China Natural Res;CHNR
+579;Coherus Bio;CHRS
+580;C.H. Robinson Ww;CHRW
+581;CHS B Cum Pfd Srs 4;CHSCL
+582;CHS Pfd Clb Ser3;CHSCM
+583;CHS Inc Pfd B Srs 2;CHSCN
+584;CHS Inc Cl B Pfd;CHSCO
+585;CHS Inc Cum Pfd;CHSCP
+586;Charter Communicatio;CHTR
+587;Commercehub Inc;CHUBA
+588;Commercehub Inc;CHUBK
+589;Chuy's Holdings Inc;CHUY
+590;Calamos Gbl Dyn Inc;CHW
+591;Calamos Cv & High In;CHY
+592;Nasdaq Cybersecurity ETF FT;CIBR
+593;Victory Intl Hi Div Vol Wtd ETF;CID
+594;Cinedigm Corp;CIDM
+595;China Internet Nationwide Financial Services Inc;CIFS
+596;Colliers Intl Grp In;CIGI
+597;Victory Intl Vol Wtd ETF;CIL
+598;Cincinnati Financial;CINF
+599;Interm Credit Bd Ishares;CIU
+600;Civista Bncshrs;CIVB
+601;Civista Bancshrs Dep;CIVBP
+602;Victory Dev Enhd Vol Wtd ETF;CIZ
+603;Citizens Hldg Co;CIZN
+604;China Jojo Drugstore;CJJD
+605;Checkpoint Therapeutics Inc;CKPT
+606;Clarus Corp;CLAR
+607;Caladrius Bio;CLBS
+608;Collectors Universe;CLCT
+609;China Lending Corp;CLDC
+610;Celldex Therapeutics;CLDX
+611;Clearfield Inc;CLFD
+612;Collplant Holdings Ltd.;CLGN
+613;Clearsign Combustion;CLIR
+614;Clearsign Combustion Corporation Warrant;CLIRW
+615;Cellectis S.A. Ads;CLLS
+616;Calumet Specialty Pr;CLMT
+617;Clean Energy Fuels;CLNE
+618;Cellectar Biosc;CLRB
+619;Cellectar Biosc WT;CLRBW
+620;Cellectar Bio Sra WT;CLRBZ
+621;IQ Chaikin U.S. Large Cap ETF;CLRG
+622;Clearone Inc;CLRO
+623;Clearside Biomedi;CLSD
+624;Celsion Corp;CLSN
+625;Town Sports Internat;CLUB
+626;Clovis Oncology Inc;CLVS
+627;Euro Tech Hldg;CLWT
+628;Calyxt Inc;CLXT
+629;Columbus Mckinnon;CMCO
+630;Comcast Corp A;CMCSA
+631;Cim Commercial TR Cp;CMCT
+632;CME Group Inc;CME
+633;Cm Finance;CMFN
+634;Cimpress N.V. Ord;CMPR
+635;Chimerix Inc;CMRX
+636;Cm Seven Star Acquisition Corporation Ordinary S;CMSS
+637;Cm Seven Star Acquisition Corporation Right;CMSSR
+638;Cm Seven Star Acquisition Corp;CMSSU
+639;Cm Seven Star Acquisition Corporation Warrant;CMSSW
+640;Clementia Pharmaceuticals Inc;CMTA
+641;Comtech Telecom Co;CMTL
+642;Constellation Alpha Capital Corp Ordinary Share;CNAC
+643;Constellation Alpha Capital Corp Right;CNACR
+644;Constellation Alpha Capital Corp Unit;CNACU
+645;Constellation Alpha Capital Corp Warrant;CNACW
+646;Conatus Pharmaceutic;CNAT
+647;Century Bancorp Inc;CNBKA
+648;Concert Pharmaceutic;CNCE
+649;Loncar Cancer Immunotherapy ETF;CNCR
+650;Chinanet Online Hldg;CNET
+651;Conifer Holdings;CNFR
+652;China Info Tech;CNIT
+653;C O N M E D Cp;CNMD
+654;Connectone Bancorp;CNOB
+655;Consolidated Communications Holdings Inc;CNSL
+656;China Techfaith Wire;CNTF
+657;Century Casinos In;CNTY
+658;PC Connection Inc;CNXN
+659;Cobiz Financial Inc;COBZ
+660;Cocrystal Pharma Inc;COCP
+661;Coda Octopus Group;CODA
+662;Co-Diagnostics Inc;CODX
+663;Cogint Inc;COGT
+664;Coherent Inc;COHR
+665;Cohu Inc;COHU
+666;Coca Cola Bot Cons;COKE
+667;Columbia Banking Sys;COLB
+668;Collegium Pharma;COLL
+669;Columbia Sprtswr;COLM
+670;Commscope Holding Co;COMM
+671;Ishares Commodities Select Strategy ETF;COMT
+672;Cyrusone Inc;CONE
+673;Conn's Inc;CONN
+674;Polarityte Inc;COOL
+675;Core Mark Holding;CORE
+676;Corium Intl;CORI
+677;Corcept Therapeutics;CORT
+678;Costco Wholesale;COST
+679;Coupa Software Inc;COUP
+680;Cowen Group Inc;COWN
+681;Cowen Inc 7.35% Senior Notes Due 2027;COWNZ
+682;Counterpath Corp;CPAH
+683;Canterbury Park Hl;CPHC
+684;Cumberland Pharmaceu;CPIX
+685;Capella Education Co;CPLA
+686;Capital Product Part;CPLP
+687;Copart Inc;CPRT
+688;Catalyst Pharm Inc;CPRX
+689;Cps Technologies;CPSH
+690;Computer Programs;CPSI
+691;Consumer Portfol;CPSS
+692;Capstone Turbine Cp;CPST
+693;Capitala Finance Crp;CPTA
+694;Capitala Finance Corp 5.75% Convertible Notes D;CPTAG
+695;Capitala Finance Corp 6% Notes Due 2022;CPTAL
+696;Cra International;CRAI
+697;Cray Inc;CRAY
+698;Corbus Pharma;CRBP
+699;Core US Credit Bond ETF Ishares;CRED
+700;Cree Inc;CREE
+701;China Recycling Ener;CREG
+702;Cresud Sacif ADR;CRESY
+703;Curis Inc;CRIS
+704;Cardiome Pharma Corp;CRME
+705;America's Car-Mart;CRMT
+706;Ceragon Networks Ltd;CRNT
+707;Cronos Group Inc;CRON
+708;Crocs Inc;CROX
+709;Crispr Therapeutics Ag;CRSP
+710;Criteo S.A. Ads;CRTO
+711;Cirrus Logic Inc;CRUS
+712;Calvert Management Series Calvert Ultra-Short In;CRUSC
+713;Corvel Cp;CRVL
+714;Corvus Pharma Com;CRVS
+715;Crown Crafts Inc;CRWS
+716;Carrizo Oil & Gas;CRZO
+717;Victory US Smallcap Vol Wtd ETF;CSA
+718;Victory US Smallcap Hi Div Vol Wtd ETF;CSB
+719;Clifton Bancorp Inc;CSBK
+720;Champions Oncolog;CSBR
+721;Cisco Systems Inc;CSCO
+722;Victory US Disc Enhd Vol Wtd ETF;CSF
+723;Centerstate Bank Corp;CSFL
+724;Costar Group Inc;CSGP
+725;C S G Sys Intl;CSGS
+726;Cardiovascular Syst;CSII
+727;Canadian Solar Inc;CSIQ
+728;1-3 Year Credit Bond Ishares;CSJ
+729;IQ Chaikin U.S. Small Cap ETF;CSML
+730;Cornerstone Ondemand;CSOD
+731;C S P Inc;CSPI
+732;Calamos Strgc Ttl Rt;CSQ
+733;Chicken Soup For The Soul Entertainment Inc;CSSE
+734;Caesarstone Sdot-Yam;CSTE
+735;Capstar Financial Holdings Inc;CSTR
+736;Capital Southwest;CSWC
+737;Capital Southwest Corporation 5.95% Notes Due 20;CSWCL
+738;Csw Industrials Inc;CSWI
+739;CSX Corp;CSX
+740;Cintas Corp;CTAS
+741;Community TR Bancp;CTBI
+742;Computer Task Gp Inc;CTG
+743;Charles & Colvard;CTHR
+744;Cti Inds Corp;CTIB
+745;Cti Biopharm Corp;CTIC
+746;Cytomx Thera;CTMX
+747;Caretrust REIT Inc;CTRE
+748;Control4 Corp;CTRL
+749;Citi Trends Inc;CTRN
+750;Ctrip.Com Intl Ltd;CTRP
+751;Contravir Pharmaceut;CTRV
+752;Cognizant Tech Sol;CTSH
+753;Cytosorbents Cor;CTSO
+754;Conn Water Svcs In;CTWS
+755;Citius Pharmaceuticals Inc;CTXR
+756;Citius Pharmaceuticals Inc Warrant;CTXRW
+757;Citrix Systems Inc;CTXS
+758;Herzfeld Caribbean;CUBA
+759;Cue Biopharma Inc.;CUE
+760;Cui Global Inc;CUI
+761;Neuralstem Inc;CUR
+762;Cutera Inc;CUTR
+763;Cvb Financial Corp;CVBF
+764;Cavco Inds Inc;CVCO
+765;Central Vly Cmty Bcp;CVCY
+766;Commercial Vehicle G;CVGI
+767;Calavo Growers Inc;CVGW
+768;Commvault Systems;CVLT
+769;Codorus Valley Bncp;CVLY
+770;Convergeone Holdings Inc.;CVON
+771;Convergeone Holdings Inc. Warrant;CVONW
+772;Covenant Transportn;CVTI
+773;CVD Equipment Corp;CVV
+774;Coastway Bancorp Inc;CWAY
+775;Community West Bncsh;CWBC
+776;Cohbar Inc;CWBR
+777;Cons Water Co Inc;CWCO
+778;Casella Waste Sys;CWST
+779;China Xd Plastics Co;CXDC
+780;Concordia International;CXRX
+781;Wisdomtree China Ex-Cso Fund;CXSE
+782;Cypress Semiconductr;CY
+783;Celyad Sa Ads;CYAD
+784;Cyanotech Corp;CYAN
+785;Cyberoptics Cp;CYBE
+786;Cyberark Soft Ord;CYBR
+787;Cyclacel Pharmaceuti;CYCC
+788;Cyclacel Pharmaceuti;CYCCP
+789;Community Health Sys;CYHHZ
+790;Changyou.Com Ltd;CYOU
+791;Cyren Ltd;CYRN
+792;Cryoport Inc;CYRX
+793;Cryoport Inc Wts;CYRXW
+794;Cytokinetics;CYTK
+795;Cytrx Corporation;CYTR
+796;Cytori Therapeutics;CYTX
+797;Cytori Therapeutics Inc;CYTXW
+798;Citizens First Corp;CZFC
+799;Citizens Nrthn Cp;CZNC
+800;Caesars Entertainment Corp;CZR
+801;Citizens Community;CZWI
+802;Data I O Cp;DAIO
+803;Daktronics Inc;DAKT
+804;Dare Bioscience Inc;DARE
+805;Famous Daves of Am;DAVE
+806;DAX Germany ETF;DAX
+807;Dbv Technologies Ads;DBVT
+808;Dropcar Inc.;DCAR
+809;Diana Containerships Inc;DCIX
+810;Dime Community Bncsh;DCOM
+811;Deciphera Pharmaceuticals Inc;DCPH
+812;Legg Developed Ex-US Div Core ETF;DDBI
+813;Delta Tech HD Ltd Or;DELT
+814;Dennys Corp;DENN
+815;Depomed Inc;DEPO
+816;Dermira Inc Cm ST;DERM
+817;Destination Maternty;DEST
+818;Differntl Brands;DFBG
+819;Dfb Healthcare Acquisitions Corp. Unit;DFBHU
+820;Diffusion Pharmaceuticals Inc;DFFN
+821;Davis Select Financial ETF;DFNL
+822;Del Frisco's Restrnt;DFRG
+823;5 Year Bull Ipath;DFVL
+824;5 Year Bear Ipath;DFVS
+825;Donegal Group Cl A;DGICA
+826;Donegal Group Cl B;DGICB
+827;Digi Intl Inc;DGII
+828;VS 3X Inv Gold;DGLD
+829;Digital Ally Inc;DGLY
+830;Wisdomtree EM Quality Divd Growth Fund;DGRE
+831;Wisdomtree US Smallcap Quality Dvid Fund;DGRS
+832;Wisdomtree US Quality Divd Fund;DGRW
+833;Diamond Hill Inv;DHIL
+834;Dhx Media Varbl Vtg;DHXM
+835;Davis Select International ETF;DINT
+836;Diodes Inc;DIOD
+837;Discovery Comm A;DISCA
+838;Discovery Comm B;DISCB
+839;Discovery Comm Inc;DISCK
+840;Dish Network Corp;DISH
+841;Daily Journal Cp;DJCO
+842;Ipath Long Bond Bear ETN;DLBS
+843;Dlh Holdings Corp;DLHC
+844;Dolphin Entertainment Inc;DLPN
+845;Dolphin Entertainment Inc Warrant;DLPNW
+846;Duluth Hldg Cl B;DLTH
+847;Dollar Tree Inc;DLTR
+848;Dorchester Minls;DMLP
+849;Delmar Pharmaceuticals Inc;DMPI
+850;Digimarc Corp;DMRC
+851;Dnb Finl Corp;DNBF
+852;Dunkin' Brands Group;DNKN
+853;Denali Therapeutics Inc;DNLI
+854;Dogness Corporation Class A;DOGZ
+855;Dorman Products Inc;DORM
+856;Draper Oakwood Technology Acquisition Inc Clas;DOTA
+857;Draper Oakwood Technology Acquisition Inc Righ;DOTAR
+858;Draper Oakwood Technology Acquisition;DOTAU
+859;Draper Oakwood Technology Acquisition Inc Warr;DOTAW
+860;Dova Pharmaceuticals Inc;DOVA
+861;Amdocs Ltd Ord;DOX
+862;Digirad Corp;DRAD
+863;Labstyle Innovat;DRIO
+864;Labstyle Innovati WT;DRIOW
+865;Dicerna Pharmaceutic;DRNA
+866;Durect Corp;DRRX
+867;Dryships Inc;DRYS
+868;Descartes Sys Grp;DSGX
+869;Daseke Inc;DSKE
+870;Daseke Inc;DSKEW
+871;VS 3X Inv Silver;DSLV
+872;D S P Group Inc;DSPG
+873;Deswell Inds Inc;DSWL
+874;Davidstea Inc;DTEA
+875;Determine Inc;DTRM
+876;2 Year Bear Ipath;DTUS
+877;10 Year Bear Ipath;DTYS
+878;Davis Select USA ETF;DUSA
+879;Dynavax Technologies;DVAX
+880;Diversicare Healthca;DVCR
+881;DJ Select Dividend Index Ishares;DVY
+882;Elkhorn Commodity Rotation Strategy ETF;DWAC
+883;Dynamic OTC Powershares;DWAQ
+884;DWA Smallcap Momentum Portfolio PS;DWAS
+885;Arrow DWA Tactic ETF;DWAT
+886;Datawatch Cp;DWCH
+887;Arrow DWA Country Rotation ETF;DWCR
+888;DW Fixed Income Allocation ETF SPDR;DWFI
+889;DWA Tactical Multi-Asset Income PS;DWIN
+890;Davis Select World Opportunities ETF;DWLD
+891;DWA Momentum & Low Vol Rotation PS;DWLV
+892;First Trust Dorsey Wright People's Portfolio ETF;DWPP
+893;Dawson Geophscl;DWSN
+894;DWA Tactical Sector Rotation PS;DWTR
+895;Dexcom;DXCM
+896;Wisdomtree Germany Hedged Eqty Fund;DXGE
+897;Wisdomtree Japan Smallcap Eqty Hedged Fund;DXJS
+898;Destination XL Grp;DXLG
+899;Dxp Enterprise;DXPE
+900;Wisdomtree UK Eqty Hedged Fund;DXPS
+901;The Dixie Group;DXYN
+902;Dynatronics Cp;DYNT
+903;Dynasil Cp America;DYSL
+904;Dasan Zhone Solutions Inc;DZSI
+905;Electronic Arts Inc;EA
+906;Easterly Acq;EACQ
+907;Easterly Acq Warrant;EACQW
+908;Platinum Eagle Acquisition Corp. Class A;EAGL
+909;Double Eagle Units;EAGLU
+910;Double Eagle Warrant;EAGLW
+911;Auris Medical;EARS
+912;Eastside Distilling Inc;EAST
+913;Eastside Distilling Inc. Warrant;EASTW
+914;Ebay Inc;EBAY
+915;Ebay Inc 6.0% NTS;EBAYL
+916;Eleven Bio Inc;EBIO
+917;Ebix Inc;EBIX
+918;Eagle Bancorp [Mt];EBMT
+919;Meridian Bncp;EBSB
+920;Enterprise Bancorp I;EBTC
+921;Echo Global Logistic;ECHO
+922;US Ecology Inc;ECOL
+923;Encore Capital Grp;ECPG
+924;Endocyte Inc;ECYT
+925;Edap Tms Sa ADR;EDAP
+926;Legg EM Div Core ETF;EDBI
+927;Edge Therapeut Cm S;EDGE
+928;Edgewater Tech Inc;EDGW
+929;Editas Medicine;EDIT
+930;Educational Dev Cp;EDUC
+931;Euronet Worldwide;EEFT
+932;Ecology Environment;EEI
+933;Ishares EM Asia ETF;EEMA
+934;G-X MSCI Superdividend EAFE ETF;EFAS
+935;Eagle Financial Bancorp Inc;EFBI
+936;Elec Imaging Inc;EFII
+937;Energy Focus;EFOI
+938;Enterprises Finl Svc;EFSC
+939;Egain Corp;EGAN
+940;Eagle Bancorp Inc;EGBN
+941;Eagle Bulk Ship New;EGLE
+942;Egalet Corp;EGLT
+943;Nic Inc;EGOV
+944;Eagle Pharmaceutical;EGRX
+945;Ehealth Inc;EHTH
+946;Endurance Int Grp;EIGI
+947;Eiger Biopharma;EIGR
+948;Ekso Bionics Holdings Inc;EKSO
+949;Electrum Special Or;ELEC
+950;Electrum Special WT;ELECW
+951;Endologix Inc;ELGX
+952;Echelon Corp;ELON
+953;Electro Sensors In;ELSE
+954;Eltek Ltd;ELTK
+955;USD Emrg Mkts Bond Ishares;EMB
+956;Wisdomtree EM Corp Bond Fund;EMCB
+957;Emclaire Finl Cor;EMCF
+958;Wisdomtree EM Consumer Growth;EMCG
+959;E M C Insurance Gp;EMCI
+960;Ishares EM Infrastructure ETF;EMIF
+961;Elbit Imaging Ord;EMITF
+962;Emcore Corp;EMKR
+963;Eastern Co;EML
+964;Emmis Commun Cl A;EMMS
+965;Ishares Inc Ishares MSCI Emerging Markets Ex C;EMXC
+966;Endo Int'l Plc;ENDP
+967;Entegra Financ Cm ST;ENFC
+968;Englobal Corp;ENG
+969;Enphase Energy Inc;ENPH
+970;The Ensign Group In;ENSG
+971;Global Eagle Entrtn;ENT
+972;Enanta Pharmaceutica;ENTA
+973;Entegris Inc;ENTG
+974;Entellus Medical;ENTL
+975;New Zealand Index MSCI Ishares;ENZL
+976;Evolus Inc.;EOLS
+977;Bottomline Tech In;EPAY
+978;Essa Pharma;EPIX
+979;Epizyme Inc;EPZM
+980;Equity Bncsrs Cm A;EQBK
+981;Equitable Fincl;EQFN
+982;Equinix Inc;EQIX
+983;Proshares Trust Proshares Equities For Rising Ra;EQRR
+984;Eldorado Resorts;ERI
+985;Ericsson ADR;ERIC
+986;Erie Indemnity Co;ERIE
+987;Energy Recovery Inc;ERII
+988;Erytech Pharma;ERYP
+989;Elmira Sav Bk;ESBK
+990;Escalade Inc;ESCA
+991;Euroseas Ltd;ESEA
+992;Eco-Stim Energy;ESES
+993;Flexshares US ESG Impact Index;ESG
+994;Ishares EAFE ESG Select ETF;ESGD
+995;Ishares EM ESG Select ETF;ESGE
+996;Flexshares Global ESG Impact Index;ESGG
+997;Enstar Group Ltd;ESGR
+998;Ishares US ESG Optimized ETF;ESGU
+999;Electro Sci Inds;ESIO
+1000;Elbit Systems Ltd;ESLT
+1001;Essendant Inc;ESND
+1002;Esperion Theraptc;ESPR
+1003;Esquire Financial Holdings Inc;ESQ
+1004;Express Scripts;ESRX
+1005;Essa Bancorp Inc;ESSA
+1006;Estre Ambiental Inc;ESTR
+1007;Estre Ambiental Inc Warrant;ESTRW
+1008;Community Bankers;ESXB
+1009;E*Trade Finl Corp;ETFC
+1010;Etsy Inc;ETSY
+1011;Europe Financials ETF Ishares;EUFN
+1012;Everbridge Inc;EVBG
+1013;Ev Energy Partners;EVEP
+1014;Evofem Biosciences Inc.;EVFM
+1015;Eaton Vance Nextshares Trust II Eaton Vance Floa;EVFTC
+1016;Evogene Ltd Ord;EVGN
+1017;Ever Glory Intl Grp;EVK
+1018;Evine Live Cl A;EVLV
+1019;Evoke Pharma;EVOK
+1020;Evolving Systems Inc;EVOL
+1021;East West Bancorp;EWBC
+1022;Ishares Brazil Smallcap ETF;EWZS
+1023;Exact Sciences Cor;EXAS
+1024;Exelixis Inc;EXEL
+1025;Exfo Inc;EXFO
+1026;Exlservice Holdings;EXLS
+1027;Expeditors Intl;EXPD
+1028;Expedia Inc;EXPE
+1029;Exponent Inc;EXPO
+1030;Extreme Networks;EXTR
+1031;Energy Xxi Gulf Coast Inc;EXXI
+1032;National Vision Holdings Inc;EYE
+1033;Eyegate Pharma;EYEG
+1034;Eyegate Pharm Wts;EYEGW
+1035;Eyenovia Inc.;EYEN
+1036;Second Sight;EYES
+1037;Second Sight Medical Products Inc Warrants;EYESW
+1038;Ezcorp Inc;EZPW
+1039;Alternative Absolute Return Strategy ETF FT;FAAR
+1040;Multi Cap Value Alphadex Fund FT;FAB
+1041;Multicap Growth Alphadex Fund FT;FAD
+1042;Ishares Fallen Angels USD Bond;FALN
+1043;Farmmi Inc.;FAMI
+1044;Diamondback Energy;FANG
+1045;Fanhua Inc;FANH
+1046;Farmer Brothers;FARM
+1047;Faro Tech Inc;FARO
+1048;Fastenal Co;FAST
+1049;Fat Brands Inc;FAT
+1050;Fate Therapeutics;FATE
+1051;Facebook Inc;FB
+1052;Fortress Biotech Inc;FBIO
+1053;Fortress Biotech Inc 9.375% Series A Cumulativ;FBIOP
+1054;First Business Finan;FBIZ
+1055;First Bancshs [Ms];FBMS
+1056;First Bancorp [Nc];FBNC
+1057;First Connecticut BA;FBNK
+1058;Fauquier Bankshares;FBSS
+1059;Brazil Alphadex Fund FT;FBZ
+1060;China Alphadex Fund FT;FCA
+1061;First Trust Exchange-Traded Fund III First Trust;FCAL
+1062;Canada Alphadex Fund FT;FCAN
+1063;First Capital Inc;FCAP
+1064;First Community Bksh;FCBC
+1065;First Community Corp;FCCO
+1066;1st Constitution Bcp;FCCY
+1067;CEF Income Opportunity ETF FT;FCEF
+1068;Fuelcell Energy Inc;FCEL
+1069;First Citizens Bancs;FCNCA
+1070;Fc Global Realty Inc;FCRE
+1071;Fibrocell Science;FCSC
+1072;Ssi Strategic Convertible Securities ETF FT;FCVT
+1073;Fidelity D & D Bancorp Inc;FDBC
+1074;First Defiance Finl;FDEF
+1075;Strategic Income ETF FT;FDIV
+1076;Dev Mkts Ex-US Alphadex Fund FT;FDT
+1077;Dev Mkts Ex-US Small Cap Alphadex Fund FT;FDTS
+1078;Fidus Investment Cor;FDUS
+1079;Fidus Investment Corporation 5.875% Notes Due 20;FDUSL
+1080;Frequency Elcts Inc;FEIM
+1081;Franklin Electric Co;FELE
+1082;Emrg Mkts Alphadex Fund FT;FEM
+1083;Emrg Mkts Local Currency Bond ETF FT;FEMB
+1084;Emrg Mkts Small Cap Alphadex Fund FT;FEMS
+1085;Fennec Pharmaceuticals Inc;FENC
+1086;Europe Alphadex Fund FT;FEP
+1087;Eurozone Alphadex Fund FT;FEUZ
+1088;Largecap Core Alphadex Fund FT;FEX
+1089;Fireeye Inc;FEYE
+1090;First Finl Bncp [Oh];FFBC
+1091;First Fin Bcorp Wrnt;FFBCW
+1092;Ffbw Inc;FFBW
+1093;Fuwei Films [Holding;FFHL
+1094;Flushing Finl Corp;FFIC
+1095;First Finl Bkshs Inc;FFIN
+1096;F5 Networks Inc;FFIV
+1097;Farmers Capital BA;FFKT
+1098;First Financial Nort;FFNW
+1099;First Foundation;FFWM
+1100;First Gurty Banc;FGBI
+1101;Fibrogen Inc CS;FGEN
+1102;Germany Alphadex Fund FT;FGM
+1103;First Hawaiian Inc;FHB
+1104;Hong Kong Alphadex Fund FT;FHK
+1105;First Interstate Ban;FIBK
+1106;Finish Line Cl A;FINL
+1107;G-X Fintech Thematic ETF;FINX
+1108;Financial Institut;FISI
+1109;Fiserv Inc;FISV
+1110;Fifth Third Bncp;FITB
+1111;Fifth Third Bancorp;FITBI
+1112;Five Below Inc;FIVE
+1113;Five9 Inc;FIVN
+1114;Tcw Opportunistic Fixed Income ETF FT;FIXD
+1115;Natl Beverage Cp;FIZZ
+1116;Japan Alphadex Fund FT;FJP
+1117;South Korea Alphadex Fund FT;FKO
+1118;UK Alphadex Fund FT;FKU
+1119;Ipath US Treas Flattener ETN;FLAT
+1120;Fluidigm Corp;FLDM
+1121;Flextronics Intl Ltd;FLEX
+1122;Fulgent Genetics Inc;FLGT
+1123;First of Long Isla;FLIC
+1124;Flir Systems Inc;FLIR
+1125;Flex Pharma Inc;FLKS
+1126;Full House Rsts;FLL
+1127;Latin America Alphadex Fund FT;FLN
+1128;1-800-Flowers.Com;FLWS
+1129;Flexion Therapeutics;FLXN
+1130;Flexsteel Inds;FLXS
+1131;Farmers & Merch Banc;FMAO
+1132;Managed Municipal ETF FT;FMB
+1133;First Mid Ill Bncshr;FMBH
+1134;First Midwest Bncp;FMBI
+1135;Forum Merger Corporation Class A;FMCI
+1136;Forum Merger Corporation Right;FMCIR
+1137;Forum Merger Corporation Unit;FMCIU
+1138;Forum Merger Corporation Warrant;FMCIW
+1139;FT Municipal High Income ETF;FMHI
+1140;Foundation Medicine;FMI
+1141;Mega Cap Alphadex Fund FT;FMK
+1142;Farmers Natl Banc Cp;FMNB
+1143;Fnb Bancorp [Ca];FNBG
+1144;First National Community Bancorp Inc;FNCB
+1145;Financial Engines;FNGN
+1146;Federated Natl Hldg;FNHC
+1147;Finjan Holdings;FNJN
+1148;Mid Cap Value Alphadex Fund FT;FNK
+1149;Funko Inc Class A;FNKO
+1150;First Bancorp Inc;FNLC
+1151;Finisar Corp;FNSR
+1152;Fintech Acquisition Corp II;FNTE
+1153;Fintech Acquisition Corp II Unit;FNTEU
+1154;Fintech Acquisition Corp II Warrant;FNTEW
+1155;First Nw Banc;FNWB
+1156;Mid Cap Core Alphadex Fund FT;FNX
+1157;Mid Cap Growth Alphadex Fund FT;FNY
+1158;Fogo De Chao Cm ST;FOGO
+1159;Amicus Therapeutics;FOLD
+1160;Foamix Pharma Ord;FOMX
+1161;Nasdaq Smartphone Index Fund FT;FONE
+1162;Fonar Corp;FONR
+1163;Forward Inds Inc;FORD
+1164;Fuling Global Ord Sh;FORK
+1165;Formfactor Inc;FORM
+1166;Forrester Resrch;FORR
+1167;Formula Sys [1985];FORTY
+1168;Fossil Group;FOSL
+1169;21st Centry Fox Class B;FOX
+1170;21st Centry Fox Class A;FOXA
+1171;Fox Factory Cp;FOXF
+1172;Asia Pacific Ex-Japan Alphadex Fund FT;FPA
+1173;Flexshopper Inc;FPAY
+1174;Five Prime Thera;FPRX
+1175;International IPO Fund FT;FPXI
+1176;Francesca's Holdings;FRAN
+1177;First Bank;FRBA
+1178;Republic First Bcp;FRBK
+1179;Fred's Inc;FRED
+1180;Fiesta Restaurant Gp;FRGI
+1181;First Merchants Corp;FRME
+1182;Frp Holdings Inc;FRPH
+1183;Freshpet Inc CS;FRPT
+1184;Papa Murphys Hld Com;FRSH
+1185;Foresight Autonomous Holdings Ltd ADR;FRSX
+1186;Forterra Inc;FRTA
+1187;Federal Street Acquisition Corp;FSAC
+1188;Federal Street Acquisition Corp Unit;FSACU
+1189;Federal Street Acquisition Corp Warrant;FSACW
+1190;Fsb Community Bnksh;FSBC
+1191;FS Bancorp Inc;FSBW
+1192;Forescout Technologies Inc;FSCT
+1193;First Savings Financ;FSFG
+1194;First Solar Inc;FSLR
+1195;Fusion Telecom Intl;FSNN
+1196;Foster L B Co;FSTR
+1197;Firstsrvce Sub Vt Sh;FSV
+1198;Switzerland Alphadex Fund FT;FSZ
+1199;Largecap Value Alphadex Fund FT;FTA
+1200;Indxx Global Agriculture ETF FT;FTAG
+1201;Largecap Growth Alphadex Fund FT;FTC
+1202;Capital Strength ETF FT;FTCS
+1203;Ftd Companies;FTD
+1204;Fuel Tech Inc;FTEK
+1205;Fronteo Inc;FTEO
+1206;Future Fintech Group Inc;FTFT
+1207;Global Tactical Commodity Strategy Fund FT;FTGC
+1208;High Income ETF FT;FTHI
+1209;Low Beta Income ETF FT;FTLB
+1210;Fortinet Inc;FTNT
+1211;Frontier Commun Cp;FTR
+1212;Indxx Global Natural Resources Income ETF FT;FTRI
+1213;Frontier A Mn Cnv Pd;FTRPR
+1214;Senior Loan ETF FT;FTSL
+1215;Enhanced Short Maturity ETF FT;FTSM
+1216;Taiwan Alphadex Fund FT;FTW
+1217;Nasdaq Retail ETF FT;FTXD
+1218;Nasdaq Food & Beverage ETF FT;FTXG
+1219;Nasdaq Pharmaceuticals ETF FT;FTXH
+1220;Nasdaq Semiconductor ETF FT;FTXL
+1221;Nasdaq Oil & Gas ETF FT;FTXN
+1222;Nasdaq Bank ETF FT;FTXO
+1223;Nasdaq Transportation ETF FT;FTXR
+1224;Fulton Financial Cor;FULT
+1225;First United Corp;FUNC
+1226;Sprott Focus Trust;FUND
+1227;First US Bancshares Inc;FUSB
+1228;Arcimoto Inc;FUV
+1229;Dorsey Wright Focus 5 ETF FT;FV
+1230;Dorsey Wright Dynamic Focus 5 ETF FT;FVC
+1231;Five Star Quality Care;FVE
+1232;Liberty Media F1 Series A;FWONA
+1233;Liberty Media F1 Series K;FWONK
+1234;Forward Pharma Ads;FWP
+1235;Foward Air Corp;FWRD
+1236;Smallcap Growth Alphadex Fund FT;FYC
+1237;Smallcap Value Alphadex Fund FT;FYT
+1238;Smallcap Core Alphadex Fund FT;FYX
+1239;German Amer Bncp Inc;GABC
+1240;Gaiam Inc;GAIA
+1241;Gladstone Investment;GAIN
+1242;Gladstone Investment Corp;GAINM
+1243;Gladstone Inv 6.5 C;GAINN
+1244;Gladstone Invt Corp;GAINO
+1245;Galectin Therapeutic;GALT
+1246;Garrison Capital Inc;GARS
+1247;Stealthgas Inc;GASS
+1248;Glacier Bancorp Inc;GBCI
+1249;Golub Capital Bdc I;GBDC
+1250;Global Indemnity Plc;GBLI
+1251;Global Indemnity Limited 7.875% Subordinated Not;GBLIL
+1252;Global Indmnty 7.75;GBLIZ
+1253;Guaranty Bancorp;GBNK
+1254;Global Blood Ther;GBT
+1255;Greene County Bncp;GCBC
+1256;Sanofi Cvr;GCVRZ
+1257;Golden Entmt;GDEN
+1258;Gds Holdings Ltd;GDS
+1259;Great Elm Capital Group Inc;GEC
+1260;Great Elm Capital Corp;GECC
+1261;Great Elm Capital Corp 6.50% Notes Due 2022;GECCL
+1262;Great Elm Capital Corp. 6.75% Notes Due 2025;GECCM
+1263;Gemphire Therapeutics Inc;GEMP
+1264;Gencor Industries In;GENC
+1265;Genetic Tech Spn Ads;GENE
+1266;Principal Millennials Index ETF;GENY
+1267;Geospace Technologie;GEOS
+1268;Geron Corp;GERN
+1269;Gevo Inc;GEVO
+1270;Guaranty Fedl Bcshs;GFED
+1271;General Finance Corp;GFN
+1272;General Fn Cum Pfd C;GFNCP
+1273;Genrl Fin Sr Nt 2021;GFNSL
+1274;Grupo Fin Galicia;GGAL
+1275;Genomic Health Inc;GHDX
+1276;Gulf Island Fab;GIFI
+1277;Gigamedia Ltd;GIGM
+1278;G-III Apparel Gp I;GIII
+1279;Gilead Sciences Inc;GILD
+1280;Gilat Satellite Ntwk;GILT
+1281;Gladstone Cap Corp;GLAD
+1282;Gladstone Capital Corp Term Pfd. Ser 2024;GLADN
+1283;Globus Maritime Limi;GLBS
+1284;Glen Burnie Bancorp;GLBZ
+1285;Great Lakes Drg Dock;GLDD
+1286;CS X-Links Gold Share;GLDI
+1287;Gci Liberty Inc. Cl A;GLIBA
+1288;Gci Liberty Inc. Ser A Pfd;GLIBP
+1289;Galmed Pharmaceutica;GLMD
+1290;Golar Lng Ltd;GLNG
+1291;Galapagos Nv;GLPG
+1292;Gaming & Leisure;GLPI
+1293;Greenlight Cap. Re.;GLRE
+1294;Glu Mobile Inc;GLUU
+1295;Glycomimetics Inc;GLYC
+1296;Golar Lng Partners;GMLP
+1297;Golar Lng Partners LP;GMLPP
+1298;Green Bancorp;GNBC
+1299;Genocea Biosciences;GNCA
+1300;Gci Liberty Inc.;GNCMA
+1301;Ishares GNMA Bond ETF;GNMA
+1302;Genmark Diagnostics;GNMK
+1303;Aevi Genomic Medicine;GNMX
+1304;Generic Drugs Vaneck ETF;GNRX
+1305;Gentex Corp;GNTX
+1306;Guaranty Bancshares Inc;GNTY
+1307;Genius Brands International Inc;GNUS
+1308;Golden Ocean Gp;GOGL
+1309;Gogo Inc;GOGO
+1310;Randgold Res Ltd;GOLD
+1311;Gladstone Comml;GOOD
+1312;Gladstone Commercial Corporatio;GOODM
+1313;Gladstone Commercial;GOODO
+1314;Gladstone Commercial Corp;GOODP
+1315;Alphabet Class C;GOOG
+1316;Alphabet Class A;GOOGL
+1317;Government Properties Income Trust;GOV
+1318;Government Properties Income TR;GOVNI
+1319;Gordon Pointe Acquisition Corp. Unit;GPAQU
+1320;Gaming Partners Intl;GPIC
+1321;Gulfport Energy Corp;GPOR
+1322;Green Plains Partners LP;GPP
+1323;Green Plains Inc;GPRE
+1324;Gopro Inc Cl A;GPRO
+1325;Gabelli Nextshares Trust Gabelli Rbi Nextshares;GRBIC
+1326;Green Brick Partners;GRBK
+1327;Grifols S.A.;GRFS
+1328;Nasdaq Clean Edge Smart Grid Infr Index Fund FT;GRID
+1329;Griffin Industrial;GRIF
+1330;Garmin Ltd;GRMN
+1331;U S Global Inv Inc;GROW
+1332;Groupon Cl A;GRPN
+1333;Gravity Co. Ltd;GRVY
+1334;Great Southern Bncp;GSBC
+1335;Gores Holdings II Inc Class A;GSHT
+1336;Gores Holdings II Inc Units;GSHTU
+1337;Gores Holdings II Inc Warrants;GSHTW
+1338;Gsi Technology Inc;GSIT
+1339;Ferroglobe Plc Os;GSM
+1340;Gridsum Holding Inc;GSUM
+1341;Gsv Capital Cp;GSVC
+1342;Goodyear Tire Rubber;GT
+1343;G1 Therapeutics Inc;GTHX
+1344;Good Times Rest;GTIM
+1345;Chart Industries In;GTLS
+1346;GTX Inc;GTXI
+1347;Gty Technology Holdings Inc;GTYH
+1348;Gty Technology Holdings Inc;GTYHU
+1349;Gty Technology Holdings Inc Warrants;GTYHW
+1350;Wisdomtree Middle East Dividend Fund;GULF
+1351;Gulf Resources Inc;GURE
+1352;Gwg Holdings;GWGH
+1353;Gw Pharma ADR;GWPH
+1354;Global Water Reso;GWRS
+1355;Gyrodyne Llc;GYRO
+1356;Hawaiian Hldgs Inc;HA
+1357;Habit Rest Cmn A;HABT
+1358;Hanmi Financial Cp;HAFC
+1359;Hain Celestial Grp;HAIN
+1360;Restoration Robotics Inc;HAIR
+1361;Hallmark Fin Svc;HALL
+1362;Halozyme Therapeutic;HALO
+1363;Hasbro Inc;HAS
+1364;Blackhawk Network Ho;HAWK
+1365;Haynes Intl Inc;HAYN
+1366;Huntington Bcshs;HBAN
+1367;Huntington Bancshares Incorporated Depositary Sh;HBANN
+1368;Huntington Banc. Dep;HBANO
+1369;Huntington BNC Pfd A;HBANP
+1370;Home Bancorp Inc;HBCP
+1371;Hancock Holding Co;HBHC
+1372;Hancock Hld 5.95 Nt;HBHCL
+1373;Harvard Bioscience;HBIO
+1374;Hamilton Bancorp;HBK
+1375;Howard Bancorp MD;HBMD
+1376;Horizon Bancorp;HBNC
+1377;Huttig Bldg Products;HBP
+1378;Harvest Capital Cred;HCAP
+1379;Harvest Capital Credit Corporation 6.125% Notes;HCAPZ
+1380;Heritage-Crystal;HCCI
+1381;Hackett Grp Inc;HCKT
+1382;Hutchison China Ads;HCM
+1383;Hawaiian Telcom Hold;HCOM
+1384;Healthcare Svcs Gp;HCSG
+1385;Hardinge Inc;HDNG
+1386;Hortonworks;HDP
+1387;HD Supply Hlds Cmm;HDS
+1388;Hudson Tech Inc;HDSN
+1389;Turtle Beach Corp;HEAR
+1390;Hebron Technology Co. Ltd;HEBT
+1391;H&E Equip Services;HEES
+1392;Helen of Troy Ltd;HELE
+1393;MSCI Germany Ishares Currency Hedged;HEWG
+1394;Hopfed Bancorp Inc;HFBC
+1395;Home Federal;HFBL
+1396;Heritage Financial;HFWA
+1397;China Hgs Real Est;HGSH
+1398;Hibbett Sports Inc;HIBB
+1399;Hingham Inst For Svg;HIFS
+1400;Highway Hldgs Ltd;HIHO
+1401;Health Insurance Inn;HIIQ
+1402;Himax Technologies;HIMX
+1403;Hailiang Edu Grp Ads;HLG
+1404;Harmonic Inc;HLIT
+1405;Hamilton Lane Incorporated Class A;HLNE
+1406;Houghton Mifflin Har;HMHC
+1407;Hmn Financial Inc;HMNF
+1408;Helios and Matsn Ana;HMNY
+1409;Homestreet Inc;HMST
+1410;Hms Hldgs Cp;HMSY
+1411;Hometown Bankshares;HMTA
+1412;Hemisphere Media A;HMTV
+1413;Strategy Shares Nasdaq 7Handl Index ETF;HNDL
+1414;Hennessy Advisors;HNNA
+1415;Hallador Energy Co;HNRG
+1416;Hooker Furniture;HOFT
+1417;Hollysys Automation;HOLI
+1418;Hologic Inc;HOLX
+1419;Home Bancshares Inc;HOMB
+1420;Harborone Bancorp Inc;HONE
+1421;Hope Bancorp Inc;HOPE
+1422;Hovnanian Entr Dep A;HOVNP
+1423;Highpower Intl Inc;HPJ
+1424;Hospitality Properites Trust;HPT
+1425;Hanwha Q Cells Ads;HQCL
+1426;Healthequity;HQY
+1427;Heron Therapeutics;HRTX
+1428;Horizon Technology F;HRZN
+1429;Histogenics Cp;HSGX
+1430;Henry Schein Inc;HSIC
+1431;Heidrick & Struggl;HSII
+1432;Heska Corp;HSKA
+1433;Hudson Global;HSON
+1434;Healthstream Inc;HSTM
+1435;Hometrust Bancshares;HTBI
+1436;Heritage Commerce;HTBK
+1437;Heat Biologics Inc;HTBX
+1438;Htg Molecular Dia;HTGM
+1439;China Lodg Grp Ads;HTHT
+1440;Heartland Express;HTLD
+1441;Heartland Finl USA;HTLF
+1442;Hub Group Inc A;HUBG
+1443;Hunter Maritime Acquisition Corp Class A;HUNT
+1444;Hunter Maritime Acquisition Corp;HUNTU
+1445;Hunter Maritime Acquisition Corp Warrant;HUNTW
+1446;Hurco Cos Inc;HURC
+1447;Huron Consulting;HURN
+1448;Hv Bancorp Inc;HVBC
+1449;Hawthorn Bancshares;HWBK
+1450;Houston Wire Cable;HWCC
+1451;Hawkins Inc;HWKN
+1452;Hexindai Inc;HX
+1453;Haymaker Acquisition Corp Class A;HYAC
+1454;Haymaker Acquisition Corp Unit;HYACU
+1455;Haymaker Acquisition Corp Warrant;HYACW
+1456;Hydrogenics Corp;HYGS
+1457;Tactical High Yield ETF FT;HYLS
+1458;Wisdomtree Neg Duration Hi Yld Bond Fund;HYND
+1459;Ishares Iboxx $ High Yield Ex O;HYXE
+1460;Wisdomtree Int Rate Hi Yld Bond Hedged Fund;HYZD
+1461;Horizon Pharma Ord;HZNP
+1462;Iac/Interactive;IAC
+1463;I-Am Capital Acquisition Company;IAM
+1464;I-Am Capital Acquisition Right;IAMXR
+1465;I-Am Capital Acquisition Warrant;IAMXW
+1466;Integra Lifesciences;IART
+1467;Nasdaq Biotech ETF Ishares;IBB
+1468;Independent Bk Cp;IBCP
+1469;Iberiabank Corp;IBKC
+1470;Iberiabank Ds Rep C;IBKCO
+1471;Iberiabank Dp Sh B;IBKCP
+1472;Interactive Brokers;IBKR
+1473;Intl Bancshares;IBOC
+1474;Independent Bank Grp;IBTX
+1475;Amplify Onln Rtl ETF;IBUY
+1476;Icad Inc;ICAD
+1477;County Bancorp;ICBK
+1478;Immucell Cp;ICCC
+1479;Icc Holdings Inc;ICCH
+1480;Icf International;ICFI
+1481;Ichor;ICHR
+1482;Iclick Interactive Asia Group Limited American D;ICLK
+1483;Ishares Global Clean Energy ETF;ICLN
+1484;Icon Plc;ICLR
+1485;Iconix Brand Group;ICON
+1486;Intercept Pharmaceut;ICPT
+1487;I C U Medical Inc;ICUI
+1488;Interdigital Inc;IDCC
+1489;FTSE International Low Beta Equal Weight PS;IDLB
+1490;Idera Pharmaceutical;IDRA
+1491;Industrial Svcs Am;IDSA
+1492;Id Systems Inc;IDSY
+1493;Integrated Devices;IDTI
+1494;Interpace Diag Grp;IDXG
+1495;Idexx Laboratories;IDXX
+1496;7-10 Year Treasury Ishares;IEF
+1497;3-7 Year Treasury Bond Ishares;IEI
+1498;Icahn Enterprises;IEP
+1499;Ies Holdings;IESC
+1500;Ishares Europe ETF;IEUS
+1501;Ishares Europe Developed;IFEU
+1502;Ishares Intl Devp Real Estate ETF;IFGL
+1503;Ifresh Inc;IFMK
+1504;Infosonic Corp;IFON
+1505;Fireman B.V.;IFRX
+1506;Dorsey Wright Intl Focus 5 ETF FT;IFV
+1507;Ishares Global Infrastructure ETF;IGF
+1508;Internet Gold-Golden;IGLD
+1509;Ishares Intl Treasury Bond ETF;IGOV
+1510;Information Svcs Grp;III
+1511;Insteel Industries;IIIN
+1512;Internet Init Jap;IIJI
+1513;Intricon Corp;IIN
+1514;I I V I Inc;IIVI
+1515;S&P Smallcap 600 Growth Ishares;IJT
+1516;Ikonics Corp;IKNX
+1517;Ilg Inc;ILG
+1518;Illumina Inc;ILMN
+1519;Industrial Logistics Properties Trust;ILPT
+1520;Immune Design CS;IMDZ
+1521;Immunogen Inc;IMGN
+1522;Intermolecular Inc;IMI
+1523;Ingles Markets Inc;IMKTA
+1524;Immutep Ltd ADR;IMMP
+1525;Immersion Corp;IMMR
+1526;Immunomedics Inc;IMMU
+1527;Imprimis Phar;IMMY
+1528;Immune Pharmaceuticals Inc;IMNP
+1529;Chipmos Tech New;IMOS
+1530;Imperva Inc;IMPV
+1531;Immuron Ltd;IMRN
+1532;Immuron Limited Warrants;IMRNW
+1533;Integrated Media Technology;IMTE
+1534;Internap Corp;INAP
+1535;First Internet Bcp;INBK
+1536;First Internet Bancorp;INBKL
+1537;Incyte Corp;INCY
+1538;Independent Bk Corp;INDB
+1539;Industrea Acquisition Corp;INDU
+1540;Industrea Acquisition Corp Unit;INDUU
+1541;Industrea Acquisition Corp Warrant;INDUW
+1542;Ishares India 50 ETF;INDY
+1543;Infinity Pharmaceuti;INFI
+1544;Infinera Corp;INFN
+1545;IHS Markit Ltd;INFO
+1546;Legg Global Infrastructure ETF;INFR
+1547;Inogen Inc;INGN
+1548;Innovate Biopharmaceuticals Inc.;INNT
+1549;Innovate Biopharmaceuticals Inc. WT;INNTW
+1550;Inovio Pharma;INO
+1551;Innodata Inc;INOD
+1552;Inovalon Hldgs Cm A;INOV
+1553;Inpixon;INPX
+1554;Inspired Entertainment Inc;INSE
+1555;Novatel Wireless;INSG
+1556;Insmed Inc;INSM
+1557;Insys Theraptcs;INSY
+1558;Intel Corp;INTC
+1559;Intergroup Cp The;INTG
+1560;Intl Fcstone Inc;INTL
+1561;Intuit Inc;INTU
+1562;Intersections Inc;INTX
+1563;Innoviva Inc;INVA
+1564;Identiv Inc;INVE
+1565;Innerworkings Inc;INWK
+1566;Ionis Pharmaceutical;IONS
+1567;Innospec Inc;IOSP
+1568;Adesto Tech;IOTS
+1569;Iovance Biotherapeutics Inc;IOVA
+1570;Inter Parfums Inc;IPAR
+1571;Ipass Inc;IPAS
+1572;Infinity Property;IPCC
+1573;Intellipharmaceutics;IPCI
+1574;Professional Diversi;IPDN
+1575;Ipg Photonics Corp;IPGP
+1576;Innophos Hldngs Inc;IPHS
+1577;Ipic Entertainment Inc. Class A;IPIC
+1578;International Buyback Achievers PS;IPKW
+1579;Ideal Power Inc;IPWR
+1580;Impax Labs Inc;IPXL
+1581;Irobot Corp;IRBT
+1582;Irsa Propiedades Ads;IRCP
+1583;Iridium Comm Inc;IRDM
+1584;Iridium 6.75 Sr B Pf;IRDMB
+1585;Iridex Cp;IRIX
+1586;Iradimed Cp;IRMD
+1587;If Bancorp Inc;IROQ
+1588;Irhythm Technologies Inc;IRTC
+1589;Ironwood Pharmaceuti;IRWD
+1590;Investors Bancorp;ISBC
+1591;Intl Speedway Cl A;ISCA
+1592;1-3 Year Intl Treas Bond Ishares;ISHG
+1593;Insignia Systems;ISIG
+1594;Image Sensing Syst;ISNS
+1595;Intuitive Surg Inc;ISRG
+1596;Isramco Inc;ISRL
+1597;Innovative Sol&Sup;ISSC
+1598;Core Short-Term US Bond Ishares;ISTB
+1599;Investar Holding;ISTR
+1600;Intra-Cellular Ther;ITCI
+1601;Iteris Inc;ITI
+1602;Investors Title Co;ITIC
+1603;Itron Inc;ITRI
+1604;Ituran Location;ITRN
+1605;Itus Corp;ITUS
+1606;Universal Bond Ishares;IUSB
+1607;Core US Growth Ishares;IUSG
+1608;Core US Value ETF Ishares;IUSV
+1609;Intevac Inc;IVAC
+1610;Ivy Nextshares Ivy Energy Nextshares;IVENC
+1611;Ivy Nextshares Ivy Focused Value Nextshares;IVFVC
+1612;Invuity Inc;IVTY
+1613;Ishares Core Total International Stock ETF;IXUS
+1614;Izea Inc;IZEA
+1615;Jack In The Box Inc;JACK
+1616;Jaguar Animal;JAGX
+1617;Jakks Pacific Inc;JAKK
+1618;Jason Indst;JASN
+1619;Jason Industries WT;JASNW
+1620;JA Solar Holdings;JASO
+1621;Jazz Pharma Plc;JAZZ
+1622;J B Hunt Transport;JBHT
+1623;Jetblue Airways Cp;JBLU
+1624;John B Sanfilippo;JBSS
+1625;J2 Global Inc;JCOM
+1626;Commun Systems Inc;JCS
+1627;Jewett-Cameron Trd;JCTCF
+1628;Jd.Com Inc Ads;JD
+1629;J J Snack Foods;JJSF
+1630;Jack Henry & Assoc;JKHY
+1631;Ishares Mid-Cap Value ETF;JKI
+1632;Jamba Inc;JMBA
+1633;Wowo Ltd Ads;JMU
+1634;Jounce Therapeutics Inc;JNCE
+1635;Juniper Pharm Inc;JNP
+1636;51Job Inc;JOBS
+1637;Johnson Outdoors I;JOUT
+1638;China Finance Online;JRJC
+1639;James River Gp HD;JRVR
+1640;SLM Cp 6% Sr Nt;JSM
+1641;Janus Small/Midcap Growth ETF;JSMD
+1642;Janus Smallcap Growth ETF;JSML
+1643;Jensyn Acq Cp CS;JSYN
+1644;Jensyn Acq Cp Rt;JSYNR
+1645;Jensyn Acq Cp Ut;JSYNU
+1646;Jensyn Acq Cp WT;JSYNW
+1647;Jetpay Corp;JTPY
+1648;Juno Therapeutics;JUNO
+1649;Coffee Holding Co;JVA
+1650;Jacksonville Bncp;JXSB
+1651;The Joint Corp;JYNT
+1652;Kayne Anderson Acquisition Corp Class A;KAAC
+1653;Kayne Anderson Acquisition Corp Unit;KAACU
+1654;Kayne Anderson Acquisition Corp Warrant;KAACW
+1655;Kala Pharmaceuticals Inc;KALA
+1656;Kaiser Aluminum;KALU
+1657;Kalvista Pharmaceuticals Inc;KALV
+1658;Ikang Healthcare ADR;KANG
+1659;Kimball Intl Cl B;KBAL
+1660;Kbl Merger Corp IV;KBLM
+1661;Kbl Merger Corp IV Right;KBLMR
+1662;Kbl Merger Corp IV Unit;KBLMU
+1663;Kbl Merger Corp IV Warrant;KBLMW
+1664;Kbs Fashion Gp Ltd;KBSF
+1665;KBW Bank Powershares;KBWB
+1666;KBW High Div Yld Financial Powershares;KBWD
+1667;KBW Prop & Casuality Insur Powershares;KBWP
+1668;KBW Regional Banking Powershares;KBWR
+1669;KBW Prem Yld Equity REIT Powershares;KBWY
+1670;Kcap Financial;KCAP
+1671;Kcap Financial Inc 6.125% Notes Due 2022;KCAPL
+1672;Kimball Electrnc;KE
+1673;Kelly Svcs Cl A;KELYA
+1674;Kewaunee Scientifi;KEQU
+1675;Keryx Biopharm Inc;KERX
+1676;Keyw Holding Corp;KEYW
+1677;Kentucky First Fed;KFFB
+1678;Kforce Inc;KFRC
+1679;Kingold Jewelry Inc;KGJI
+1680;Kraft Heinz Co;KHC
+1681;Orthopediatrics Corp;KIDS
+1682;Kindred Biosciences;KIN
+1683;Kingstone Cos Inc;KINS
+1684;Kirkland's Inc;KIRK
+1685;K L A-Tencor Corp;KLAC
+1686;Kulicke and Soffa;KLIC
+1687;Klx Inc;KLXI
+1688;Kamada Ltd;KMDA
+1689;Kempharm Inc;KMPH
+1690;Kandi Techs Grp;KNDI
+1691;Kinsale Capital Group Inc;KNSL
+1692;Kona Grill Inc;KONA
+1693;Kingtone Wirelessinf;KONE
+1694;Cesca Therapeutics I;KOOL
+1695;Kopin Cp;KOPN
+1696;Koss Cp;KOSS
+1697;Karyopharm Therapeut;KPTI
+1698;G-X Conscious Companies ETF;KRMA
+1699;Kornit Digital Ord;KRNT
+1700;Kearny Financial;KRNY
+1701;Krystal Biotech Inc;KRYS
+1702;Key Tronic Cp;KTCC
+1703;Key Technology Inc;KTEC
+1704;Kratos Defns;KTOS
+1705;Kitov Pharamceut Ads;KTOV
+1706;Kitov Pharamceuti WT;KTOVW
+1707;K2M Group Hldngs;KTWO
+1708;Kura Oncology;KURA
+1709;K V H Inds Inc;KVHI
+1710;Kazia Therapeutics Ltd;KZIA
+1711;Multi Color Cp;LABL
+1712;Leisure Acquisition Corp.;LACQ
+1713;Leisure Acquisition Corp Unit;LACQU
+1714;Leisure Acquisition Corp. Warrant;LACQW
+1715;Lakeland Inds Inc;LAKE
+1716;Multi-Strategy Alternative PS;LALT
+1717;Lamar Advertis A;LAMR
+1718;Lancaster Colony Cor;LANC
+1719;Gladstone Land Corp;LAND
+1720;Gladstone Land Corp;LANDP
+1721;Landmark Bancorp Inc;LARK
+1722;Laureate Education Inc;LAUR
+1723;Lawson Products In;LAWS
+1724;Layne Christensen;LAYN
+1725;Lakeland Bancorp Inc;LBAI
+1726;Luther Burbank Corporation;LBC
+1727;Long Blockchain Corp;LBCC
+1728;Leading Brands;LBIX
+1729;Liberty Broadbd A;LBRDA
+1730;Liberty Broadbd C;LBRDK
+1731;Liberty Global Ord A;LBTYA
+1732;Liberty Global Ord B;LBTYB
+1733;Liberty Global Ord C;LBTYK
+1734;Landcadia Holdings Inc;LCA
+1735;Landcadia Holding Un;LCAHU
+1736;Landcadia Holdings Inc Warrant;LCAHW
+1737;Lcnb Corp;LCNB
+1738;Lifetime Brands Inc;LCUT
+1739;Ladderrite 0-5 Year Corporate Bond PS;LDRI
+1740;Lands' End Inc;LE
+1741;Lincoln Elec Hldg;LECO
+1742;Semileds Corp;LEDS
+1743;First Trust Indxx Innovative Transaction & Proce;LEGR
+1744;Presbia Plc Ord Shs;LENS
+1745;Liberty Expedia Holdings Inc;LEXEA
+1746;Longfin Corp;LFIN
+1747;Littelfuse Inc;LFUS
+1748;Lifevantage Cp;LFVN
+1749;Legacy Reserves LP;LGCY
+1750;Legacy Resrvs Sr B;LGCYO
+1751;Legacy Resrvs Sr A;LGCYP
+1752;LGI Homes Inc;LGIH
+1753;Ligand Pharm;LGND
+1754;LHC Group Inc;LHCG
+1755;Atyr Pharma Inc;LIFE
+1756;Liberty Latin America Cl A;LILA
+1757;Liberty Latin America Cl C;LILAK
+1758;Lincoln Educational;LINC
+1759;Lindblad Expd Hld;LIND
+1760;Lindblad Expd WT;LINDW
+1761;Interlink Elctrnc;LINK
+1762;Liniu Technology Group;LINU
+1763;Fidelity Southern Cp;LION
+1764;Lumentum Hld;LITE
+1765;Live Ventures;LIVE
+1766;Livanova Plc Or Sh;LIVN
+1767;Livexlive Media Inc;LIVX
+1768;La Jolla Pharma;LJPC
+1769;Lakeland Finl Corp;LKFN
+1770;Flexshares Credit Scored US Long Corp;LKOR
+1771;LKQ Corp;LKQ
+1772;Lianluo Smart Ltd;LLIT
+1773;Limelight Networks;LLNW
+1774;Lemaitre Vascular;LMAT
+1775;Limbach Holdings Inc;LMB
+1776;Low Duration Opportunities ETF FT;LMBS
+1777;Lm Funding;LMFA
+1778;Lm Funding WT;LMFAW
+1779;Limoneira Co;LMNR
+1780;Luminex Corp;LMNX
+1781;Landmark Cmn Units;LMRK
+1782;Landmark Infrastructure Partners LP;LMRKO
+1783;Landmark Inf Prf;LMRKP
+1784;Snyders-Lance Inc;LNCE
+1785;Landec Cp;LNDC
+1786;G-X Longevity Thematic Et;LNGR
+1787;Lantheus Holdings;LNTH
+1788;Manhattan Bridge;LOAN
+1789;Live Oak Bancsh;LOB
+1790;El Pollo Loco;LOCO
+1791;Logitech Int S.A.;LOGI
+1792;Logmein Inc;LOGM
+1793;Lonestar Resources US Inc;LONE
+1794;Loop Industries Inc;LOOP
+1795;Grand Canyon Educati;LOPE
+1796;Loral Space Comm;LORL
+1797;Loxo Oncology CS;LOXO
+1798;Lipocine Inc;LPCN
+1799;Lpl Financial Hld;LPLA
+1800;Lifepoint Health;LPNT
+1801;Liveperson Inc;LPSN
+1802;Lightpath Tech Inc;LPTH
+1803;Leap Therapeutics Inc;LPTX
+1804;Liquidity Services;LQDT
+1805;Lrad Corp;LRAD
+1806;Lam Research Corp;LRCX
+1807;Legg Clearbridge Large Cap Groowth ETF;LRGE
+1808;Lake Shore Bancorp;LSBK
+1809;Lattice Semicond;LSCC
+1810;Landstar System;LSTR
+1811;Liberty Srs XM CS A;LSXMA
+1812;Liberty Srs XM CS C;LSXMK
+1813;Lightbridge Corp;LTBR
+1814;Liberty Tripadv A;LTRPA
+1815;Liberty Tripadv B;LTRPB
+1816;Lantronix Inc;LTRX
+1817;Legacytexas Fnl;LTXB
+1818;Lululemon Athletica;LULU
+1819;Luna Innovations Inc;LUNA
+1820;Legg Low Vol Hi Div ETF;LVHD
+1821;Liberty Vntrs Srs A;LVNTA
+1822;Liberty Interactive Corporation Series B Liberty;LVNTB
+1823;Lifeway Foods Inc;LWAY
+1824;Lexinfintech Holdings Ltd;LX
+1825;Lexicon Pharmaceutcl;LXRX
+1826;Dragon Victory Intl Ltd;LYL
+1827;L S I Industries I;LYTS
+1828;Merrimack Pharmaceuticals Inc;MACK
+1829;M I Acquisitions Inc;MACQ
+1830;M I Acquisitions Inc Un;MACQU
+1831;M I Acquisitions Inc Warrant;MACQW
+1832;Magal Security Syst;MAGS
+1833;Mam Software Gp;MAMS
+1834;Manhattan Assoc;MANH
+1835;Mantech Intl Cp A;MANT
+1836;Marriot Int Class A;MAR
+1837;Marathon Patent Grou;MARA
+1838;Remark Holdings Inc;MARK
+1839;Marine Petroleum U;MARPS
+1840;Masimo Corp;MASI
+1841;Mattel Inc;MAT
+1842;Mattersight Corp;MATR
+1843;Matthews Intl Corp;MATW
+1844;J W Mays Inc;MAYS
+1845;Mindbody Cls A;MB
+1846;MBS Bond Ishares;MBB
+1847;Middlefield Banc;MBCN
+1848;MB Financial Inc;MBFI
+1849;MB Financial Inc Dep Shs Repstg 1/40Th Int Sh No;MBFIO
+1850;Marrone Bio Innov;MBII
+1851;Merchants Bancorp;MBIN
+1852;Mustang Bio Inc;MBIO
+1853;Microbot Medical Inc;MBOT
+1854;Moleculin Biotech CS;MBRX
+1855;Flexshares Disciplined Duration MBS Index Fund;MBSD
+1856;Mbt Financial Corp;MBTF
+1857;Malibu Boats Cmn A;MBUU
+1858;Mabvax Therapeutics Holdings Inc;MBVX
+1859;Mercantile Bank Corp;MBWM
+1860;Macatawa Bank Corp;MCBC
+1861;Municipal CEF Income Opportunity ETF FT;MCEF
+1862;Mid-Con Energy Partn;MCEP
+1863;Mcbc Holdings;MCFT
+1864;China Index MSCI Ishares;MCHI
+1865;Microchip Technology;MCHP
+1866;Marchex Inc;MCHX
+1867;Seres Theraptc;MCRB
+1868;Monarch Casino;MCRI
+1869;Mongodb Inc Class A;MDB
+1870;Mdc Partners Cl A;MDCA
+1871;Medicines Co;MDCO
+1872;Madrigal Pharmaceuticals Inc;MDGL
+1873;Medigus Ltd Ads;MDGS
+1874;Multi-Asset Diversified Income Index Fund FT;MDIV
+1875;Mondelez Intl Cmn A;MDLZ
+1876;Allscripts Hlthcare;MDRX
+1877;Medidata Solutions;MDSO
+1878;Mediwound Ltd Ord Sh;MDWD
+1879;Mimedx Group Inc;MDXG
+1880;Medpace Holdings Inc;MEDP
+1881;The Meet Group;MEET
+1882;Mei Pharma Inc;MEIP
+1883;Mercadolibre Inc;MELI
+1884;Melrose Bancorp;MELR
+1885;Methanex Cp;MEOH
+1886;Mercer Intl Inc;MERC
+1887;Mesoblast Ltd Ads;MESO
+1888;Ramaco Resources Inc;METC
+1889;Medallion Fin Cp;MFIN
+1890;Medallion Fin Notes;MFINL
+1891;Mackinac Financial;MFNC
+1892;Mutualfirst Finl Inc;MFSF
+1893;Mge Energy Inc;MGEE
+1894;Miragen Therapeutics Inc;MGEN
+1895;Moneygram Intl;MGI
+1896;Magic Software Entpr;MGIC
+1897;Magellan Health;MGLN
+1898;Macrogenics;MGNX
+1899;MGP Ingredients Inc;MGPI
+1900;Mcgrath Rentcorp;MGRC
+1901;Magyar Bancorp Inc;MGYR
+1902;Maiden Holdings Ltd;MHLD
+1903;Micronet Enertec Tec;MICT
+1904;Micronet Enertec Wrt;MICTW
+1905;Middleby Corp;MIDD
+1906;M III Acquisition Corp;MIII
+1907;M III Acquisition;MIIIU
+1908;M III Acquisition Corp WT;MIIIW
+1909;The Michaels Comp;MIK
+1910;G-X Millennials Thematic ETF;MILN
+1911;Mimecast Limited Ord;MIME
+1912;Mitcham Industries Inc;MIND
+1913;Mitcham Industries Inc;MINDP
+1914;Mobile Mini Inc;MINI
+1915;Mitek Systems Inc;MITK
+1916;Mitel Networks Corp;MITL
+1917;Monaker Group Inc;MKGI
+1918;Mks Instruments Inc;MKSI
+1919;Marketaxess Holdings;MKTX
+1920;Mesa Labs Inc;MLAB
+1921;Melco Resorts & Entertainment;MLCO
+1922;Miller Herman Inc;MLHR
+1923;Moduslink Global;MLNK
+1924;Melinta Therapeutics Inc;MLNT
+1925;Mellanox Technologies;MLNX
+1926;Malvern Bncp;MLVF
+1927;Mma Capital Mngt;MMAC
+1928;Modern Media Acquisition Corp;MMDM
+1929;Modern Media Acquisition Corp Right;MMDMR
+1930;Modern Media Acquisition Corp Unit;MMDMU
+1931;Modern Media Acquisition Corp Warrant;MMDMW
+1932;Martin Midstrm LP;MMLP
+1933;Merit Medical Sys;MMSI
+1934;Makemytrip Ltd;MMYT
+1935;Mind C.T.I. Ltd;MNDO
+1936;Magnegas Corp;MNGA
+1937;Mannkind Corp;MNKD
+1938;Menlo Therapeutics Inc.;MNLO
+1939;Medicinova Inc;MNOV
+1940;Monro Muffler Brak;MNRO
+1941;Monster Beverage Cp;MNST
+1942;Momenta Pharma;MNTA
+1943;Manitex Intl Inc;MNTX
+1944;Mobileiron Inc;MOBL
+1945;Midwestone Fnl Gp;MOFG
+1946;Gabelli Nextshares Trust Gabelli Media Mogul Nex;MOGLC
+1947;Momo Inc Ads;MOMO
+1948;Morningstar Inc;MORN
+1949;Mosys Inc;MOSY
+1950;Motus Gi Holdings Inc.;MOTS
+1951;Moxian Inc;MOXC
+1952;Motorcar Parts Amer;MPAA
+1953;Matlin & Partners Acquisition Corporation Class;MPAC
+1954;Matlin & Partners Acquisition Corporation Units;MPACU
+1955;Matlin & Partners Acquisition Corporation Warran;MPACW
+1956;Mid Penn Bancorp Inc;MPB
+1957;Ishares Global Impact ETF;MPCT
+1958;Mountain Prv Dmds;MPVD
+1959;Monolithic Power Sys;MPWR
+1960;Everspin Technologies Inc;MRAM
+1961;Meridian Bank;MRBK
+1962;Monroe Capital Corpo;MRCC
+1963;Mercury Sys Inc;MRCY
+1964;Meridian Waste Solutions Inc;MRDN
+1965;Meridian Waste Solutions Inc Warrants;MRDNW
+1966;Marlin Business Serv;MRLN
+1967;Marinus Pharma CS;MRNS
+1968;Mersana Therapeutics Inc;MRSN
+1969;Marten Transport L;MRTN
+1970;Mirati Therapeutics;MRTX
+1971;Merus N.V. CS;MRUS
+1972;Marvell Tech Group;MRVL
+1973;MSB Financial;MSBF
+1974;Midland Sts BNC;MSBI
+1975;Microsemi Corp;MSCC
+1976;Middlesex Water Co;MSEX
+1977;Mainsource Finl Grp;MSFG
+1978;Microsoft Corp;MSFT
+1979;Misonix Inc;MSON
+1980;Microstrategy Cl A;MSTR
+1981;Medical Transc Bl;MTBC
+1982;Mtbc 11% Sr A Prf ST;MTBCP
+1983;Match Group Inc CS;MTCH
+1984;Mtech Acquisition Corp. Class A;MTEC
+1985;Mtech Acquisition Corp. Unit;MTECU
+1986;Mtech Acquisition Corp. Warrant;MTECW
+1987;Molecular Templates Inc;MTEM
+1988;Mannatech Inc;MTEX
+1989;Motif Bio Plc;MTFB
+1990;Motif Bio Plc Warrants To Purchase Adrs;MTFBW
+1991;American Cap Mtg Inv;MTGE
+1992;Amrcn Cap Mt Sr A PS;MTGEP
+1993;Materialise Nv Ads;MTLS
+1994;Midatech Pharma Ads;MTP
+1995;Matrix Service Co;MTRX
+1996;M T S Systems Cp;MTSC
+1997;Macom Technology S;MTSI
+1998;Mer Telemanagement Solutions Ltd;MTSL
+1999;Micron Technology;MU
+2000;Mudrick Capital Acquisition Corporation Unit;MUDSU
+2001;Mvb Financial Corp;MVBF
+2002;Microvision;MVIS
+2003;Maxim Integrated;MXIM
+2004;Maxwell Technologies;MXWL
+2005;Myriad Genetics Inc;MYGN
+2006;Mylan Nv Ord Shs;MYL
+2007;Mynd Analytics Inc;MYND
+2008;Mynd Analytics Inc Warrant;MYNDW
+2009;Myokardia Inc Cm ST;MYOK
+2010;Myos Rens Tech;MYOS
+2011;MYR Group Inc;MYRG
+2012;My Size Inc;MYSZ
+2013;Mazor Robotics Ads;MZOR
+2014;Natural Alternativ;NAII
+2015;Naked Brand Group CS;NAKD
+2016;Nanometrics Inc;NANO
+2017;Nanovibronix Inc;NAOV
+2018;Nathan's Famous In;NATH
+2019;Natl Instruments Cor;NATI
+2020;Nature S Sunshine;NATR
+2021;National American Un;NAUH
+2022;Navigators Grp Inc;NAVG
+2023;Navient Cp;NAVI
+2024;New Age Beverages Corp;NBEV
+2025;Neurocrine Bioscienc;NBIX
+2026;Northeast Bncp;NBN
+2027;Nabriva Therape Ads;NBRV
+2028;NBT Bancorp Inc;NBTB
+2029;Nicolet Bnkshr;NCBS
+2030;National Cinemedia;NCMI
+2031;Nucana Plc ADR;NCNA
+2032;National Commerce;NCOM
+2033;Ncs Multistage Holdings Inc;NCSM
+2034;The9 Ltd;NCTY
+2035;Nasdaq Inc;NDAQ
+2036;Noodles & Co Cla;NDLS
+2037;Endra Life Sciences Inc;NDRA
+2038;Endra Life Sciences Inc Warrants;NDRAW
+2039;Nordson Corp;NDSN
+2040;Nebula Acquisition Corporation Unit;NEBUU
+2041;Neogenomics Inc;NEO
+2042;Neogen Cp;NEOG
+2043;Neonode Inc;NEON
+2044;Neos Therapeutics;NEOS
+2045;Neptune Tech;NEPT
+2046;Minerva Neuroscie;NERV
+2047;National Energy Services Reunited Corp;NESR
+2048;National Energy Services Reunited Corp WT;NESRW
+2049;Net Element Inc;NETE
+2050;Newater Technology Inc Ordinary Shares;NEWA
+2051;Newtek Bus Svcs;NEWT
+2052;Newtek Business Services Corp. 6.25% Notes Due 2;NEWTI
+2053;Newtek Business 7%Nt;NEWTL
+2054;Newtek 7.5% NTS 2022;NEWTZ
+2055;Nextdecade Corp;NEXT
+2056;Nextdecade Corp WT;NEXTW
+2057;Northfield Bncrp Del;NFBK
+2058;NF Energy Saving Cor;NFEC
+2059;Netflix Inc;NFLX
+2060;National General Hld;NGHC
+2061;National General Holdings Corp;NGHCN
+2062;National Gnl Hld Ds;NGHCO
+2063;National Gen Srs A;NGHCP
+2064;National Gen Sub NTS;NGHCZ
+2065;Nanthealth Inc;NH
+2066;National Holdings;NHLD
+2067;National Holdings Corporation Warrants;NHLDW
+2068;Natural Hlth Trd;NHTC
+2069;Nice Ltd;NICE
+2070;Nicholas Fincl Inc;NICK
+2071;NII Holdings;NIHD
+2072;Nightstar Therapeutics Plc ADR;NITE
+2073;Nantkwest Inc CS;NK
+2074;Natl Bankshares Inc;NKSH
+2075;Nektar Therapeutics;NKTR
+2076;Newlink Genetics Cor;NLNK
+2077;Netlist Inc;NLST
+2078;Nmi Holdings Cmn A;NMIH
+2079;Nemaura Med Inc;NMRD
+2080;Newmark Group Inc Class A;NMRK
+2081;NN Inc;NNBR
+2082;Nano Dimension Ads;NNDM
+2083;Ni Holdings Inc;NODK
+2084;Novan Inc;NOVN
+2085;Novanta Inc;NOVT
+2086;National Resh Cla;NRCIA
+2087;Natl Research Cl B;NRCIB
+2088;Northrim Bancorp Inc;NRIM
+2089;Natl Security Gp I;NSEC
+2090;Insight Enterpr;NSIT
+2091;Napco Sec Tech Inc;NSSC
+2092;Nanostring Tech;NSTG
+2093;Nortech Systems In;NSYS
+2094;Netapp Inc;NTAP
+2095;Netscout Systems I;NTCT
+2096;Intec Pharma Ord Shr;NTEC
+2097;Netease Inc Ads;NTES
+2098;Netgear Inc;NTGR
+2099;Northern Tech Inc;NTIC
+2100;Intellia Thera CS;NTLA
+2101;Nutanix Inc;NTNX
+2102;Natera Inc;NTRA
+2103;Nutrisystem Inc;NTRI
+2104;Neurotrope Inc;NTRP
+2105;Northern Trust Corp;NTRS
+2106;Northern TR Dep Shs;NTRSP
+2107;Netsol Tech Inc;NTWK
+2108;Nuance Communicatns;NUAN
+2109;Neurometrix Inc;NURO
+2110;Neurometrix Inc WT;NUROW
+2111;Nuvasive Inc;NUVA
+2112;Novavax Inc;NVAX
+2113;Neovasc Inc;NVCN
+2114;Novocure Ltd Ord Sh;NVCR
+2115;Nvidia Corp;NVDA
+2116;Nve Corp;NVEC
+2117;Nv5 Global;NVEE
+2118;Nova Lifestyle Inc;NVFY
+2119;Invivo Theraptc;NVIV
+2120;Novelion Therapeutics Inc;NVLN
+2121;Nova Measuring Instr;NVMI
+2122;Novume Solutions Inc;NVMM
+2123;Nuvectra Corp Cmn ST;NVTR
+2124;Novus Therapeutics Inc;NVUS
+2125;Northwest Bancshares;NWBI
+2126;Norwood Financial Cp;NWFL
+2127;Natl Wstrn Life Gp A;NWLI
+2128;Northwest Pipe Co;NWPX
+2129;News Cp Cl B Cmn ST;NWS
+2130;News Cp Cl A Cmn ST;NWSA
+2131;Nexeo Solutions Inc;NXEO
+2132;Nexeo Solutions Inc;NXEOU
+2133;Nexeo Solutions Inc;NXEOW
+2134;Nxp Semiconductors;NXPI
+2135;Nexstar Broadcasting;NXST
+2136;Nxt-Id Inc;NXTD
+2137;Nxt-Id Inc Warrant;NXTDW
+2138;Nxstage Medical Inc;NXTM
+2139;New York Mtge Trust;NYMT
+2140;New York Mortgage Trust Inc 8.00% Series D;NYMTN
+2141;New York Mort 7.875;NYMTO
+2142;New York Mrtg 7.75 B;NYMTP
+2143;Nymox Pharm Corp;NYMX
+2144;Empire Resorts Inc;NYNY
+2145;Origo Acquisition Corp;OACQ
+2146;Origo Acquisition Corp;OACQR
+2147;Origo Acquisition Corp;OACQW
+2148;Oasmia Pharmaceu Ads;OASM
+2149;Optibase Ltd;OBAS
+2150;Ocean Bio Chem Inc;OBCI
+2151;Obalon Therapeutics Inc;OBLN
+2152;Obseva Sa Ordinary Shares;OBSV
+2153;Optical Cable Corp;OCC
+2154;Oceanfirst Finl Corp;OCFC
+2155;Oclaro Inc;OCLR
+2156;Oaktree Strategic Income Corp;OCSI
+2157;Oaktree Specialty Lending Corp;OCSL
+2158;Oaktree Specialty Lending Corp 6.125 Sn;OCSLL
+2159;Ocular Therapeut;OCUL
+2160;Old Dominion Freig;ODFL
+2161;Office Depot;ODP
+2162;Odonate Therapeutics Inc;ODT
+2163;Orion Energy Syst;OESX
+2164;Oconee Fed Fin Corp;OFED
+2165;Orthofix Intl Nv;OFIX
+2166;Omega Flex Inc;OFLX
+2167;Ofs Capital Corporat;OFS
+2168;Oha Investmnt Cp;OHAI
+2169;One Horizon Grp;OHGI
+2170;Ohr Pharmceutial;OHRP
+2171;O2Micro Intl Ltd;OIIM
+2172;Eaton Vance Nextshares Trust II Eaton Vance Oakt;OKDCC
+2173;Okta Inc Class A;OKTA
+2174;Old Line Bancshs MD;OLBK
+2175;Long-Term Care ETF;OLD
+2176;Universal Display;OLED
+2177;Ollies Bargain CS;OLLI
+2178;Grupo Aeroportuario;OMAB
+2179;Omnicell Inc;OMCL
+2180;Oncomed Pharma;OMED
+2181;Omeros Corp;OMER
+2182;Odyssey Marine Expl;OMEX
+2183;Ominto Inc;OMNT
+2184;On Semiconductor;ON
+2185;Old National Bncp;ONB
+2186;Spark Therap;ONCE
+2187;Oncosec Medical;ONCS
+2188;Nasdaq Composite ETF;ONEQ
+2189;Oncobiologics Inc;ONS
+2190;Oncobiologics Inc;ONSIW
+2191;Oncobiologics Inc;ONSIZ
+2192;Onconova Therapeutic;ONTX
+2193;Onconova Therapeutics Inc;ONTXW
+2194;Organovo Holdings;ONVO
+2195;Opus Bank;OPB
+2196;Opgen Inc;OPGN
+2197;Opgen Inc Warrant;OPGNW
+2198;Optimumbank Hldgs;OPHC
+2199;Ophthotech Corp;OPHT
+2200;Opko Health Inc;OPK
+2201;Opiant Pharmaceuticals Inc;OPNT
+2202;Old Point Finl Cp;OPOF
+2203;Optinose Inc;OPTN
+2204;Ocean Power Tech Inc;OPTT
+2205;Orbcomm Inc;ORBC
+2206;Orbotech Ltd;ORBK
+2207;Orexigen Therapeutic;OREX
+2208;Organics ETF;ORG
+2209;Orgenesis Inc;ORGS
+2210;Ocean Rig Udw Inc;ORIG
+2211;Oritani Financial;ORIT
+2212;O'Reilly Automotive;ORLY
+2213;Oramed Pharma;ORMP
+2214;Bioblast Pharma Ltd;ORPN
+2215;Orrstown Finl Svcs;ORRF
+2216;Old Second Bancorp;OSBC
+2217;Old Second Bncp;OSBCP
+2218;O S I Systems Inc;OSIS
+2219;Ossen Innovation Co;OSN
+2220;Osprey Energy Acquisition Corp Class A;OSPR
+2221;Osprey Energy Acquisition Corp Unit;OSPRU
+2222;Osprey Energy Acquisition Warrant;OSPRW
+2223;One Stop Systems Inc.;OSS
+2224;Overstock.Com Inc;OSTK
+2225;Orasure Tech Inc;OSUR
+2226;Otelco Cl A;OTEL
+2227;Open Text Cp;OTEX
+2228;Otonomy Inc;OTIC
+2229;On Track Innovations;OTIV
+2230;Otter Tail Corp;OTTR
+2231;Ottawa Saving Bcp Il;OTTW
+2232;Ovascience;OVAS
+2233;Ohio Valley Banc Cp;OVBC
+2234;Ovid Therapeutics Inc;OVID
+2235;Oak Valley Bancp CA;OVLY
+2236;Oxbridge Ord Shrs;OXBR
+2237;Oxbridge Warrants;OXBRW
+2238;Oxford Immunotec;OXFD
+2239;Oxford Lane Capital;OXLC
+2240;Oxford Lane Capital Corp Pfd Ser 2024;OXLCM
+2241;Oxford Lane Cap 7.5;OXLCO
+2242;Bank of The Ozarks;OZRK
+2243;Pan Amer Silver Corp;PAAS
+2244;Pacific Biosciences;PACB
+2245;Pacwest Bancorp;PACW
+2246;Global Agriculture PS;PAGG
+2247;Phibro Anl Htlh A;PAHC
+2248;Pangaea Logistics So;PANL
+2249;Patriot TR HD;PATI
+2250;Patrick Inds Inc;PATK
+2251;Pavmed Inc;PAVM
+2252;Pavmed Inc WT;PAVMW
+2253;Paychex Inc;PAYX
+2254;Pb Bancorp Inc;PBBI
+2255;People's United Finl;PBCT
+2256;Peoples Utd Finl Inc;PBCTP
+2257;Pathfinder Bcp MD;PBHC
+2258;Porter Bancorp Inc;PBIB
+2259;Prudential Bancorp;PBIP
+2260;Potbelly Corp;PBPB
+2261;Poage Bankshares Inc;PBSK
+2262;Puma Biotechnology;PBYI
+2263;Paccar Inc;PCAR
+2264;Potlatch Cp;PCH
+2265;Priceline Group;PCLN
+2266;PCM Inc;PCMI
+2267;Points Intl Ltd;PCOM
+2268;Pacira Pharm Inc;PCRX
+2269;Pcsb Financial Corp;PCSB
+2270;Pc-Tel Inc;PCTI
+2271;Paylocity Hldng Corp;PCTY
+2272;Park City Group;PCYG
+2273;Pure Cycle Corp;PCYO
+2274;DB Optimum Yield Dvsd Commodity Strate PS;PDBC
+2275;Pdc Energy Inc;PDCE
+2276;Patterson Companies;PDCO
+2277;Pro-Dex Inc New;PDEX
+2278;Pdf Solutions Inc;PDFS
+2279;Pdl Community Bancorp;PDLB
+2280;Pdl Biopharma Inc;PDLI
+2281;DWA Momentum Portfolio PS;PDP
+2282;Pdvwireless;PDVW
+2283;Peoples Bancorp Nc;PEBK
+2284;Peoples Bancorp Inc;PEBO
+2285;Pegasystems Inc;PEGA
+2286;Pattern Energy Cl A;PEGI
+2287;Pacific Ethanol Inc;PEIX
+2288;Penn Natl Gaming Inc;PENN
+2289;Pepsico Inc;PEP
+2290;Perion Network Ltd;PERI
+2291;Perry Ellis Int;PERY
+2292;Perma-Fix Envir;PESI
+2293;Petiq Inc Class A;PETQ
+2294;Petmed Express Inc;PETS
+2295;Aratana Theraptcs;PETX
+2296;Tdh Holdings Inc Common Shares;PETZ
+2297;High Yld Eqty Div Achievers Powershares;PEY
+2298;Dynamic Consumer Disc Powershares;PEZ
+2299;Preferred Bank La;PFBC
+2300;Premier Finl Bncp;PFBI
+2301;S&P US Preferred Stock Ishares;PFF
+2302;Principal Financial Group Inc;PFG
+2303;Dynamic Financials Powershares;PFI
+2304;Profire Energy;PFIE
+2305;P F Inds Inc A;PFIN
+2306;Peoples Finl Svcs Co;PFIS
+2307;Pennantpark Fltng Rt;PFLT
+2308;Dividend Achievers Powershares;PFM
+2309;Performant Financial;PFMT
+2310;Proofpoint Inc;PFPT
+2311;Pfsweb Inc;PFSW
+2312;Peapack Gladstone FI;PGC
+2313;Golden Dragon China Powershares ETF;PGJ
+2314;Pershing Gold;PGLC
+2315;Progenics Pharmaceut;PGNX
+2316;PHI Inc;PHII
+2317;PHI Inc Non-Voting;PHIIK
+2318;Water Resources Powershares;PHO
+2319;Impinj Inc;PI
+2320;Pico Holdings Inc;PICO
+2321;Intl Dividend Achievers Powershares;PID
+2322;DWA Emerging Markets Momentum Portfolio PS;PIE
+2323;1347 Property Ins;PIH
+2324;Premier Inc Cl A;PINC
+2325;Global Water Powershares;PIO
+2326;Pieris Pharma;PIRS
+2327;Shiftpixy Inc;PIXY
+2328;DWA Developed Markets Momentum Portfolio PS;PIZ
+2329;Parke Bancorp Inc;PKBK
+2330;Park Ohio Hldg Cp;PKOH
+2331;Buyback Achievers Powershares;PKW
+2332;Photronics Inc;PLAB
+2333;Dave & Buster's Ente;PLAY
+2334;Plumas Bancorp;PLBC
+2335;Children's Place Inc;PLCE
+2336;Preformed Line Prd;PLPC
+2337;Pulse Biosciences CS;PLSE
+2338;Plug Power Inc;PLUG
+2339;Eplus Inc;PLUS
+2340;1-30 Laddered Treasury Powershares;PLW
+2341;Plx Pharma Inc;PLXP
+2342;Plexus Cp;PLXS
+2343;Playa Hotels & Resorts N.V. Ordinary Shares;PLYA
+2344;Pacific Mercantile;PMBC
+2345;Psychemedics;PMD
+2346;Pingtan Marine;PME
+2347;Isectors Post-Mpt Growth ETF;PMPT
+2348;CPI Card Group;PMTS
+2349;Patriot Natl Bncp;PNBK
+2350;Pinnacle Finl Ptnrs;PNFP
+2351;Pinnacle Entmt;PNK
+2352;Pennantpark Investme;PNNT
+2353;Nasdaq Internet PS;PNQI
+2354;Primeenergy Cp;PNRG
+2355;Pointer Telocation;PNTR
+2356;Insulet Corp;PODD
+2357;Polar Power Inc;POLA
+2358;Pool Corp;POOL
+2359;Pope Resource Uts;POPE
+2360;Power Integratn;POWI
+2361;Powell Inds Inc;POWL
+2362;Pacific Premier Bncp;PPBI
+2363;Pilgrim's Pride;PPC
+2364;Pharmaceutical Vaneck ETF;PPH
+2365;Perma-Pipe International Holdings Inc;PPIH
+2366;Pioneer Pwr Sol;PPSI
+2367;Pra Group Inc;PRAA
+2368;Pra Health;PRAH
+2369;Prana Bio Ltd Ads S1;PRAN
+2370;Perceptron Inc;PRCP
+2371;Perficient Inc;PRFT
+2372;US 1500 Powershares;PRFZ
+2373;Progress Software;PRGS
+2374;Prgx Global Inc;PRGX
+2375;Primoris Services Cp;PRIM
+2376;Parkervision Inc;PRKR
+2377;Primo Water Corporat;PRMW
+2378;Dynamic Industrials PS;PRN
+2379;Provident Financial;PROV
+2380;Prophase Labs Inc;PRPH
+2381;Purple Innovation Inc.;PRPL
+2382;Purple Innovation Inc. WT;PRPLW
+2383;Precipio Inc;PRPO
+2384;Proqr Therapeutics;PRQR
+2385;Providence Svc Cp;PRSC
+2386;Cafepress Inc;PRSS
+2387;Prothena Corp;PRTA
+2388;Paratek Pharma Inc;PRTK
+2389;Proteon Thera Com ST;PRTO
+2390;U.S. Auto Parts Netw;PRTS
+2391;Global Gold & Precious Metals Portfolio PS;PSAU
+2392;Resources Prospect Ltd;PSC
+2393;S&P Smallcap Consumer Staples PS;PSCC
+2394;S&P Smallcap Consumer Disc PS;PSCD
+2395;S&P Smallcap Energy PS;PSCE
+2396;S&P Smallcap Financials PS;PSCF
+2397;S&P Smallcap Health Care PS;PSCH
+2398;S&P Smallcap Industrials PS;PSCI
+2399;S&P Smallcap Materials PS;PSCM
+2400;S&P Smallcap Info Tech PS;PSCT
+2401;S&P Smallcap Utilities PS;PSCU
+2402;Presidio Inc;PSDO
+2403;Psivida Corp Com;PSDV
+2404;Prospect Capital Cp;PSEC
+2405;Principal Price Setters ETF;PSET
+2406;Dynamic Consumer Staples Powershares;PSL
+2407;Pricesmart Inc;PSMT
+2408;Pluristem Therapeutc;PSTI
+2409;Ptc Inc;PTC
+2410;Ptc Therapeutics;PTCT
+2411;Patterson-Uti Energy;PTEN
+2412;Dynamic Technology Powershares;PTF
+2413;Protagonist Therapeutics Inc;PTGX
+2414;Dynamic Healthcare Powershares;PTH
+2415;Proteostasis Ther;PTI
+2416;Pain Therapeutics;PTIE
+2417;Portola Pharma;PTLA
+2418;Partner Comm Co Ltd;PTNR
+2419;P A M Transport Sv;PTSI
+2420;Pernix Theraptcs;PTX
+2421;Peoples Utah;PUB
+2422;Dynamic Utilities Powershares;PUI
+2423;Pulmatrix Inc;PULM
+2424;Penn Va Corp;PVAC
+2425;Principal Contrarian Value Index ETF;PVAL
+2426;Provident Bancorp CS;PVBC
+2427;Penns Woods Bancorp;PWOD
+2428;Dynamic Energy Powershares;PXI
+2429;Pixelworks Inc;PXLW
+2430;Pyxis Tankers;PXS
+2431;Principal Shareholders Yield ETF;PY
+2432;Payment Data Syst;PYDS
+2433;Paypal Holdings;PYPL
+2434;Dynamic Basic Materials Powershares;PYZ
+2435;Papa John's Intl;PZZA
+2436;Qtec First Trust ETF;QABA
+2437;Qad Inc;QADA
+2438;Q A D Inc Cl B;QADB
+2439;Ishares Qatar Capped ETF;QAT
+2440;Qualstar Corp;QBAK
+2441;Nasdaq Clean Edge Green Energy Index Fund FT;QCLN
+2442;Qualcomm Inc;QCOM
+2443;Qcr Holdings Inc;QCRH
+2444;Quidel Cp;QDEL
+2445;Rba Quality Income ETF FT;QINC
+2446;Qiwi Plc ADR;QIWI
+2447;Flexshares US Quality Largecap;QLC
+2448;Qualys Inc;QLYS
+2449;Quinstreet Inc;QNST
+2450;Nasdaq-100 EW Index Fund FT;QQEW
+2451;Nasdaq QQQ ETF;QQQ
+2452;G-X Nasdaq China Tech ETF;QQQC
+2453;Nuveen Nasdaq 100;QQQX
+2454;Nasdaq-100 Ex-Tech Sector Indexsm Fund FT;QQXT
+2455;Quest Resource;QRHC
+2456;Liberty Int Qvc Sr A;QRTEA
+2457;Liberty Int Qvc Sr B;QRTEB
+2458;Qorvo Inc;QRVO
+2459;Quality Systems Inc;QSII
+2460;Nasdaq-100 Technology Index Fund FT;QTEC
+2461;Quantenna Communications Inc;QTNA
+2462;Quotient Limited Ord;QTNT
+2463;Quarterhill Inc;QTRH
+2464;Quanterix Corporation;QTRX
+2465;Quicklogic Corp;QUIK
+2466;Qumu Corp;QUMU
+2467;Uniqure N.V.;QURE
+2468;Liberty Int Qvc Sr A;QVCA
+2469;Liberty Int Qvc Sr B;QVCB
+2470;Recon Nq-100 Covered Call ETF;QYLD
+2471;Rada Electr Inds Ltd;RADA
+2472;Freightcar America;RAIL
+2473;Rand Capital Cp;RAND
+2474;Ultragenyx Pharmaceu;RARE
+2475;Ra Pharmaceuticals Inc;RARX
+2476;Rave Restaurant Grp;RAVE
+2477;Raven Industries Inc;RAVN
+2478;Rbb Bancorp;RBB
+2479;Ribbon Communications Inc;RBBN
+2480;Republic Bancorp Inc;RBCAA
+2481;Rubicon Technology;RBCN
+2482;Reliant Bancorp Inc.;RBNC
+2483;Rent-A-Center Inc;RCII
+2484;Rocket Pharmaceuticals Inc.;RCKT
+2485;Rocky Brands Inc;RCKY
+2486;R1 Rcm Inc;RCM
+2487;R C M Tech Inc;RCMT
+2488;Recon Technology Ltd;RCON
+2489;Radcom Ltd;RDCM
+2490;Redfin Corp;RDFN
+2491;Redhill Biophrma ADR;RDHL
+2492;Reading Intl Cl A;RDI
+2493;Radnet Inc;RDNT
+2494;Radius Health;RDUS
+2495;Rising Dividend Achievers ETF FT;RDVY
+2496;Radware Ltd;RDWR
+2497;Resources Connect;RECN
+2498;Rise Education Cayman Ltd ADR;REDU
+2499;Research Frontiers;REFR
+2500;Renewable Energy;REGI
+2501;Regeneron Pharmaceutical;REGN
+2502;Reis Inc;REIS
+2503;Richardson Electrncs;RELL
+2504;Reliv Intl Inc;RELV
+2505;Recro Pharma Inc;REPH
+2506;Resonant Inc;RESN
+2507;Reata Pharma Cla;RETA
+2508;Reto Eco-Solutions Inc Common Shares;RETO
+2509;Rex Energy Corporati;REXX
+2510;Riverfront Dyn Asia Pacific ETF FT;RFAP
+2511;Riverfront Dyn Developed Intl ETF FT;RFDI
+2512;Riverfront Dyn Emerging Markets ETF FT;RFEM
+2513;Riverfront Dyn Europe ETF FT;RFEU
+2514;RF Industries Ltd;RFIL
+2515;Rgc Resources Inc;RGCO
+2516;Repligen Cp;RGEN
+2517;Royal Gold Inc;RGLD
+2518;Regulus Therapeutics;RGLS
+2519;Regenxbio Inc;RGNX
+2520;Real Goods Solar Inc;RGSE
+2521;Ricebran Technologie;RIBT
+2522;Ricebrantech Warrant;RIBTW
+2523;RCI Hospitality Hold;RICK
+2524;Rigel Pharmaceutical;RIGL
+2525;B. Riley Financl;RILY
+2526;B. Riley Financial Inc 7.25% Senior Notes Due;RILYG
+2527;B. Riley Financial Inc;RILYL
+2528;B. Riley Financial Inc 7.50% Senior Notes Due;RILYZ
+2529;Global Gold Miners MSCI Ishares;RING
+2530;Riot Blockchain Inc;RIOT
+2531;Arcadia Bio;RKDA
+2532;Rlj Entertainment;RLJE
+2533;Smart Server Inc;RMBL
+2534;Rambus Inc;RMBS
+2535;Rocky Mt Chocolate;RMCF
+2536;Rmg Networks Holding;RMGN
+2537;Rimini Street Inc;RMNI
+2538;The Rmr Grp A;RMR
+2539;Rockwell Medical In;RMTI
+2540;Randolph Bancorp Inc;RNDB
+2541;First Trust Exchange-Traded Fund Vi First Trust;RNDM
+2542;First Trust Exchange-Traded Fund Vi First Trust;RNDV
+2543;First Trust Exchange-Traded Fund Vi First Trust;RNEM
+2544;Rignet Inc;RNET
+2545;First Trust Exchange-Traded Fund Vi First Trust;RNLC
+2546;First Trust Exchange-Traded Fund Vi Mid Cap US E;RNMC
+2547;First Trust Exchange-Traded Fund Vi First Trust;RNSC
+2548;Renasant Corp;RNST
+2549;Realnetworks Inc;RNWK
+2550;Global Robotics and Automation ETF;ROBO
+2551;FT Nasdaq Artificial Intelligence and Robotics E;ROBT
+2552;Gibraltar Ind Inc;ROCK
+2553;Retail Opp Invts Cp;ROIC
+2554;Roku Inc;ROKU
+2555;RBC Bearings Incorp;ROLL
+2556;Rosehill Resources Inc;ROSE
+2557;Rosehill Resources Inc;ROSEW
+2558;Rosetta Genomics Ltd;ROSG
+2559;Ross Stores Inc;ROST
+2560;Realpage Inc;RP
+2561;Rapid7 Inc;RPD
+2562;Managed Portfolio Series Reinhart Intermediate B;RPIBC
+2563;Rpx Corp;RPXC
+2564;Red Robin Gourm;RRGB
+2565;Rd Rock Rsrts Cla;RRR
+2566;Reshape Lifesciences Inc;RSLS
+2567;Radisys Cp;RSYS
+2568;Rti Surgical Inc;RTIX
+2569;Retrophin Inc;RTRX
+2570;Ritter Pharmac. Com;RTTR
+2571;Sunrun Inc;RUN
+2572;Rush Entpr Cl A;RUSHA
+2573;Rush Entpr Cl B;RUSHB
+2574;Ruth's Hospitality;RUTH
+2575;Reven Housing REIT;RVEN
+2576;Revolution Lgt Tc;RVLT
+2577;Revance Therapeutics;RVNC
+2578;Riverview Bancorp;RVSB
+2579;Rewalk Roboti Ord Sh;RWLK
+2580;Rxi Pharmaceuticals;RXII
+2581;Rxi Pharmaceuticals Corporation Warrants Expirin;RXIIW
+2582;Ryanair Hldgs Plc;RYAAY
+2583;Rhythm Pharmaceuticals Inc;RYTM
+2584;Sabre Corp;SABR
+2585;Saexploration Hldgs;SAEX
+2586;Sanderson Farms In;SAFM
+2587;Safety Ins Group Inc;SAFT
+2588;Sage Therapeutic Com;SAGE
+2589;Saia Inc;SAIA
+2590;Salisbury Bancorp;SAL
+2591;Salem Media Grp Inc;SALM
+2592;Silvercrest Ast Cm A;SAMG
+2593;Sanmina Corp;SANM
+2594;S&W Seed Company;SANW
+2595;Sandy Spring Bancorp;SASR
+2596;Echostar Corp;SATS
+2597;Diversified Rstrt HD;SAUC
+2598;SBA Communications;SBAC
+2599;Strongbridge Bio Ord;SBBP
+2600;Sussex Bancorp;SBBX
+2601;Seacoast Banking Cp;SBCF
+2602;Sb Financial Group;SBFG
+2603;Sb Fin Grp Dep Shs;SBFGP
+2604;Sinclair Brdcst A;SBGI
+2605;Star Bulk Carriers;SBLK
+2606;Star Bulk Carriers Corp 8.30% Senior Notes Due;SBLKZ
+2607;Signature Bank;SBNY
+2608;Signature Bank Warrant;SBNYW
+2609;Stellar Biotch Cm ST;SBOT
+2610;Spring Bank Ph CS;SBPH
+2611;Sabra REIT;SBRA
+2612;Sabra Hlthcare REIT;SBRAP
+2613;Southside Bancshares;SBSI
+2614;Sterling Bancorp Inc;SBT
+2615;Starbucks Corp;SBUX
+2616;Saban Capital Acquisition Corp;SCAC
+2617;Saban Capital Acquisition Corp Un;SCACU
+2618;Saban Capital Acquisition Corp Warrants;SCACW
+2619;Scholastic Cp;SCHL
+2620;Schnitzer Steel A;SCHN
+2621;Socket Mobile;SCKT
+2622;Superconductor Tech;SCON
+2623;SC Pharmaceuticals Inc;SCPH
+2624;Scansource Inc;SCSC
+2625;Shoe Carnival Inc;SCVL
+2626;Secureworks Corp CS;SCWX
+2627;Scynexis Inc;SCYX
+2628;Ishares EAFE Smallcap ETF;SCZ
+2629;FT Smid Cap Rising Dividend Achievers ETF;SDVY
+2630;Sea Change Intl In;SEAC
+2631;Secoo Holding ADR;SECO
+2632;Solaredge Tech;SEDG
+2633;Origin Agritech Limi;SEED
+2634;Sei Investments Co;SEIC
+2635;Sharing Economy International Inc.;SEII
+2636;Selecta Biosciences;SELB
+2637;Global Self Storage;SELF
+2638;Seneca Foods Cp A;SENEA
+2639;Seneca Foods Cp B;SENEB
+2640;Synthesis Energy Sys;SES
+2641;Sound Financial;SFBC
+2642;Servisfirst Bancs;SFBS
+2643;Stitch Fix Inc;SFIX
+2644;Shutterfly Inc;SFLY
+2645;Sprouts Farmers Mark;SFM
+2646;Simmons First Natl;SFNC
+2647;Southern First Bancs;SFST
+2648;Sg Blocks Inc;SGBX
+2649;Superior Uniform Grp;SGC
+2650;Seattle Genetics Inc;SGEN
+2651;Smart Global Holdings Inc;SGH
+2652;Sigma Labs Inc;SGLB
+2653;Sigma Labs Inc Warrant;SGLBW
+2654;Sigmatron Intl Inc;SGMA
+2655;Sangamo Therapeutics;SGMO
+2656;Scientific Games;SGMS
+2657;Sgoco Group Ltd;SGOC
+2658;Janus Sg Global Quality Income ETF;SGQI
+2659;Spar Group Inc;SGRP
+2660;Surgery Partners CS;SGRY
+2661;Synergy Pharma;SGYP
+2662;Shore Bancshares Inc;SHBI
+2663;Shenandoah Telecom;SHEN
+2664;Seanergy Maritime Hl;SHIP
+2665;Seanergy Maritime Holdings Corp Class A Warrants;SHIPW
+2666;Sears Hldgs Corp;SHLD
+2667;Sears Holdings C WT;SHLDW
+2668;Schulman A Inc;SHLM
+2669;Shiloh Inds Inc;SHLO
+2670;Steven Maddens Ltd;SHOO
+2671;Sears Hometown;SHOS
+2672;Shire Plc Ads;SHPG
+2673;Sharpspring Inc;SHSP
+2674;Short-Treasury Bond Ishares;SHV
+2675;1-3 Year Treasury Bond Ishares;SHY
+2676;Siebert Fin Cp;SIEB
+2677;Sientra Inc;SIEN
+2678;Si Financial Grp MD;SIFI
+2679;Sify Techs Ltd Ads;SIFY
+2680;Selective Ins Group;SIGI
+2681;Sigma Designs Inc;SIGM
+2682;Silicom Ltd;SILC
+2683;Silicon Motion Techn;SIMO
+2684;Sina Corp;SINA
+2685;Sino-Global Shipping;SINO
+2686;Select Income REIT;SIR
+2687;Sirius XM Holdings I;SIRI
+2688;Sito Mobile;SITO
+2689;Svb Financial Grp;SIVB
+2690;Peak Resorts;SKIS
+2691;Flexshares Credit Scored US Corp Bond;SKOR
+2692;Sky Solar Hold Ads;SKYS
+2693;Skywest Inc;SKYW
+2694;Cloud Computing ETF FT;SKYY
+2695;Silicon Labs Inc;SLAB
+2696;Select Bancorp Inc;SLCT
+2697;Solid Biosciences Inc.;SLDB
+2698;Sol-Gel Technologies Ltd.;SLGL
+2699;Silgan Holdings;SLGN
+2700;Obesity ETF;SLIM
+2701;SLM Corp;SLM
+2702;SLM Cp Srs B Pfd;SLMBP
+2703;Soleno Therapeutics Inc;SLNO
+2704;Soleno Therapeutics Inc;SLNOW
+2705;Simulations Plus Inc;SLP
+2706;0-5 Year Ivst Grade Corp Bond Ishares;SLQD
+2707;Solar Capital;SLRC
+2708;Sellas Life Sciences Group Inc.;SLS
+2709;CS X-Links Silver Share;SLVO
+2710;Southern Mo Bancorp;SMBC
+2711;Smartfinancial Cm ST;SMBK
+2712;Super Micro Computer;SMCI
+2713;Alphamark Actmg Smallcap ETF;SMCP
+2714;Sharps Compliance;SMED
+2715;Schmitt Inds Inc;SMIT
+2716;Summit Financial Gp;SMMF
+2717;Summit Therapeu ADR;SMMT
+2718;The Simply Good Foods Company;SMPL
+2719;The Simply Good Foods Company Warrant;SMPLW
+2720;Stein Mart Inc;SMRT
+2721;Smith Micro Software;SMSI
+2722;Semtech Corp;SMTC
+2723;Smtc Corp;SMTX
+2724;Sleep Number Corporation;SNBR
+2725;Synchronoss Technolo;SNCR
+2726;Smart Sand Inc;SND
+2727;Sundance Energy Australia Ltd;SNDE
+2728;Syndax Pharma;SNDX
+2729;Senestech Inc;SNES
+2730;Security Natl Finl;SNFCA
+2731;Soligenix Inc;SNGX
+2732;Soligenix Inc Warrant;SNGXW
+2733;Senior Housing Properties Trust;SNH
+2734;Senior Housing Properties Trust;SNHNI
+2735;Senior Housing Properties Trust;SNHNL
+2736;Sun Hydraulics Cor;SNHY
+2737;Scripps Ntwrks Int A;SNI
+2738;Pyxis/Iboxx Senior Loan ETF;SNLN
+2739;Senomyx Inc;SNMX
+2740;Sienna Biopharmaceuticals Inc;SNNA
+2741;Sonoma Pharmaceuticals Inc;SNOA
+2742;Sonoma Pharmaceuticals Inc;SNOAW
+2743;Synopsys Inc;SNPS
+2744;G-X Internet of Things Thematic ETF;SNSR
+2745;Sunesis Pharmaceutic;SNSS
+2746;G-X Social Media ETF;SOCL
+2747;Sodastream Int Ltd;SODA
+2748;Sonic Foundry Inc;SOFO
+2749;Sotherly Hotels;SOHO
+2750;Sotherly Hotels Inc 8.0% Series B Cumulative Re;SOHOB
+2751;Sotherly Hotels LP 7.25% Senior Unsecured Notes;SOHOK
+2752;Sotherly Hotels LP;SOHOO
+2753;Sohu.Com Inc;SOHU
+2754;Southern National Bk;SONA
+2755;Sonic Cp;SONC
+2756;Sorl Auto Parts Inc;SORL
+2757;Ishares PHLX Semiconductor ETF;SOXX
+2758;SP Plus Corp;SP
+2759;Spartan Motors Inc;SPAR
+2760;Supercom Ltd;SPCB
+2761;Spherix Inc;SPEX
+2762;Sophiris Bio;SPHS
+2763;Spi Energy Co Ads;SPI
+2764;Siliconware Pr Ads;SPIL
+2765;Spark Energy;SPKE
+2766;Spark Energy Inc;SPKEP
+2767;Splunk Inc;SPLK
+2768;Seaspine Holdings;SPNE
+2769;Sapiens Intl Cp Nv;SPNS
+2770;Spok Holdings Inc;SPOK
+2771;Spectrum Pharma Inc;SPPI
+2772;Spero Therapeutics Inc;SPRO
+2773;Support.Com Inc;SPRT
+2774;Sps Commerce Inc;SPSC
+2775;Spartannash Company;SPTN
+2776;Sportsman's Wareh;SPWH
+2777;Sunpower Corp;SPWR
+2778;Sequential Brands;SQBG
+2779;Legg Small-Cap Quality Value ETF;SQLV
+2780;Ultrapro Short QQQ Proshares;SQQQ
+2781;Active Alts Contrarian ETF;SQZZ
+2782;Social Reality Inc;SRAX
+2783;1st Source Corp;SRCE
+2784;Stericycle Inc;SRCL
+2785;Stericycle Inc Deps;SRCLP
+2786;Surmodics Inc;SRDX
+2787;G-X Super Dividend REIT ETF;SRET
+2788;Servicesrce Intl Inc;SREV
+2789;Sorrento Therpt;SRNE
+2790;Sarepta Therapeutics;SRPT
+2791;Sierra Oncology Inc;SRRA
+2792;Sensus Healthcare Inc;SRTS
+2793;Sensus Healthcare Inc WT;SRTSW
+2794;South State Cp;SSB
+2795;Summit State Bank;SSBI
+2796;Seven Stars Cloud Group Inc;SSC
+2797;Stewardship;SSFN
+2798;Strata Skin Scien;SSKN
+2799;Sslj.Com Limited Class A;SSLJ
+2800;SS&C Technologies;SSNC
+2801;Silversun Technologies Inc Cl A;SSNT
+2802;Silver Standard Resources Inc;SSRM
+2803;Shotspotter Inc;SSTI
+2804;Stratasys Ltd;SSYS
+2805;Staar Surgical Co;STAA
+2806;Staffing 360 Solutions Inc.;STAF
+2807;Student Trnspt Inc;STB
+2808;S&T Bancorp Inc;STBA
+2809;State Bank Finl Corp;STBZ
+2810;Steel Connect Inc.;STCN
+2811;Steadymed Ltd Ord Sh;STDY
+2812;State Auto Finl Corp;STFC
+2813;Sunopta Inc;STKL
+2814;The One Group;STKS
+2815;Steel Dynamics Inc;STLD
+2816;Stellar Acquisition III Inc;STLR
+2817;Stellar Acquisition III Inc;STLRU
+2818;Stellar Acquisition III Inc Warrants;STLRW
+2819;Stanley Furniture;STLY
+2820;Stemline Therapeutic;STML
+2821;Stamps.Com Inc;STMP
+2822;Sentinel Energy Services Inc. Class A;STNL
+2823;Sentinel Energy Services Inc;STNLU
+2824;Sentinel Energy Services Inc. Warrant;STNLW
+2825;Ipath US Treas Steepener ETN;STPP
+2826;Strayer Education;STRA
+2827;Sterling Constructio;STRL
+2828;Streamline Health So;STRM
+2829;Stratus Pptys Inc;STRS
+2830;Strattec Security;STRT
+2831;Seagate Tech Ord Shs;STX
+2832;Summer Infant Inc;SUMR
+2833;Solar Senior Capital;SUNS
+2834;Sunworks Inc;SUNW
+2835;Supernus Pharm;SUPN
+2836;Ishares Trust Ishares ESG 1-5 Year USD Corporate;SUSB
+2837;Ishares Trust Ishares ESG USD Corporate Bond ETF;SUSC
+2838;Sinovac Biotech Ltd;SVA
+2839;Severn Bancorp Inc;SVBI
+2840;Savara Inc;SVRA
+2841;Firsthand Technology;SVVC
+2842;Alps ETF Trust Alps/Dorsey Wright Sector Moment;SWIN
+2843;Sierra Wireless In;SWIR
+2844;Skyworks Solutions;SWKS
+2845;Stock Yards Bancorp;SYBT
+2846;Synlogic Inc;SYBX
+2847;Sykes Enterprises;SYKE
+2848;Symantec Corp;SYMC
+2849;Synaptics Inc;SYNA
+2850;Synacor Inc;SYNC
+2851;Syneos Health Inc.;SYNH
+2852;Synalloy Cp;SYNL
+2853;Syntel Inc;SYNT
+2854;Sypris Solutions;SYPR
+2855;Syros Pharmaceuticals;SYRS
+2856;Travelcenters of America Llc;TA
+2857;Del Taco Rest;TACO
+2858;Del Taco Rest Wts;TACOW
+2859;Transact Tech Inc;TACT
+2860;Taitron Components;TAIT
+2861;Tantech Holdings;TANH
+2862;Travelcenters of America Llc;TANNI
+2863;Travelcenters of America Llc;TANNL
+2864;Travelcenters of America Llc;TANNZ
+2865;Barclays Inverse US Treasury Aggt ETN;TAPR
+2866;Carrols Rstrnt Group;TAST
+2867;T A T Tech Ltd;TATT
+2868;Liberty Tax Cl A;TAX
+2869;Taylor Devices Inc;TAYD
+2870;The Bancorp Inc;TBBK
+2871;Triumph Bancorp;TBK
+2872;Territorial Bancorp;TBNK
+2873;Theravance Bio Ord;TBPH
+2874;Texas Capital Bncsh;TCBI
+2875;Texas Cap 6.5 Sr NTS;TCBIL
+2876;Texas Capital;TCBIP
+2877;Trico Bancshares;TCBK
+2878;Technical Commctn Cp;TCCO
+2879;The Community Fin Cp;TCFC
+2880;The Carlyle Group LP;TCGP
+2881;Tactile Systems Technology Inc;TCMD
+2882;Tracon Pharma;TCON
+2883;TCP Capital Corp;TCPC
+2884;THL Credit Inc;TCRD
+2885;Tucows Inc Cl A;TCX
+2886;Nasdaq Technology Dividend Index Fund FT;TDIV
+2887;Atlassian Cls A Ord;TEAM
+2888;Tech Data Cp;TECD
+2889;Bio-Techne Cp;TECH
+2890;Tarena Intl ADR;TEDU
+2891;Tellurian Inc New;TELL
+2892;Tenax Therapeutics;TENX
+2893;Terraform Power Inc;TERP
+2894;Tessco Tech Inc;TESS
+2895;Tfs Financial Corp;TFSL
+2896;Transglobe Energy Cp;TGA
+2897;Tecogen Inc;TGEN
+2898;Tecnoglass Inc;TGLS
+2899;Tg Therapeuticscmn;TGTX
+2900;First Finl Corp [In];THFF
+2901;Gentherm Inc;THRM
+2902;Truett Hurst Cl A Co;THST
+2903;Ticc Capital Corp;TICC
+2904;Ticc Capital Corp 6.50% Notes Due 2024;TICCL
+2905;Tigenix Nv;TIG
+2906;Till Cap Res Vt Shrs;TIL
+2907;Interface Inc;TILE
+2908;Tiptree Fncl Cl A;TIPT
+2909;Top Image Systems;TISA
+2910;Titan Machinery Inc;TITN
+2911;Tivo Corp;TIVO
+2912;Tandy Leather Fctry;TLF
+2913;Teligent;TLGT
+2914;Talend S.A.;TLND
+2915;20 Year Bond Ishares;TLT
+2916;Tmsr Holding Company Ltd.;TMSR
+2917;Tmsr Holding Company Ltd. Wt.;TMSRW
+2918;T-Mobile US;TMUS
+2919;Telenav Inc;TNAV
+2920;Tandem Diabetes Care;TNDM
+2921;Tintri Inc;TNTR
+2922;Tonix Pharm Hldg;TNXP
+2923;Tocagen Inc;TOCA
+2924;Top Ships Inc;TOPS
+2925;Restorbio Inc.;TORC
+2926;Tuniu Corporatio Ads;TOUR
+2927;Towne Bank;TOWN
+2928;Tpi Composites Inc;TPIC
+2929;Tapimmune Inc;TPIV
+2930;Ultrapro QQQ Proshares;TQQQ
+2931;Two River Bncrp;TRCB
+2932;Torchlight Energy;TRCH
+2933;Lendingtree Inc;TREE
+2934;Tabula Rasa Healthcare Inc;TRHC
+2935;Trinity Bio ADR;TRIB
+2936;Trillium Therapeutic;TRIL
+2937;Tripadvisor Inc;TRIP
+2938;Trimble Navigation;TRMB
+2939;Torm Plc Class A;TRMD
+2940;Trustmark Corp;TRMK
+2941;Tremont Mortgage Trust Common Shares of Benefici;TRMT
+2942;Tronc Inc;TRNC
+2943;Transcat Inc;TRNS
+2944;Trovagene Inc;TROV
+2945;T Rowe Price Group;TROW
+2946;Therapix Biosciences Ltd;TRPX
+2947;Trimas Corp;TRS
+2948;Trustco Bank Corp NY;TRST
+2949;Truecar Inc;TRUE
+2950;Trupanion Inc;TRUP
+2951;Trivago Nv;TRVG
+2952;Trevena Inc;TRVN
+2953;Timberland Bancorp;TSBK
+2954;Tristate Capital Hld;TSC
+2955;Tractor Supply Co;TSCO
+2956;Tower Semiconductor;TSEM
+2957;The Stars Group Inc;TSG
+2958;Tesla Inc;TSLA
+2959;T S R Inc;TSRI
+2960;Tesaro Inc;TSRO
+2961;Thestreet Inc;TST
+2962;Trade Desk Inc;TTD
+2963;Teletech Hldgs;TTEC
+2964;Tetra Tech Inc;TTEK
+2965;Techtarget Inc;TTGT
+2966;TTM Technologies I;TTMI
+2967;Titan Pharma;TTNP
+2968;T2 Biosystems CS;TTOO
+2969;Tetraphase Pharmaceu;TTPH
+2970;Tile Shop Hldgs;TTS
+2971;Take-Two Interacti;TTWO
+2972;Tuesday Morning Co;TUES
+2973;Turkey Index MSCI Ishares;TUR
+2974;180 Degree Capital Corp;TURN
+2975;Total US Market Alphadex ETF FT;TUSA
+2976;Mammoth Energy Services Inc;TUSK
+2977;VS 2X VIX Short Term;TVIX
+2978;VS 2X VIX Mid Term;TVIZ
+2979;Tivity Health;TVTY
+2980;Twin Disc Inc;TWIN
+2981;Trans World Entert;TWMC
+2982;Hostess Brands Inc;TWNK
+2983;Gores Holdings Warr;TWNKW
+2984;2U Inc;TWOU
+2985;Therapeuticsmd Inc;TXMD
+2986;Texas Instruments;TXN
+2987;Texas Roadhouse Inc;TXRH
+2988;Shineco Inc;TYHT
+2989;Tyme Technologies;TYME
+2990;Monotype Imag. Hold.;TYPE
+2991;Travelzoo Inc;TZOO
+2992;Ishares UAE Capped ETF;UAE
+2993;United Bncp Inc;UBCP
+2994;United Security Bcsh;UBFO
+2995;Ultrapro Biotechnology Proshares;UBIO
+2996;United Fin Bncp New;UBNK
+2997;Ubiquiti Networks I;UBNT
+2998;United Bancshares;UBOH
+2999;Union Bankshares Cp;UBSH
+3000;United Bkshs Inc;UBSI
+3001;United Community Ban;UCBA
+3002;United Comm Banks;UCBI
+3003;United Community Fnl;UCFC
+3004;Ultra Clean Holdings;UCTT
+3005;Universal Elect In;UEIC
+3006;Net 1 Ueps Techs Inc;UEPS
+3007;United Fire Group I;UFCS
+3008;Universal Forest Prd;UFPI
+3009;U F P Tech Inc;UFPT
+3010;United Guardian Inc;UG
+3011;VS 3X Gold;UGLD
+3012;A M E R C O;UHAL
+3013;United Insurance Hld;UIHC
+3014;Ultralife Corp;ULBI
+3015;Universal Logis Hldg;ULH
+3016;Ulta Salon Cosmetic;ULTA
+3017;Ultimate Software;ULTI
+3018;Ump Financial Corp;UMBF
+3019;Umpqua Holdings Corp;UMPQ
+3020;Unico American Cp;UNAM
+3021;Union Bankshares Inc;UNB
+3022;United Nat Foods I;UNFI
+3023;Uniti Group Inc;UNIT
+3024;Unity Bancorp Inc;UNTY
+3025;Urban One Inc;UONE
+3026;Urban One Inc;UONEK
+3027;Ultra Petroleum Corp;UPL
+3028;Upland Software Inc;UPLD
+3029;Urban Outfitters Inc;URBN
+3030;Urogen Pharma Ltd Ordinary Shares;URGN
+3031;U S A Truck Inc;USAK
+3032;Universal Stainles;USAP
+3033;USA Technologies Inc;USAT
+3034;USA Technologies Pfd;USATP
+3035;U.S. Gold Corp;USAU
+3036;U S Concrete Inc;USCR
+3037;U S Energy Corp;USEG
+3038;Russell 1000 Low Beta Equal Weight PS;USLB
+3039;U S Lime & Mineral;USLM
+3040;VS 3X Silver;USLV
+3041;Principal U.S. Mega-Cap Multi-Factor Index ETF;USMC
+3042;Credit Suisse Ag Credit Suisse X-Links Crude Oil;USOI
+3043;United Therapeutic;UTHR
+3044;Utah Medical Prod;UTMD
+3045;Utstarcom Holdings C;UTSI
+3046;Univest Corp of Penn;UVSP
+3047;Value Line Inc;VALU
+3048;Validea Market Legends ETF;VALX
+3049;Village Bank & Trust;VBFC
+3050;Vbi Vaccines Inc CS;VBIV
+3051;Vascular Biogen. Ord;VBLT
+3052;Veritex Holdings;VBTX
+3053;Visteon Corp;VC
+3054;Vericel Corproation;VCEL
+3055;Interm Corp Bond Vanguard;VCIT
+3056;Long-Term Corp Bond Vanguard;VCLT
+3057;Sht-Term Corp Bond Vanguard;VCSH
+3058;Victory Capital Holdings Inc. Class A Common ST;VCTR
+3059;Veracyte Inc;VCYT
+3060;Vasco Data Security;VDSI
+3061;Videocon D2H Ltd Ads;VDTH
+3062;Vantage Energy Acquisition Corp Class A;VEAC
+3063;Vantage Energy Acquisition Corp Unit;VEACU
+3064;Vantage Energy Acquisition Corp Wt.;VEACW
+3065;Veeco Instrument;VECO
+3066;Veon Ltd;VEON
+3067;Veritone Inc;VERI
+3068;Veru Inc;VERU
+3069;Interm Govt Bond Vanguard;VGIT
+3070;Long-Term Govt Bond Vanguard;VGLT
+3071;Sht-Term Govt Bond Vanguard;VGSH
+3072;Viacom Inc Cl A;VIA
+3073;Viacom Inc Cl B;VIAB
+3074;Viavi Solutions;VIAV
+3075;Vical Incorporated;VICL
+3076;Vicor Cp;VICR
+3077;Intl Div Appreciation ETF Vanguard;VIGI
+3078;VS VIX Short Term;VIIX
+3079;VS VIX Mid Term;VIIZ
+3080;Virco MFG Cp;VIRC
+3081;Virtu Financial Cm A;VIRT
+3082;Viveve Medical;VIVE
+3083;Meridian Bioscience;VIVO
+3084;Viking Thera;VKTX
+3085;Viking Theraptcs Wts;VKTXW
+3086;Village Super Mkt;VLGEA
+3087;Valeritas Holdings Inc;VLRX
+3088;Mortgage-Backed Securities Vanguard;VMBS
+3089;Vanda Pharmaceutical;VNDA
+3090;21Vianet Group Inc;VNET
+3091;Viper Energy LP;VNOM
+3092;Global Ex-US Real Estate Vanguard;VNQI
+3093;Vodafone Grp Plc Ads;VOD
+3094;Russell 1000 Vanguard;VONE
+3095;Russell 1000 Growth Vanguard;VONG
+3096;Russell 1000 Value Vanguard;VONV
+3097;Voxx Intl Corp;VOXX
+3098;Vera Bradley;VRA
+3099;Viewray Inc Cm ST;VRAY
+3100;Varex Imaging Corp;VREX
+3101;Variable Rate Investment Grade Portolio PS;VRIG
+3102;Vermillion Inc;VRML
+3103;Verona Pharma Plc ADR;VRNA
+3104;Varonis Systems Inc;VRNS
+3105;Verint Systems Inc;VRNT
+3106;Verisk Analytics Inc;VRSK
+3107;Verisign Inc;VRSN
+3108;Virtus Inv Prts;VRTS
+3109;Virtus Investment Partners Inc Mandatory Pfd Con;VRTSP
+3110;Virtusa Corp;VRTU
+3111;Vertex Pharmaceutic;VRTX
+3112;Versartis Inc;VSAR
+3113;Viasat Inc;VSAT
+3114;Victory Dividend Accelerator ETF;VSDA
+3115;V S E Cp;VSEC
+3116;Victory Portfolios II Victoryshares US Multi-Fac;VSMV
+3117;Verastem Inc;VSTM
+3118;Vanguard Total Corporate Bond ETF;VTC
+3119;Vistagen Therap. Com;VTGN
+3120;Russell 3000 Vanguard;VTHR
+3121;Sht-Term Infl Protected Vanguard;VTIP
+3122;Vital Therapies Inc;VTL
+3123;Vertex Energy;VTNR
+3124;Vtv Theraptcs Cl A;VTVT
+3125;Russell 2000 Growth Vanguard;VTWG
+3126;Russell 2000 Vanguard;VTWO
+3127;Russell 2000 Value Vanguard;VTWV
+3128;Vuzix Corp;VUZI
+3129;Vivopower International Plc Ordinary Shares;VVPR
+3130;Vivus Inc;VVUS
+3131;EM Govt Bond Vanguard;VWOB
+3132;Vaxart Inc.;VXRT
+3133;Total Intl Stock ETF Vanguard;VXUS
+3134;Voyager Therapeut;VYGR
+3135;Intl High Divd Yld ETF Vanguard;VYMI
+3136;Westamerica Bancorp;WABC
+3137;Washington Federal;WAFD
+3138;Washington TR Bncorp;WASH
+3139;Energous Corp;WATT
+3140;Weibo Corp Ads;WB
+3141;Walgreens Boots Alliance;WBA
+3142;Webster City Fed Bcp;WCFB
+3143;Workday Inc;WDAY
+3144;Western Digital Cp;WDC
+3145;W D 40 Co;WDFC
+3146;Web.Com Group Inc;WEB
+3147;Wellesley Bncp Inc;WEBK
+3148;Wendys Company;WEN
+3149;Werner Enterprise;WERN
+3150;Wisdomtree Invstmnts;WETF
+3151;Weyco Gp Inc;WEYS
+3152;Whitehorse Finance;WHF
+3153;Whitehorse Fin Sr Nt;WHFBL
+3154;Wilhelmina Intl;WHLM
+3155;Wheeler Real Estate;WHLR
+3156;Wheeler Real Estate Investment Trust Inc;WHLRD
+3157;Wheeler REIT B Pfd;WHLRP
+3158;Wheeler REIT Wts;WHLRW
+3159;Boingo Wireless Inc;WIFI
+3160;G Willi-Food Intl;WILC
+3161;Windstream Hldgs Inc;WIN
+3162;Winmark Corp;WINA
+3163;Wingstop Inc;WING
+3164;Wins Finance Holdings Inc;WINS
+3165;Encore Wire Cp;WIRE
+3166;Wix.Com Ltd;WIX
+3167;Workhorse Grp Cmn ST;WKHS
+3168;Westmoreland Coal;WLB
+3169;Willdan Group Inc;WLDN
+3170;Willis Lease Fin C;WLFC
+3171;Willis Towers Wts;WLTW
+3172;Wright Med Grp Nv;WMGI
+3173;Wright Medic. N.V Cv;WMGIZ
+3174;Wmih Corp;WMIH
+3175;Western New England Bancorp Inc;WNEB
+3176;Ishares Global Timber & Forestry ETF;WOOD
+3177;Westport Fuel Systems Inc;WPRT
+3178;World Acceptance Cp;WRLD
+3179;Pensare Acquisition Corp;WRLS
+3180;Pensare Acquisition Corp 1/10 Stk;WRLSR
+3181;Pensare Acquisition Corp Unit;WRLSU
+3182;Pensare Acquisition Corp Warrant;WRLSW
+3183;Wesbanco Inc;WSBC
+3184;Waterstone Financial;WSBF
+3185;Willscot Corp;WSC
+3186;Wsi Industries Inc;WSCI
+3187;Willscot Corp WT;WSCWW
+3188;WSFS Financial Corp;WSFS
+3189;Wayside Technology;WSTG
+3190;Westell Technologies;WSTL
+3191;West Bancorporation;WTBA
+3192;Wintrust Finl Corp;WTFC
+3193;Wintrust Fin Pref D;WTFCM
+3194;Wave Life Sci Ord Sh;WVE
+3195;Wvs Financial Corp;WVFC
+3196;Willamette Valley;WVVI
+3197;Willamette Valley Vineyards In;WVVIP
+3198;Woodward Inc;WWD
+3199;Westwater Resources;WWR
+3200;Wynn Resorts Ltd;WYNN
+3201;Xenetic Biosciences Inc;XBIO
+3202;Xbiotech Inc;XBIT
+3203;Xcerra Corp;XCRA
+3204;XCEL Energy Inc;XEL
+3205;Exela Technologies Inc;XELA
+3206;XCEL Brands;XELB
+3207;Xenon Pharmace Cm Sh;XENE
+3208;Intersect Ent;XENT
+3209;XG Technology Icmn;XGTI
+3210;XG Technology Inc;XGTIW
+3211;Xilinx Inc;XLNX
+3212;Acceleron Pharma;XLRN
+3213;Xencor Inc;XNCR
+3214;Xunlei Limited ADR;XNET
+3215;Extraction Oil & Gas Inc;XOG
+3216;Xoma Corp;XOMA
+3217;The Exone Company;XONE
+3218;Xperi Corp;XPER
+3219;Xplore Tech Corp De;XPLR
+3220;Dentsply Sirona Inc;XRAY
+3221;Xpresspa Group Inc.;XSPA
+3222;Ishares Exponential Technologies;XT
+3223;Xtl Biopharma Ads;XTLB
+3224;US Intl Multi-Asset Div Income Index Fund FT;YDIV
+3225;Yulong Eco-Mtls Ord;YECO
+3226;Youngevity International Inc;YGYI
+3227;Yintech Investm Ads;YIN
+3228;G-X Yieldco Index ETF;YLCO
+3229;Legg Clearbridge Dividend ESG ETF;YLDE
+3230;Yandex N.V.;YNDX
+3231;Yogaworks Inc;YOGA
+3232;York Water Co;YORW
+3233;YRC Worldwide;YRCW
+3234;Yangtze River Port and Logistics Ltd.;YRIV
+3235;Yield10 Bioscience Inc;YTEN
+3236;Yatra Online Inc Ordinary Shares;YTRA
+3237;YY Inc;YY
+3238;Zillow Group Cl C;Z
+3239;Zagg Inc;ZAGG
+3240;Zais Group Hld A;ZAIS
+3241;Ultrapro Short Biotechnology Proshares;ZBIO
+3242;Zebra Technologies;ZBRA
+3243;Zealand Pharma A/S ADR;ZEAL
+3244;Olympic Steel Inc;ZEUS
+3245;Zafgen Inc;ZFGN
+3246;Zillow Grp Inc Cl A;ZG
+3247;Zogenix Inc;ZGNX
+3248;Zions Bancorporation;ZION
+3249;Zions Bncrp Wts;ZIONW
+3250;Ziopharm Oncology In;ZIOP
+3251;VS -1X VIX Mid Term;ZIV
+3252;Zix Corp;ZIXI
+3253;Zk International Group Co. Ltd Ordinary Share;ZKIN
+3254;Zai Lab Ltd;ZLAB
+3255;Zion Oil & Gas Inc;ZN
+3256;Zynga Inc Cl A;ZNGA
+3257;Zosano Pharma;ZSAN
+3258;Zumiez Inc;ZUMZ
+3259;Zynerba Pharma CS;ZYNE

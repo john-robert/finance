@@ -1,0 +1,2162 @@
+;Company;Symbol
+0;Altisource Asset;AAMC
+1;Almaden Minerals;AAU
+2;Aberdeen EM Smaller Company Fund;ABE
+3;ACWI IMI MSCI ETF SPDR;ACIM
+4;American Customer Satisfaction Core Alpha ETF;ACSI
+5;Acme United Corp;ACU
+6;Ishares Global Multifactor ETF;ACWF
+7;All Country World Min Vol MSCI Ishares;ACWV
+8;Aerocentury Corp;ACY
+9;DB Agriculture -1X ETN Powershares;ADZ
+10;Adams Resources & Energy;AE
+11;Africa Index ETF Vaneck;AFK
+12;CSOP FTSE China A50 ETF;AFTY
+13;DB Agriculture -2X ETN Powershares;AGA
+14;DB Agriculture ETN Powershares;AGF
+15;Aggregate Bond Ishares;AGG
+16;IQ Enhanced Core Bond U.S. ETF;AGGE
+17;IQ Enhanced Core Plus Bond U.S.;AGGP
+18;Wisdomtree Yield Enhcd US Agg Bond Fund;AGGY
+19;Ultra Silver Proshares;AGQ
+20;Argentina Index MSCI Ishares;AGT
+21;Agency Bond Ishares;AGZ
+22;Ai Powered Equity ETF;AIEQ
+23;Ashford Inc;AINC
+24;Air Industries Group Inc;AIRI
+25;Asanko Gold Inc;AKG
+26;Asia Local Debt ETF Wisdomtree;ALD
+27;Alphaclone Alternative Alpha ETF;ALFA
+28;Alphaclone International ETF;ALFI
+29;American Lorain Corp;ALN
+30;Alio Gold Corp;ALO
+31;Mstar Alternative Solutions Proshares;ALTS
+32;Alerian MLP Index ETN JP Morgan;AMJ
+33;X-Links Mthy Pay 2X Leveraged Alerian MLP;AMJL
+34;Alps Alerian MLP ETF;AMLP
+35;Oil Hedged MLP Income ETF;AMLX
+36;Ampio Pharmaceutical;AMPE
+37;American Shared Hospital Services;AMS
+38;Etracs Alerian MLP Index ETN;AMU
+39;Etracs Alerian MLP ETN Series B;AMUB
+40;Infracap MLP ETF;AMZA
+41;Fallen Angel HY Bond ETF Vaneck;ANGL
+42;S&P Aggressive Allocation Ishares;AOA
+43;S&P Conservative Allocation Ishares;AOK
+44;S&P Moderate Allocation Ishares;AOM
+45;S&P Growth Allocation Ishares;AOR
+46;Ampliphi Biosciences Corp;APHB
+47;Alpha Pro Tech;APT
+48;Arrow Reserve Capital Management ETF;ARCM
+49;G-X FTSE Argentina 20 ETF;ARGT
+50;Ark Genomic Revolution Multi-Sector ETF;ARKG
+51;Ark Innovation ETF;ARKK
+52;Ark Industrial Innovation ETF;ARKQ
+53;Ark Web X.0 ETF;ARKW
+54;Arconic Inc Pf 3.75;ARN.P
+55;Associated Banc-Corp WT;ASB.W
+56;G-X FTSE Asean 40 ETF;ASEA
+57;Db-Xt Harvest CSI 300 China A;ASHR
+58;Db-Xt Harvest CSI 500 China A;ASHS
+59;Db-Xt CSI 300 China A Hgd Eq;ASHX
+60;Avino Silver & Gold;ASM
+61;Asterias Biotherapeutics Inc;AST
+62;Barclays Plus Select MLP ETN;ATMP
+63;Actinium Pharmaceuticals Inc;ATNM
+64;Auryn Resources Inc;AUG
+65;Golden Minerals Co;AUMN
+66;Australia Dividend Wisdomtree;AUSE
+67;Avalon Holdings Corp;AWX
+68;Asia Pacific Ex-Japan Wisdomtree;AXJL
+69;Asia Ex Japan Mini Ishares ETF;AXJV
+70;Alexco Resource Corp;AXU
+71;GEMS Asia 8 ETN Ipath;AYT
+72;Build America Bond Powershares;BAB
+73;DJ-UBS Cotton TR Sub-Idx ETN Ipath;BAL
+74;Cotton Subindex TR ETN Ipatha Series B Bloomberg;BALB
+75;Graniteshares Gold Trust Shares of Beneficial In;BAR
+76;Bioshares Biotech Clinical Trial;BBC
+77;Bioshares Biotech Products;BBP
+78;Columbia Beyond Brics ETF;BBRC
+79;All Commodity Longer Dated Strategy ETF;BCD
+80;All Commodity Strategy K-1 Free ETF;BCI
+81;Broad Commodity Pure Beta ETN Ipath;BCM
+82;Bancroft Convertible Fund;BCV
+83;Bancroft Fund Ltd;BCV-A
+84;Wells Fargo 2X Bus Dv Cm ETN UBS E-Tracs;BDCL
+85;Wells Fargo Bus Dev Comp ETN;BDCS
+86;Etracs Wells Fargo Business Dev ETN;BDCZ
+87;DB Base Metals 2X ETN Powershares;BDD
+88;Flanigan's Enterprises;BDL
+89;Blonder Tongue Laboratories;BDR
+90;Energy Commodity Longer Dated Strategy ETF;BEF
+91;Aptus Behavioral Momentum ETF;BEMO
+92;Bernstein U.S. Research Fund;BERN
+93;Barron's 400;BFOR
+94;Blackrock New York Muni Trust II;BFY
+95;Birks Group Inc;BGI
+96;Bg Staffing;BGSF
+97;Bar Harbor Bankshares;BHB
+98;Blackrock Virginia Muni Trust;BHV
+99;Inspire 100 ETF;BIBL
+100;1-3 Month T-Bill Barclays Capital SPDR;BIL
+101;Interm Term Bond ETF Vanguard;BIV
+102;Bdc Income Vaneck ETF;BIZD
+103;Nickel Subindex Total Return ETN;BJJN
+104;Gaming ETF Vaneck;BJK
+105;Coffee Subindex TR ETF Ipatha Series B Bloomberg;BJO
+106;BRIC Index MSCI Ishares;BKF
+107;Bancorp of New Jersey Inc;BKJ
+108;Senior Loan Portfolio Powershares;BKLN
+109;Blackrock Muni Income Trust II;BLE
+110;Inspire Global Hope Large Cap ETF;BLES
+111;Virtus Dynamic Credit ETF;BLHY
+112;Blackrock New Jersey Muni Trust;BLJ
+113;Precious Metals Pure Beta ETN Ipath;BLNG
+114;Amplify Transformational Data Sharing ETF;BLOK
+115;Long Term Bond Index ETF Vanguard;BLV
+116;Total Bond Market ETF Vanguard;BND
+117;Flexshares Core Select Bond Fund;BNDC
+118;US Brent Oil;BNO
+119;Ultra DJ-UBS Natural Gas Proshares;BOIL
+120;DB Base Metals -2X ETN Powershares;BOM
+121;Total Return ETF Pimco;BOND
+122;NYSE Pickens Oil Response ETF;BOON
+123;G-X Founder-Run Companies ETF;BOSS
+124;Biopharmx Corporatio;BPMX
+125;Brazil Smallcap ETF Vaneck;BRF
+126;Bluerock Residential Growth Rei;BRG
+127;Bluerock Residential Growth Rei;BRG-A
+128;Bluerock Residential Growth REIT Inc;BRG-C
+129;Bluerock Residential Growth REIT Inc;BRG-D
+130;Bernstein Global Research Fund;BRGL
+131;Barnwell Industries;BRN
+132;Direxion Brazil Bull 3X;BRZU
+133;2018 Corp Bond Bulletshares Guggenheim;BSCI
+134;2019 Corp Bond Bulletshares Guggenheim;BSCJ
+135;2020 Corp Bond Bulletshares Guggenheim;BSCK
+136;2021 Corp Bond ETF Bulletshares Guggenheim;BSCL
+137;2022 Corp Bond ETF Bulletshares Guggenheim;BSCM
+138;2023 Corp Bond ETF Bulletshares Guggenheim;BSCN
+139;2024 Corp Bond ETF Bulletshares Guggenheim;BSCO
+140;2025 Corp Bond ETF Bulletshares Guggenheim;BSCP
+141;2026 Corporate Bond ETF Bulletshares Guggenheim;BSCQ
+142;Guggenheim Bulletshares 2027 Corporate Bond ETF;BSCR
+143;2018 HY C Bd ETF Bulletshares Guggenheim;BSJI
+144;2019 High Yld Corp Bond ETF Bulletshares Guggenh;BSJJ
+145;2020 High Yld Corp Bond ETF Bulletshares Guggenh;BSJK
+146;2021 High Yld Corp Bond ETF Bulletshares Guggenh;BSJL
+147;2022 High Yld Corp Bond ETF Bulletshares Guggenh;BSJM
+148;2023 High Yld Corp Bond ETF Bulletshares Guggenh;BSJN
+149;2024 High Yld Corp Bd ETF Bulletshares Guggenhei;BSJO
+150;Claymore Exchange-Traded Fund Trust ETF;BSJP
+151;Short-Term Bond ETF Vanguard;BSV
+152;Velocity VIX Tail Risk;BSWN
+153;US Anti-Beta Fund Mkt Neutral Quantshares;BTAL
+154;B2Gold Corp;BTG
+155;Ballantyne Strong Inc;BTN
+156;Biotime Inc;BTX
+157;Biotime Inc Warrants;BTX.W
+158;Uscf Summerhaven Shpei Index Fund;BUY
+159;Uscf Summerhaven Shpen Index Fund;BUYN
+160;Sprott Buzz Social Media Insights ETF;BUZ
+161;Brand Value ETF;BVAL
+162;Bovie Medical Corp;BVX
+163;Bowl Amer Inc Cl A;BWL.A
+164;CBOE S&P 500 Buywrite Index ETN Ipath;BWV
+165;Intl Treasury Bond ETF SPDR;BWX
+166;Short-Term Intl Treasury Bond ETF SPDR;BWZ
+167;Yield Optimized Bond Ishares;BYLD
+168;Wisdomtree Brazilian Real Fund;BZF
+169;Blackrock Maryland Muni Trust;BZM
+170;Ultrashort MSCI Brazil Proshares;BZQ
+171;Coffee Pure Beta ETN Ipath;CAFE
+172;Pacer US Small Cap Cash Cows 100 ETF;CALF
+173;Teucrium Sugar;CANE
+174;Can-Fite Biopharma Ltd;CANF
+175;Barclays Schiller Cape ETN;CAPE
+176;CCA Industries;CAW
+177;Issuer Scd Corp Bond SPDR;CBND
+178;Chinaamc China Vaneck ETF;CBON
+179;MFS California Insured Muni Trust;CCA
+180;Chase Corp;CCF
+181;Cambria Core Equity ETF;CCOR
+182;Condor Hospitality T;CDOR
+183;Central Fund of Canada;CEF
+184;Etracs Mt Pay 2X Closed-End Fund ETN;CEFL
+185;Exchange Listed Funds Trust ETF;CEFS
+186;Camber Energy Inc;CEI
+187;Emrg Mkts Corporate Bond Fund Ishares;CEMB
+188;Central Securities Corp;CET
+189;Eaton Vance California Muni Income Trust;CEV
+190;Wisdomtree Emerging Currency Fund;CEW
+191;S&P Global Water Guggenheim;CGW
+192;Aberdeen Chile Fund;CH
+193;Direxion CSI 300 China A 1X;CHAD
+194;Direxion CSI 300 China A 2X;CHAU
+195;US Value Fund Mkt Neutral ETF Quantshares;CHEP
+196;Diversified Impact U.S. Large Cap Fossil Fuel F;CHGX
+197;G-X China Energy ETF;CHIE
+198;G-X China Industrials ETF;CHII
+199;G-X China Materials ETF;CHIM
+200;G-X China Consumer ETF;CHIQ
+201;G-X China Financials ETF;CHIX
+202;Cocoa Pure Beta ETN Ipath;CHOC
+203;Credit Suisse Asset Management;CIK
+204;Cision Ltd Warrants;CIS.W
+205;Compx International Inc;CIX
+206;Bofa Crossover Corp Bond ETF SPDR;CJNK
+207;Ckx Lands;CKX
+208;Proshares Long Online/Short Stores ETF;CLIX
+209;Cornerstone Strategic Value Fund;CLM
+210;Treasury Collateral Portfolio PS;CLTL
+211;10+ Year Credit Bond Ishares;CLY
+212;Ishares Int-Rate Hedged 10 Year Bond;CLYH
+213;CMBS Bond Ishares;CMBS
+214;Caledonia Mining Cp;CMCL
+215;DOW Jones-UBS Roll Select Ishares;CMDT
+216;S&P CA Municipal Bond Ishares;CMF
+217;Core Molding Technologies Inc;CMT
+218;Db-Xt MSCI All China Eq;CN
+219;IQ Canada Smallcap ETF;CNDA
+220;Ishares Consumer Disc Multifactor;CNDF
+221;CSOP MSCI China A International;CNHX
+222;Ishares Consumer Staple Multifactor;CNSF
+223;Chinaamc Sme-Chn Vaneck ETF;CNXT
+224;RMB/USD ETN Vaneck;CNY
+225;Ishares China A ETF;CNYA
+226;Cohen & Co Inc;COHN
+227;Direxion Auspice Broad Commodity Strategy ETF;COM
+228;Commodity Broad Strategy No K-1 ETF;COMB
+229;GSCI Commodity Broad Strategy No K-1 ETF;COMG
+230;G-X Copper Miners ETF;COPX
+231;Teucrium Corn;CORN
+232;Invest Grade Corp Bd Index ETF Pimco;CORP
+233;DJ-UBS Livestock TR Sub-Idx ETN Ipath;COW
+234;Livestock Subindex TR ETN Ipatha Series B Bloomb;COWB
+235;Pacer US Cash Cows 100 ETF;COWZ
+236;US Copper;CPER
+237;China Pharma Holdings;CPHI
+238;IQ Real Return ETF;CPI
+239;Cheniere Energy Partners LP Holdings Llc;CQH
+240;Cheniere Energy Partners LP;CQP
+241;China Technology ETF Guggenheim;CQQQ
+242;Oil Refiners Vaneck ETF;CRAK
+243;Ishares ACWI Low Carbon Target ETF;CRBN
+244;Cornerstone Strategic Return Fund;CRF
+245;CRH Medical Corp;CRHM
+246;Cormedix Inc;CRMD
+247;Ultrashort Australian Proshares;CROC
+248;IQ Global Agribusiness Smallcap ETF;CROP
+249;Crystal Rock Holdings;CRVP
+250;Guggenheim S&P Spin-Off ETF;CSD
+251;Largecap Core Proshares Lus;CSM
+252;Cynergis Tek Inc;CTEK
+253;Cotton Pure Beta ETN Ipath;CTNN
+254;Consolidated-Tomoka Land Co;CTO
+255;Virtus Cumberland Municipal Bond ETF;CUMB
+256;Continental Materials Corp;CUO
+257;Copper Pure Beta ETN Ipath;CUPM
+258;Healthcare Bull 3X Direxion ETF;CURE
+259;Guggenheim MSCI Global Timber ETF;CUT
+260;Cel-Sci Corp;CVM
+261;Cel-Sci Corp;CVM.W
+262;Chicago Rivet & Machine Co;CVR
+263;Corindus Vascular Robotics Inc;CVRS
+264;CPI Aerostructures;CVU
+265;Multi Asset Income Guggenheim;CVY
+266;Cwa Income ETF;CWAI
+267;Convertible Secs Barclays Capital SPDR;CWB
+268;Direxion CSI China Internet Idx Bull 2X;CWEB
+269;ACWI [Ex-Us] MSCI ETF SPDR;CWI
+270;Advisorshares Focused Equity ETF;CWS
+271;Wisdomtree Chinese Yuan Fund;CYB
+272;Midcap Core Guggenheim;CZA
+273;DB Agriculture 2X ETN Powershares;DAG
+274;Anfield Capital Diversified Alternatives ETF;DALT
+275;Citigroup Global Markets Holdings Inc;DAUD
+276;DB Agriculture Fund PS;DBA
+277;Db-Xt MSCI Asia Pacific Ex-Japan Hgd Eq;DBAP
+278;Db-Xt MSCI All World Ex-US Hgd Eq;DBAW
+279;DB Base Metals ETN Powershares;DBB
+280;Db-Xt MSCI Brazil Hgd Eq;DBBR
+281;DB Commodity Index Powershares;DBC
+282;DB Energy Powershares;DBE
+283;Db-Xt MSCI EAFE Hgd Eq;DBEF
+284;Db-Xt MSCI EM Mkts Hgd Eq;DBEM
+285;Db-Xt MSCI EAFE Smcp Hgd Eq;DBES
+286;Db-Xt MSCI Europe Hgd Eq;DBEU
+287;Db-Xt MSCI Eurozone Hdg Eq;DBEZ
+288;Db-Xt MSCI Germany Hgd Eq;DBGR
+289;Db-Xt MSCI Japan Hgd Eq;DBJP
+290;Db-Xt MSCI South Korea Hgd Eq;DBKO
+291;Db-Xt MSCI Mexico Hgd Eq;DBMX
+292;DB Oil Powershares;DBO
+293;DB Precious Metals Powershares;DBP
+294;Credit Suisse Axelatrader 3X Inverse Brent Crude;DBRT
+295;DB Silver Powershares;DBS
+296;DB Xt MSCI UK Hedged Equity;DBUK
+297;DB G10 Currency Harvest Powershares;DBV
+298;Citigroup Global Markets Holdings Inc;DCHF
+299;Seasonal Natural Gas ETN Ipath;DCNG
+300;Wisdomtree Europe Eqty Dynamic Currency Hedged;DDEZ
+301;Oil & Gas Short Proshares;DDG
+302;Wisdomtree Japan Eqty Dynamic Currency Hedged;DDJP
+303;Wisdomtree Intl Smallcap Dynamic Currency Hedged;DDLS
+304;Ultra DOW 30 Proshares;DDM
+305;DB Commodity -1X ETN Powershares;DDP
+306;Wisdomtree Intl Eqty Dynamic Currency Hedged;DDWM
+307;DB Commodity Double Short ETN;DEE
+308;Db-Xt FTSE Dvlpd Ex US Comp Factor ETF;DEEF
+309;Defensive Equity Guggenheim;DEF
+310;Ishares EAFE Adaptive Currency Hedge;DEFA
+311;Emrg Mkts Equity Inc Wisdomtree;DEM
+312;Db-Xt FTSE Emerging Comp Factor ETF;DEMG
+313;Democratic Policies Fund;DEMS
+314;Smallcap Dividend Wisdomtree;DES
+315;Db-Xt Russell 2000 Comp Factor ETF;DESC
+316;Citigroup Global Markets Holdings Inc;DEUR
+317;Db-Xt Russell 1000 Comp Factor ETF;DEUS
+318;Global Equity Income Wisdomtree;DEW
+319;Ishares Japan Adaptive Currency Hedge;DEWJ
+320;Ishares Eurozone Adaptive Currency Hedge;DEZU
+321;Europe Smallcap Dividend Wisdomtree;DFE
+322;Direxion Daily Aerospace Defense Bull 3X Shares;DFEN
+323;Japan Smallcap Dividend Wisdomtree;DFJ
+324;Reality Divcon Dividend Defender ETF;DFND
+325;Natural Gas -3X Inverse ETN Velocityshares;DGAZ
+326;Citigroup Global Markets Holdings Inc;DGBP
+327;DB Gold Powershares;DGL
+328;DB Gold 2X ETN Powershares;DGP
+329;Dividend Growth Ishares;DGRO
+330;Emrg Mkts Smallcap Div Wisdomtree;DGS
+331;Dgse Companies Inc;DGSE
+332;Global DOW ETF SPDR;DGT
+333;DB Gold -1X ETN Powershares;DGZ
+334;Wisdomtree Intl Dividend Dynamic Currency Hedged;DHDG
+335;Equity Income Wisdomtree;DHS
+336;Diamond Hill Valuation-Weighted;DHVW
+337;Credit Suisse High Yield Bond Fund;DHY
+338;DOW Industrials SPDR;DIA
+339;Columbia Diversified Fixed Income Allocation ETF;DIAL
+340;Ultra Oil & Gas Proshares;DIG
+341;Intl Midcap Dividend Wisdomtree;DIM
+342;Agriculture Pure Beta ETN Ipath;DIRT
+343;Amcon Distributing Company;DIT
+344;G-X Super Dividend ETF;DIV
+345;Quantshares Hedged Dividend Income ETF;DIVA
+346;Ishares U.S. Dividend and Buyback ETF;DIVB
+347;Citigroup Inc C-Tracks ETN;DIVC
+348;Amplify Yieldshares Cwp Dividend Option Inc ETF;DIVO
+349;Reality Shares Divs ETF;DIVY
+350;DJ-UBS Commodity Idx TR ETN UBS E-Tracs;DJCI
+351;Guggenheim DOW Jones Indu ETF;DJD
+352;DJ-UBS Commodity Idx TR ETN Ipath;DJP
+353;Citigroup Global Markets Holdings Inc;DJPY
+354;Delta Apparel;DLA
+355;Velocityshares Short Libor;DLBR
+356;Largecap Dividend Wisdomtree;DLN
+357;Intl Smallcap Dividend Wisdomtree;DLS
+358;Dreyfus Muni Income;DMF
+359;Deltashares S&P Intl Managed Risk ETF;DMRI
+360;Deltashares S&P 500 Managed Risk ETF;DMRL
+361;Deltashares S&P 400 Managed Risk ETF;DMRM
+362;Deltashares S&P 600 Managed Risk ETF;DMRS
+363;Global Ex-US Growth Wisdomtree;DNL
+364;Denison Mines Corp;DNN
+365;US Short Oil;DNO
+366;DJ High Yield Select 10 ETN Elements;DOD
+367;DOW 30 Short Proshares;DOG
+368;Arrow Dogs of The World ETF;DOGS
+369;Intl Largecap Dividend Wisdomtree;DOL
+370;Midcap Dividend Wisdomtree;DON
+371;Intl Div Ex-Financials Wisdomtree;DOO
+372;Dev Mkts Bear 3X Direxion ETF;DPK
+373;Direxion Regional Banks Bull 3X;DPST
+374;Digital Power Corp;DPW
+375;Direxion S&P Oil & Gas Expl Bear 3X;DRIP
+376;Real Estate Bull 3X Direxion;DRN
+377;Euro -2X ETN Vaneck;DRR
+378;Real Estate Bear 3X Direxion;DRV
+379;Global Ex-US Real Estate Wisdomtree;DRW
+380;KLD 400 Social Index Ishares;DSI
+381;Document Security Systems;DSS
+382;Chinese Yuan Dim Sum Bond Powershares;DSUM
+383;Total Dividend Wisdomtree;DTD
+384;Alps Disruptive Technologies ETF;DTEC
+385;DEFA Equity Income Wisdomtree;DTH
+386;Dividend Ex-Financials Wisdomtree;DTN
+387;DB Crude Oil -2X ETN Powershares;DTO
+388;Ultrashort Oil & Gas Proshares;DUG
+389;Direxion Daily Industrials Bull 3X Shares;DUSL
+390;Gold Miners Bear 3X Direxion ETF;DUST
+391;Wisdomtree EM Dividends Fund;DVEM
+392;Etracs Mt Pay 2X Dvrsfd High Income ETN;DVHL
+393;Deep Value ETF;DVP
+394;Asia Pacific Dividend 30 Ishares;DVYA
+395;Emrg Mkts Dividend Ishares;DVYE
+396;DJ 2X Select Dividend ETN;DVYL
+397;DEFA Wisdomtree;DWM
+398;Velocity 3X Inverse Crude Oil;DWT
+399;S&P Dividend Intl SPDR;DWX
+400;Ultrashort DOW 30 Proshares;DXD
+401;Dunxin Financial Holdings Ltd.;DXF
+402;Japan Hedged Equity Wisdomtree;DXJ
+403;Wisdomtree Japan Capital Goods Hedged Fund;DXJC
+404;Wisdomtree Japan Financials Hedged Fund;DXJF
+405;Wisdomtree Japan Healthcare Hedged Fund;DXJH
+406;Wisdomtree Japan Real Estate Hedged Fund;DXJR
+407;Daxor Corp;DXR
+408;Wisdomtree Global Ex-US Hedged Divd Fund;DXUS
+409;Wisdomtree Bearish U.S. Equity Fund;DYB
+410;Wisdomtree L/S US Eqty Dynamic;DYLS
+411;DB Commodity 2X ETN Powershares;DYY
+412;Dev Mkts Bull 3X Direxion ETF;DZK
+413;DB Gold -2X ETN Powershares;DZZ
+414;Wells Fargo Advantage;EAD
+415;EM Local Bond ETF Barclays Capital SPDR;EBND
+416;Ellsworth Convertible Growth and Income;ECF
+417;Ellsworth Fund Ltd;ECF-A
+418;Chile Index MSCI Ishares;ECH
+419;China Smallcap MSCI Ishares;ECNS
+420;Emrg Mkts Consumer Egshares;ECON
+421;Emrg Mkts Bull 3X Direxion;EDC
+422;Denmark Index MSCI Ishares;EDEN
+423;S&P Emrg Mkts Dividend SPDR;EDIV
+424;Alps Emerging Sector Dividend;EDOG
+425;Wisdomtree Europe Domestic Ecomony Fund;EDOM
+426;First Trust DOW 30 Equal Weight ETF;EDOW
+427;Extended Dur Trs Idx ETF Vanguard;EDV
+428;Emrg Mkts Bear 3X Direxion;EDZ
+429;BRIC Guggenheim;EEB
+430;Spectrum Lg Cap U.S. Sector ETN Elements;EEH
+431;S&P EM Low Vol Powershares;EELV
+432;Emrg Mkts ETF MSCI Ishares;EEM
+433;Aam S&P Emerging Markets High Dividend Value ETF;EEMD
+434;S&P EM Momentum Portfolio PS;EEMO
+435;Emrg Mkts Smallcap MSCI Ishares;EEMS
+436;Emrg Mkts Min Vol Idx MSCI Ishares;EEMV
+437;EM Fossil Fuel Reserves MSCI ETF SPDR;EEMX
+438;Smallcap Earnings Wisdomtree;EES
+439;Ultra MSCI Emrg Mkts Proshares;EET
+440;Ultrashort MSCI Emrg Mkts Proshares;EEV
+441;EAFE Index MSCI Ishares;EFA
+442;EAFE Dividend Growth Proshares;EFAD
+443;EAFE Min Volatility MSCI Ishares;EFAV
+444;EAFE Fossil Fuel Reserves Free MSCI ETF SPDR;EFAX
+445;G-X JPM Efficiente Index ETF;EFFE
+446;EAFE Growth Index MSCI Ishares;EFG
+447;Finland Index MSCI Ishares;EFNL
+448;Ultra MSCI EAFE Proshares;EFO
+449;Ultrashort MSCI EAFE Proshares;EFU
+450;EAFE Value Index MSCI Ishares;EFV
+451;EAFE MSCI Short Proshares;EFZ
+452;Entree Resources Ltd;EGI
+453;Egypt Index ETF Vaneck;EGPT
+454;Eaton Vance California Muni Bond II;EIA
+455;Indonesia Index MSCI Ishares;EIDO
+456;Eaton Vance Muni Bond Fund;EIM
+457;Eaton Vance Ohio Muni Bond Fund;EIO
+458;Eaton Vance Pennsylvania Muni Bond;EIP
+459;Ireland Index MSCI Ishares;EIRL
+460;Israel Index MSCI Ishares;EIS
+461;Eaton Vance Muni Bond Fund II;EIV
+462;Innovation Shares Nextgen Vehicles & Technology;EKAR
+463;Emrg Mkts Local Debt Wisdomtree;ELD
+464;Ellomay Capital Ltd Ordinary Sh;ELLO
+465;Electromed Inc;ELMD
+466;EM Aggregate Bond Vaneck ETF;EMAG
+467;Emagin Corp;EMAN
+468;Ishares Int-Rate Hedged EM Bond;EMBH
+469;Direxion Emerging Markets Bond Bull 3X Shares;EMBU
+470;Emerging Markets Proshares;EMDV
+471;Virtus Glovista Emerging Markets ETF;EMEM
+472;G-X Next Emerging & Frontier ETF;EMFM
+473;Ishares MSCI Multifactor EM ETF;EMGF
+474;Emrg Mkts High Yield Bond Fund Ishares;EMHY
+475;Eaton Vance Michigan Muni Income Trust;EMI
+476;Db-Xt EM Bond Int Rate Hdged ETF;EMIH
+477;Eaton Vance New Jersey Muni Bond;EMJ
+478;Ipath Long Enhcd MSCI EM Index ETN;EMLB
+479;Emrg Mkts Local Curr Bond ETF Vaneck;EMLC
+480;North American Energy Infr Fund FT;EMLP
+481;Emrg Mkts Internet and Ecommerce Etc;EMQQ
+482;Wisdomtree Strong Dollar EM Eqty Fund;EMSD
+483;Short-Term USD EM Bond Proshares;EMSH
+484;EM Fixed Income ETF SPDR;EMTL
+485;Proshares Decline of The Retail Store ETF;EMTY
+486;Emx Royalty Group;EMX
+487;Alerian Energy Infrastructure E;ENFR
+488;Norway Index MSCI Ishares;ENOR
+489;Enerjex Resources Inc;ENRJ
+490;Enservco Corpporation;ENSV
+491;Entrepreneur 30 Fund;ENTR
+492;Eaton Vance New York Muni Bond Fund;ENX
+493;Canadian Energy Income Guggenheim;ENY
+494;Philippines Index MSCI Ishares;EPHE
+495;India Earnings Wisdomtree;EPI
+496;Evolution Petroleum Corp;EPM
+497;Poland Index MSCI Ishares;EPOL
+498;Pacific Ex-Japan MSCI Ishares;EPP
+499;Elkhorn S&P High Quality Preferred;EPRF
+500;Earnings 500 Wisdomtree;EPS
+501;Peru Index MSCI Ishares;EPU
+502;Ultrashort FTSE Europe Proshares;EPV
+503;Russell 1000 EW ETF PS;EQAL
+504;Alps Equal Sector Weight ETF;EQL
+505;Workplace Equality Portfolio ETF;EQLT
+506;Russell Top 200 EW ETF PS;EQWL
+507;Russell Midcap EW ETF PS;EQWM
+508;Russell 2000 EW ETF PS;EQWS
+509;Wells Fargo Advantage Multi-Sector;ERC
+510;Ishares Energy Multifactor;ERGF
+511;Wells Fargo Advantage Utilities and High;ERH
+512;Equitycompass Risk Manager ETF;ERM
+513;Erin Energy Corp;ERN
+514;EUR/USD Exchange Rate ETN Ipath;ERO
+515;Russia Index MSCI Ishares;ERUS
+516;Energy Bull 3X Direxion;ERX
+517;Energy Bear 3X Direxion;ERY
+518;Empire State Realty Op LP;ESBA
+519;Global ESG Revenue ETF Oppenheimer;ESGF
+520;ESG Revenue ETF Oppenheimer;ESGL
+521;Columbia Sustainable Internatio;ESGN
+522;Columbia Sustainable U.S. Equit;ESGS
+523;Columbia Sustainable Global Equ;ESGW
+524;Ensync Inc;ESNC
+525;Espey Mfg. & Electronics;ESP
+526;Etho Climate Leadership U.S. ETF;ETHO
+527;Wisdomtree Europe Dividend Growth Fund;EUDG
+528;Europe Dividend Proshares;EUDV
+529;Direxion European Financials Bull 2X;EUFL
+530;Euro Short Proshares;EUFX
+531;Emrg Mkts MSCI Short Proshares;EUM
+532;Europe Minimum Vol Ishares ETF;EUMV
+533;Ultrashort Euro Proshares;EUO
+534;Direxion FTSE Europe Bull 3X;EURL
+535;Db-Xt MSCI Southern Europe Hedged Eqty ETF;EURZ
+536;US Index MSCI Ishares;EUSA
+537;Wisdomtree Europe Hedged Smallcap Eqty ETF;EUSC
+538;Direxion Daily Euro Stoxx 50 Bull 3X Shares;EUXL
+539;Evans Bancorp;EVBN
+540;Envirostar Inc.;EVI
+541;Velocityshares 1X Long Vstoxx Futures ETN;EVIX
+542;Eaton Vance New Jersey Muni Income Trust;EVJ
+543;Eaton Vance California Muni Bond Fund;EVM
+544;Eaton Vance Ohio Muni Income Trust;EVO
+545;Eaton Vance Pennsylvania Muni Income Trust;EVP
+546;Eaton Vance Limited Duration;EVV
+547;Environmental Svcs ETF Vaneck;EVX
+548;Eaton Vance New York Muni Income Trust;EVY
+549;Australia Index MSCI Ishares;EWA
+550;Canada Index MSCI Ishares;EWC
+551;Sweden Index MSCI Ishares;EWD
+552;Emrg Mkts Eq WT MSCI Guggenheim;EWEM
+553;Germany Index MSCI Ishares;EWG
+554;Germany Smallcap MSCI Ishares;EWGS
+555;Hong Kong Index MSCI Ishares;EWH
+556;Italy Index MSCI Ishares;EWI
+557;Japan Index MSCI Ishares;EWJ
+558;Belgium Index MSCI Ishares;EWK
+559;Switzerland Index MSCI Ishares;EWL
+560;Malaysia Index MSCI Ishares;EWM
+561;Guggenheim S&P Midcap 400 EW ETF;EWMC
+562;Netherlands Invstbl Mkt Idx Ishares ETF;EWN
+563;Austria Index MSCI Ishares;EWO
+564;Spain Index MSCI Ishares;EWP
+565;France Index MSCI Ishares;EWQ
+566;Guggenheim S&P 500 EW ETF;EWRE
+567;Singapore Index MSCI Ishares;EWS
+568;Guggenheim S&P Smallcap 600 EW ETF;EWSC
+569;Taiwan Index MSCI Ishares;EWT
+570;UK Index MSCI Ishares;EWU
+571;UK Smallcap MSCI Ishares;EWUS
+572;Ultrashort MSCI Japan Proshares;EWV
+573;Mexico Index MSCI Ishares;EWW
+574;S&P Emrg Mkts Smallcap SPDR;EWX
+575;South Korea Index MSCI Ishares;EWY
+576;Brazil Index MSCI Ishares;EWZ
+577;S&P Global Industrials Ishares;EXI
+578;Velocityshares 1X Daily Inverse Vstoxx Futures E;EXIV
+579;Total Earnings Wisdomtree;EXT
+580;Cambria Emerging Shareholder Yield ETF;EYLD
+581;South Africa Index MSCI Ishares;EZA
+582;Ultra MSCI Japan Proshares;EZJ
+583;Midcap Earnings Wisdomtree;EZM
+584;Eurozone ETF MSCI Ishares;EZU
+585;Global Wind Energy First Trust;FAN
+586;Prosports Sponsors ETF;FANZ
+587;Financial Bull 3X Direxion;FAS
+588;Australia Alphadex First Trust;FAUS
+589;Aberdeen Asia-Pacific;FAX
+590;Financial Bear 3X Direxion;FAZ
+591;FI Enhanced Large Cap Growth ETN;FBGX
+592;Fidelity Total Bond ETF;FBND
+593;Biotechnology Index NYSE ETF;FBT
+594;Natural Gas ETF FT;FCG
+595;Aberdeen Global;FCO
+596;Fidelity Telecommunication MSCI ETF;FCOM
+597;Fidelity Corporate Bond ETF;FCOR
+598;Stoxx Euro Select Div First Trust;FDD
+599;Fidelity Consumer Disc MSCI ETF;FDIS
+600;Mstar Dividend Leaders;FDL
+601;Fidelity Low Volatility Factor ETF;FDLO
+602;DJ Select Microcap First Trust;FDM
+603;Fidelity Momentum Factor ETF;FDMO
+604;DJ Internet Index First Trust;FDN
+605;Fidelity Dividend ETF For Rising Rates;FDRR
+606;Fidelity Core Dividend ETF;FDVV
+607;Barclays FI Enhanced Europe 50 ETN;FEEU
+608;Energy Income and Growth Fund;FEN
+609;Fidelity Energy MSCI ETF;FENY
+610;Stoxx Europe 50 SPDR;FEU
+611;Euro Stoxx 50 ETF SPDR;FEZ
+612;Formula Folios Hedged Growth ETF;FFHG
+613;Fieldstone Uva Unconstrained Medium-Term Fixed I;FFIU
+614;FTSE En Dev Mkts Rel Est First Trust;FFR
+615;Formulafolios Smart Growth ETF;FFSG
+616;Formulafolios Tactical Growth ETF;FFTG
+617;Formula Folios Income ETF;FFTI
+618;Innovator Ibd 50 Fund ETF;FFTY
+619;DJ Global Select Dividend First Trust;FGD
+620;Fidelity Health Care MSCI ETF;FHLC
+621;Ishares US Fixed Income;FIBR
+622;Fidelity International High Dividend ETF;FIDI
+623;Fidelity Industrials MSCI ETF;FIDU
+624;FI Enhanced 2X Europe 50 ETN;FIEE
+625;FI Enhanced Global High Yield;FIEG
+626;FI Enhanced Europe 50 ETN;FIEU
+627;Barclays FI Enhanced Global Hi Yld;FIGY
+628;FI Enhanced Global High Yield ETN;FIHD
+629;Global Energy Producers MSCI Ishares;FILL
+630;Ultrapro Financials Proshares;FINU
+631;Ultrapro Short Financials Proshares;FINZ
+632;Empire State Realty Op LP Se;FISK
+633;Fidelity International Value Factor ETF;FIVA
+634;Water ETF FT;FIW
+635;Weatherstorm Forensic Accounting;FLAG
+636;Australia Franklin FTSE ETF;FLAU
+637;Franklin Asia Ex Japan ETF;FLAX
+638;Brazil Franklin FTSE ETF;FLBR
+639;Canada Franklin FTSE ETF;FLCA
+640;China Franklin FTSE ETF;FLCH
+641;Liberty Investment Grade Corp ETF;FLCO
+642;Europe Franklin FTSE ETF;FLEE
+643;Europe Hedged Franklin FTSE ETF;FLEH
+644;FI Enhanced Europe 50 ETN Series B;FLEU
+645;France Franklin FTSE ETF;FLFR
+646;United Kingdom Franklin FTSE ETF;FLGB
+647;CS FI Large Cap Growth Enhanced ETN;FLGE
+648;Germany Franklin FTSE ETF;FLGR
+649;Hong Kong Franklin FTSE ETF;FLHK
+650;Franklin India ETF;FLIN
+651;Franklin Intl Opportunities ETF;FLIO
+652;Italy Franklin FTSE ETF;FLIY
+653;Japan Hedged Franklin FTSE ETF;FLJH
+654;Japan Franklin FTSE ETF;FLJP
+655;South Korea Franklin FTSE ETF;FLKR
+656;Liberty US Low Volatility ETF;FLLV
+657;Global Engineering and Construction ETF FT;FLM
+658;Franklin Liberty Municipal Bond ETF;FLMB
+659;Franklin Liberty Intermediate Munic;FLMI
+660;Mexico Franklin FTSE ETF;FLMX
+661;Floating Rate Note Ishares;FLOT
+662;Liberty Global Dividend;FLQD
+663;Liberty Emerging Marketfs ETF;FLQE
+664;Liberty Global Equity ETF;FLQG
+665;Liberty Intl Equity Hedged ETF;FLQH
+666;Franklin Libertyq U.S. Equity ETF;FLQL
+667;Franklin Libertyq U.S. Mid Cap Equity ETF;FLQM
+668;Franklin Libertyq U.S. Small Cap Equity ETF;FLQS
+669;Inv Growth Floating Rate ETF SPDR;FLRN
+670;Advisorshares Pacific Asset Enh;FLRT
+671;Franklin Russia ETF;FLRU
+672;Franklin Switzerland ETF;FLSW
+673;Fidelity Limited Term Bond ETF;FLTB
+674;Investment Grade Floating Rate Vaneck ETF;FLTR
+675;Taiwan Franklin FTSE ETF;FLTW
+676;Frontier 100 Ishares ETF;FM
+677;Fidelity Materials MSCI ETF;FMAT
+678;Fieldstone Merlin Dynamic Large Cap Growth ETF;FMDG
+679;Mstar Managed Futures Strategy Fund FT;FMF
+680;Ishares Financials Multifactor;FNCF
+681;Fidelity Financials MSCI ETF;FNCL
+682;Schwab Fundamental US Smallcap;FNDA
+683;Schwab Fundamental US Broad Market;FNDB
+684;Schwab Fundamental Intl Smallcap;FNDC
+685;Schwab Fundamental EM Large Company;FNDE
+686;Schwab Fundamental Intl Large Company;FNDF
+687;Schwab Fundamental US Largecap;FNDX
+688;Advisorshares New Tech and Media ETF;FNG
+689;BMO Rex Microsectors Fang  Index -3X Inverse Lev;FNGD
+690;BMO Rex Microsectors Fang  Index 3X Leveraged Ex;FNGU
+691;Chindia ETF FT;FNI
+692;Aluminum Pure Beta ETN Ipath;FOIL
+693;Preferred Securities and Income ETF FT;FPE
+694;FT Institutional Preferred Securities and Income;FPEI
+695;US IPO Index First Trust;FPX
+696;Fidelity Quality Factor ETF;FQAL
+697;Unconventional Oil & Gas Vaneck ETF;FRAK
+698;Friedman Industries Inc;FRD
+699;Fidelity Real Estate MSCI ETF;FREL
+700;S&P REIT Index;FRI
+701;Frontier Markets Guggenheim ETF;FRN
+702;Flexible Solutions International Inc;FSI
+703;Franklin Street Properties;FSP
+704;Fidelity Consumer Staples MSCI ETF;FSTA
+705;Fidelity Info Tech MSCI ETF;FTEC
+706;Franklin Templeton Limited Duration;FTF
+707;Long/Short Equity ETF FT;FTLS
+708;Fte Networks Inc;FTNW
+709;Franklin Short Dur US Government ETF;FTSD
+710;Aptus Fortified Value ETF;FTVA
+711;CMCI Food TR ETN UBS E-Tracs;FUD
+712;MLCX Biofuels Index TR ETN Elements;FUE
+713;Managed Futures Strategy Proshares;FUT
+714;Fidelity Utilities MSCI ETF;FUTY
+715;Fidelity Value Factor ETF;FVAL
+716;Value Line Dividend Idx First Trust;FVD
+717;Value Line 100 ETF First Trust;FVL
+718;Madrona Global Bond ETF;FWDB
+719;Madrona Domestic ETF;FWDD
+720;Madrona International ETF;FWDI
+721;Australian Dollar Trust;FXA
+722;British Pound Sterling Trust;FXB
+723;Canadian Dollar Trust;FXC
+724;Chinese Renminbi Trust;FXCH
+725;Consumer Disc Alphadex First Trust;FXD
+726;Euro Trust;FXE
+727;Swiss Franc Trust;FXF
+728;Consumer Staples Alphadex First Trust;FXG
+729;Healthcare Alphadex First Trust ETF;FXH
+730;FTSE China 25 Index Ishares;FXI
+731;Technology Alphadex First Trust;FXL
+732;Energy Alphadex First Trust;FXN
+733;Financial Alphadex First Trust;FXO
+734;Ultrashort FTSE China 25 Proshares;FXP
+735;Indust/Producer Dur Alphadex First Trust;FXR
+736;Swedish Krona Trust;FXS
+737;Singapore Dollar Currencyshares;FXSG
+738;Utilities Alphadex First Trust;FXU
+739;Japanese Yen Trust;FXY
+740;Materials Alphadex First Trust;FXZ
+741;Cambria Foreign Shareholder Yie;FYLD
+742;Cambria Global Asset Allocation;GAA
+743;SSGA Global Allocation ETF SPDR;GAL
+744;Purefunds Video Game Tech ETF;GAMR
+745;Reality Divcon Dividend Guard ETF;GARD
+746;Natural Gas Bull 3X Direxion;GASL
+747;Direxion Natural Gas Bear 3X;GASX
+748;Barclays Bank Plc Ipath Series B Bloomberg Natur;GAZB
+749;GBP/USD Exchange Rate ETN Ipath;GBB
+750;Government/Credit Bond Ishares;GBF
+751;GS Treasuryaccess 0-1 Year ETF;GBIL
+752;New Concept Energy Inc;GBR
+753;Continuous Commodity Index;GCC
+754;CEF GS Connect ETN Claymore;GCE
+755;Pacer Global Cash Cows Dividend;GCOW
+756;Goodrich Petroleum Corp;GDP
+757;Principal Active Global Dividend Income ETF;GDVD
+758;Gold Miners Vaneck ETF;GDX
+759;Junior Gold Miners ETF Vaneck;GDXJ
+760;Ultrashort Gold Miner Proshares;GDXS
+761;Ultra Gold Miners Proshares;GDXX
+762;GS Activebeta EM Equity ETF;GEM
+763;Global Alternatve Energy ETF Vaneck;GEX
+764;Gamco Global Gold Natural Resources;GGN
+765;Gamco Global Gold Natural Reou;GGN-B
+766;Gabelli Go Anywhere Trust;GGO
+767;The Gabelli Healthcare and Wellness Trust;GGO-A
+768;S&P High Inc Infrast Guggenheim ETF;GHII
+769;Rex Gold Hedged S&P 500 ETF;GHS
+770;Access High Yield Corporate Bond ETF Goldman Sac;GHYB
+771;Global High Yield Corporate Bond Fund Ishares;GHYG
+772;Goldman Sachs Access Investment Grade Corp Bond;GIGB
+773;FTSE Global Infra 100 SPDR;GII
+774;Gold SPDR;GLD
+775;Long Dollar Gold Trust SPDR;GLDW
+776;Gulfmark Offshore Inc;GLF
+777;Gulfmark Offshore Inc WT;GLF.W
+778;Ultrashort Gold Proshares;GLL
+779;Clough Global Opportunities Fund;GLO
+780;Glowpoint Inc;GLOW
+781;Clough Global Equity Fund;GLQ
+782;Physical Precious Metals Basket;GLTR
+783;Gabelli Global Utility;GLU
+784;The Gabelli Global Utility and;GLU-A
+785;Clough Global Allocation Fund;GLV
+786;S&P Emerging Asia Pacific SPDR;GMF
+787;Guggenheim Multi-Factor Large Cap ETF;GMFL
+788;General Moly Inc;GMO
+789;Cambria Global Momentum ETF;GMOM
+790;S&P Global Natural Resources SPDR;GNR
+791;US Global Go Gold and Precious Metal Miners ETF;GOAU
+792;G-X Gold Explorers ETF;GOEX
+793;Republican Policies Fund;GOP
+794;Gold Resource Corp;GORO
+795;Core US Treasury Bond ETF Ishares;GOVT
+796;Great Panther Silver Ltd;GPL
+797;Flexshares Global Quality Real Estate;GQRE
+798;G-X FTSE Greece 20 ETF;GREK
+799;IQ Global Resources ETF;GRES
+800;Eagle Capital Growth Fund;GRF
+801;Global Realty Majors Cohen & Steers ETF;GRI
+802;Xtrackers Germany Equity ETF;GRMY
+803;Global Carbon ETN Ipath;GRN
+804;Green Bond Vaneck ETF;GRNB
+805;MLCX Grains Index TR ETN Elements;GRU
+806;Softs Pure Beta ETN Ipath;GRWN
+807;Globalstar;GSAT
+808;Globalscape;GSB
+809;GS Connect S&P GSCI Enh Commodity TR ETN;GSC
+810;Wisdomtree Global Smallcap Divd Fund;GSD
+811;GS Activebeta Europe Equity ETF;GSEU
+812;Equal Weight U.S. Large Cap Equity ETF Goldman S;GSEW
+813;S&P GSCI Commodity-Indexed Ishares;GSG
+814;GS Activebeta International ETF;GSIE
+815;GS Activebeta Japan Equity ETF;GSJY
+816;GS Activebeta US Largecap ETF;GSLC
+817;S&P GSCI Total Return ETN Ipath;GSP
+818;Golden Star Resources Ltd;GSS
+819;GS Activebeta U.S. Small Cap Equity ETF;GSSC
+820;Gastar Exploration;GST
+821;Gastar Exploration 8.625% Serie;GST-A
+822;Gastar Exploration USA Inc Pfd;GST-B
+823;Gold Standard Ventures Corp;GSV
+824;Guggenheim Enhanced Short Duration ETF;GSY
+825;Gran Tierra Energy Inc;GTE
+826;Guggenheim Total Return Bond ETF;GTO
+827;Sage ESG Intermediate Credit ETF;GUDB
+828;Mstar Global Upstream Natural Resources ETF;GUNR
+829;G-X Guru Index ETF;GURU
+830;Direxion S&P Oil & Gas Expl Bull 3X;GUSH
+831;Goldfield Corp;GV
+832;Cambria Global Value ETF;GVAL
+833;Interm Govt/Credit Bond Ishares;GVI
+834;GS Hedge Industry Vip ETF;GVIP
+835;GSE Systems;GVP
+836;S&P Smallcap Intl SPDR;GWX
+837;S&P China SPDR;GXC
+838;G-X FTSE Nordic Region ETF;GXF
+839;G-X FTSE Colombia 20 ETF;GXG
+840;Arrow DJ Global Yield ETF;GYLD
+841;Etfmg Prime Cyber Security ETF;HACK
+842;Ishares Min Vol Global Currency ETF;HACV
+843;Ishares ACWI Currency Hedged;HACW
+844;CSOP China CSI 300 A-H Dynamic;HAHA
+845;China Smallcap Guggenheim;HAO
+846;Rve Hard Assets Producers Vaneck ETF;HAP
+847;Ishares Australia Currency Hedged;HAUD
+848;Ishares ACWI Ex-US Currency Hedged;HAWX
+849;Hennessy Capital Acquisition Corp III;HCA.U
+850;Hennessy Capital Acquisition Corp III Warrants;HCA.W
+851;Hennessy Capital Acquisition Corp III;HCAC
+852;Hartford Corporate Bond ETF;HCOR
+853;Ishares Healthcare Multifactor;HCRF
+854;Db-Xt MSCI All World Ex-US Div Yld Hgd Eq;HDAW
+855;Db-Xt MSCI EAFE High Div Yld Hgd Eq;HDEF
+856;Hedge Replication Proshares;HDG
+857;Active Bear ETF;HDGE
+858;Etracs Mt Pay 2X US Hi Div Low Vol ETN;HDLV
+859;Horizon Vol Dev Intl ETF FT;HDMV
+860;Wisdomtree Global Ex-US Hedged Real Estate Fund;HDRW
+861;Core High Dividend ETF Ishares;HDV
+862;Hemispherx Biopharma;HEB
+863;Ecological Strategy ETF;HECO
+864;Intl Hedged Equity Wisdomtree;HEDJ
+865;Ishares EM Currency Hedged;HEEM
+866;MSCI EAFE Ishares Currency Hedged;HEFA
+867;Ishares Min Vol EAFE Currency Hedged;HEFV
+868;Ishares Min Vol EM Currency Hedged;HEMV
+869;Ishares Europe Smallcap Currency Hedged;HEUS
+870;Ishares Min Vol Europe Currency Hedged;HEUV
+871;Ipath Pure Beta Industrial Metals;HEVY
+872;Ishares Canada Currency Hedged;HEWC
+873;Ishares Italy Currency Hedged;HEWI
+874;MSCI Japan Ishares Currency Hedged;HEWJ
+875;Ishares Switzerland Currency Hedged;HEWL
+876;Ishares Spain Currency Hedged;HEWP
+877;Ishares UK Currency Hedged;HEWU
+878;Ishares Mexico Currency Hedged;HEWW
+879;Ishares South Korea Currency Hedged;HEWY
+880;Ishares Eurozone Currency Hedged;HEZU
+881;IQ 50% Hedged FTSE Europe;HFXE
+882;IQ 50% Hedged FTSE International;HFXI
+883;IQ 50% Hedged FTSE Japan;HFXJ
+884;Intl Multi-Asset Inc Guggenheim;HGI
+885;Wisdomtree Global Smallcap Hedged Fund;HGSD
+886;Ishares Intl High Yld Currency Hedged;HHYX
+887;Low Vol EM Dividend ETF Egshares;HILO
+888;Graniteshares US High Income ETF;HIPS
+889;Ishares Jpx-Nikkei 400 Currency Hedged;HJPX
+890;Hillman Gr Cap 11.6;HLM.P
+891;Nobilis Health Corp;HLTH
+892;Hmg/Courtland Properties;HMG
+893;Hartford Municipal Opportunities ETF;HMOP
+894;Pioneer Diversified High Income Trust;HNW
+895;Advisorshares Sage Core Reserve;HOLD
+896;Etracs Mt Reset 2X ISE Exc Homebuilders ETN;HOML
+897;Insightshares Patriotic Employers ETF;HONR
+898;Hartford Quality Bonds ETF;HQBD
+899;Ishares EAFE Smallcap Currency Hedged;HSCZ
+900;Horizons S&P 500 Covered Call;HSPX
+901;U.S. Geothermal Inc;HTM
+902;Hartford Total Return Bond ETF;HTRB
+903;Hull Tactical US ETF;HTUS
+904;Houston American Energy Corp;HUSA
+905;US Equity Rotation Strategy ETF;HUSE
+906;Horizon Vol Domestic ETF FT;HUSV
+907;High Yld Muni ETF Vaneck;HYD
+908;Ishares Edge High Yield Defensive Bond ETF;HYDB
+909;Direxion High Yield Bear 2X;HYDD
+910;Xtrackers Low Beta High Yield Bond ETF;HYDW
+911;Emrg Mkts High Yield Bd ETF Vaneck;HYEM
+912;Iboxx $ High Yield Corp Bond Ishares;HYG
+913;Interest Rate Hedged Hi Yld Ishares;HYGH
+914;High Yld Interest Rate Proshares;HYHG
+915;Db-Xt HY Corp Bd Intr Rt Hdg;HYIH
+916;D-X USD Hi Yld Corp Bond ETF;HYLB
+917;Peritus High Yield ETF;HYLD
+918;Indexiq S&P High Yld Low Vol ETF;HYLV
+919;S&P Hi Yld Muni Bond SPDR;HYMB
+920;0-5 Year Hi Yld Corp Bond Idx ETF Pimco;HYS
+921;Xtrackers High Beta High Yield Bond ETF;HYUP
+922;Global Ex-US High Yield Corp Bond Fund Ishares;HYXU
+923;Aberdeen Australia Equity Fund Inc;IAF
+924;Ishares Intl Aggregate Bond Fund;IAGG
+925;DJ US Broker-Dealers Ishares;IAI
+926;DJ US Insurance Ishares;IAK
+927;DJ US Regional Banks Ishares;IAT
+928;Gold Trust Ishares ETF;IAU
+929;2018 Investment Grade Ishares;IBCC
+930;2020 Investment Grade Ishares;IBCD
+931;2023 Investment Grade Ishares;IBCE
+932;Inspire Corporate Bond Impact ETF;IBD
+933;Ishares Mar 2018 Term Corp ETF;IBDB
+934;Ishares Mar 2020 Term Corp ETF;IBDC
+935;Ishares Mar 2023 Term Corp ETF;IBDD
+936;Ishares Dec 2018 Term Corp ETF;IBDH
+937;Ishares Dec 2019 Term Corp ETF;IBDK
+938;Ishares Dec 2020 Term Corp ETF;IBDL
+939;Ishares Dec 2021 Term Corp ETF;IBDM
+940;Ishares Dec 2022 Term Corp ETF;IBDN
+941;Ishares Dec 2023 Term Corp ETF;IBDO
+942;Ishares Dec 2024 Term Corp ETF;IBDP
+943;Ishares Dec 2025 Term Corp ETF;IBDQ
+944;Ishares Dec 2026 Term Corp ETF;IBDR
+945;Ishares Ibonds Dec 2027 Term Corporate ETF;IBDS
+946;Ibio Inc;IBIO
+947;Direxion Ibillionaire Index ETF;IBLN
+948;2018 S&P Amt-Free Municipal Ishares;IBMG
+949;2019 Amt-Free Muni Term Ishares;IBMH
+950;Ishares Sep 2020 Term Muni Bond ETF;IBMI
+951;Ishares Dec 2021 Term Muni Bond ETF;IBMJ
+952;Ishares Dec 2022 Term Muni Bond ETF;IBMK
+953;Ishares Dec 2023 Term Muni Bond ETF;IBML
+954;Intl Corp Bond ETF SPDR;IBND
+955;Ibo Common Stock;IBO
+956;Serenityshares Impact ETF;ICAN
+957;Reality Majors Cohen & Steers Ishares;ICF
+958;Optimized Currency Carry ETN Ipath;ICI
+959;Colombia Capped Ishares ETF;ICOL
+960;Pacer Developed Markets International Cash Cows;ICOW
+961;Liquidity Income Ishares ETF;ICSH
+962;Ishares Convertible Bond ETF;ICVT
+963;Ishares Core MSCI Intl Devd Market ETF;IDEV
+964;S&P Intl Dev Hi Div Low Vol Port PS;IDHD
+965;S&P Intl Dev High Qlty Powershares;IDHQ
+966;U.S. Equity Cumulative Dividends Fund Series 202;IDIV
+967;S&P Intl Dev Low Volatility Powershares;IDLV
+968;S&P Intl Dev Momentum Portfolio PS;IDMO
+969;Intellicheck Mobilisia;IDN
+970;Alps International Sector Dividend;IDOG
+971;DOW Utilities Ishares;IDU
+972;DJ Intl Select Div Idx Ishares;IDV
+973;Indonesia Index ETF Vaneck;IDX
+974;IEC Electronics;IEC
+975;Core MSCI EAFE Ishares;IEFA
+976;Core MSCI Emerging Mkts Ishares;IEMG
+977;DJ US Oil & Gas Ex Index Ishares;IEO
+978;Core Europe Ishares;IEUR
+979;Europe 350 Ishares;IEV
+980;DJ US Oil Equipment Index Ishares;IEZ
+981;Aberdeen Indonesia Fund;IF
+982;DB-X Barclays Inter Corp Bh ETF;IFIX
+983;Purefunds Drone Economy Strategy ETF;IFLY
+984;India Globalization Capital Inc;IGC
+985;S&P Natural Resources North Amer Ishares;IGE
+986;Ishares Edge Investment Grade Enhanced Bond ETF;IGEB
+987;EM Inv Grade + Bb Rated USD Sb Vaneck ETF;IGEM
+988;Invest Grade Interest Rate Proshares;IGHG
+989;Db-Xt Invt Grd Bd Intr Rt Hdg;IGIH
+990;S&P Technology North Amer Ishares;IGM
+991;S&P Tech-Multimedia Ntwk North Amer Ishares;IGN
+992;Ishares Intl Dividend Growth ETF;IGRO
+993;S&P Tech-Software North Amer Ishares;IGV
+994;DB-X Barclays Inter Treas Bh ETF;IGVT
+995;Igz NYSE;IGZ
+996;Wisdomtree Intl Hedged Fund;IHDG
+997;DJ US Pharmaceuticals Ishares;IHE
+998;DJ US Healthcare Provider Ishares;IHF
+999;DJ US Medical Devices Ishares;IHI
+1000;Innsuites Hospitality Trust;IHT
+1001;Intl High Yield Bond ETF Vaneck;IHY
+1002;S&P Midcap 400 Ishares;IJH
+1003;S&P Midcap 400 Value Ishares;IJJ
+1004;S&P Midcap 400 Growth Ishares;IJK
+1005;S&P Smallcap 600 Index Ishares;IJR
+1006;S&P Smallcap 600 Value Ishares;IJS
+1007;Latin America 40 Ishares;ILF
+1008;10+ Year Government/Credit Bond Ishares;ILTB
+1009;Impac Mortgage Holdings;IMH
+1010;Ipath S&P MLP ETN;IMLP
+1011;Imperial Oil Ltd;IMO
+1012;Intl Quantitative Momentum ETF;IMOM
+1013;Ishares Core 5 10 Year USD Bond ETF;IMTB
+1014;Ishares Intl Momentum Factor ETF;IMTM
+1015;Immunocellular Therapeutics Warrant;IMU.W
+1016;Immunocellular Thera;IMUC
+1017;India Consumer Egshares;INCO
+1018;India Index MSCI Ishares;INDA
+1019;Ishares Industrials Multifactor;INDF
+1020;India Bull 3X Direxion;INDL
+1021;Infusystems Holdings;INFU
+1022;SSGA Income Allocation ETF SPDR;INKM
+1023;India Index ETN MSCI Ipath;INP
+1024;INR/USD ETN Vaneck;INR
+1025;Intelligent Systems Corp;INS
+1026;Ishares Intl Multifactor ETF;INTF
+1027;Intest Corp;INTT
+1028;Inuvo Inc;INUV
+1029;India Infrastructure Egshares;INXX
+1030;IQ Global Oil Smallcap ETF;IOIL
+1031;S&P Global 100 Ishares;IOO
+1032;Income Opportunity Realty Trust;IOR
+1033;Pacific Core Ishares;IPAC
+1034;Purefunds ISE Mobile Payments ETF;IPAY
+1035;Merrill Lynch & Co;IPB
+1036;TIPS Barclays ETF SPDR;IPE
+1037;S&P Intl Preferred Stock Ishares;IPFF
+1038;Renaissance IPO ETF;IPO
+1039;Renaissance Capital Greenwich Fund;IPOS
+1040;Flexshares Intl Quality Div Def Fund;IQDE
+1041;Flexshares Intl Quality Div Fund;IQDF
+1042;Wisdomtree Intl Quality Divd Growth Fund;IQDG
+1043;Flexshares Intl Quality Div Dyn Fund;IQDY
+1044;Ishares Intl Quality Factor ETF;IQLT
+1045;Ishares Intl Smallcap Multifactor ETF;ISCF
+1046;Issuer Direct Corp;ISDR
+1047;Aberdeen Israel Fund;ISL
+1048;Inspire Small/Mid Cap Impact ETF;ISMD
+1049;Isoray Inc;ISR
+1050;Israel Vaneck ETF;ISRA
+1051;Ishares Intl Size Factor ETF;ISZE
+1052;DJ US Aerospace & Defense Ishares;ITA
+1053;DJ US Home Construction Ishares;ITB
+1054;Interm-Term Treasury ETF SPDR;ITE
+1055;Bluestar Israel Technology ETF;ITEQ
+1056;Interm Muni ETF Vaneck;ITM
+1057;S&P 1500 Ishares;ITOT
+1058;Intl Quantitative Valueshares ETF;IVAL
+1059;S&P 500 Value Ishares;IVE
+1060;Ishares Intl Value Factor ETF;IVLU
+1061;S&P Midcap 400 Growth ETF Vanguard;IVOG
+1062;S&P Midcap 400 ETF Vanguard;IVOO
+1063;S&P 500 VIX Inv S/T Fut ETN II Ipath;IVOP
+1064;S&P Midcap 400 Value ETF Vanguard;IVOV
+1065;S&P 500 Ishares;IVV
+1066;S&P 500 Growth Ishares;IVW
+1067;Russell 1000 Ishares;IWB
+1068;Russell Microcap Ishares;IWC
+1069;Russell 1000 Value Ishares;IWD
+1070;Russell 1000 Growth Ishares;IWF
+1071;Russell Top 200 Ishares;IWL
+1072;Russell 2000 Ishares;IWM
+1073;Russell 2000 Value Ishares;IWN
+1074;Russell 2000 Growth Ishares;IWO
+1075;Russell Midcap Growth Ishares;IWP
+1076;Russell Midcap Ishares;IWR
+1077;Russell Midcap Value Ishares;IWS
+1078;Russell 3000 Ishares;IWV
+1079;Russell Top 200 Value Ishares;IWX
+1080;Russell Top 200 Growth Ishares;IWY
+1081;S&P Global Energy Ishares;IXC
+1082;S&P Global Financials Ishares;IXG
+1083;S&P Global Healthcare Ishares;IXJ
+1084;S&P Global Technology Ishares;IXN
+1085;S&P Global Telecom Ishares;IXP
+1086;DJ US Consumer Services Ishares;IYC
+1087;DJ US Energy Ishares;IYE
+1088;DJ US Financial Sector Ishares;IYF
+1089;DJ US Financial Services Ishares;IYG
+1090;DJ US Healthcare Ishares;IYH
+1091;DJ US Industrial Ishares;IYJ
+1092;DJ US Consumer Goods Ishares;IYK
+1093;Mstar Multi-Asset Income Index Ishares;IYLD
+1094;DJ US Basic Materials Ishares;IYM
+1095;DJ US Real Estate Ishares;IYR
+1096;DOW Transportations Ishares;IYT
+1097;DJ US Technology Ishares;IYW
+1098;DJ US Index Ishares;IYY
+1099;DJ US Telecom Ishares;IYZ
+1100;Ark Israel Innovative Technology ETF;IZRL
+1101;James Biblically Responsible Investment ETF;JBRI
+1102;Jpmorgan U.S. Dividend ETF;JDIV
+1103;Direxion Junior Gold Mine Bear 3X;JDST
+1104;GEMS Index ETN Ipath;JEM
+1105;US Global Jets ETF;JETS
+1106;Wisdomtree Japan Divd Hedged Fund;JHDG
+1107;JH Materials Multifactor ETF;JHMA
+1108;JH Consumer Disc Multifactor ETF;JHMC
+1109;JH Developed Intl Multifactor ETF;JHMD
+1110;JH Energy Multifactor ETF;JHME
+1111;JH Financial Multifactor ETF;JHMF
+1112;JH Healthcare Multifactor ETF;JHMH
+1113;JH Industrials Multifactor ETF;JHMI
+1114;JH Largecap Multifactor ETF;JHML
+1115;JH Midcap Multifactor ETF;JHMM
+1116;JH Consumer Staples Multifactor ETF;JHMS
+1117;JH Technology Multifactor ETF;JHMT
+1118;JH Utilities Multifactor ETF;JHMU
+1119;John Hancock Multifactor Small Cap ETF;JHSC
+1120;DJ-UBS Agriculture TR Sub-Idx ETN Ipath;JJA
+1121;Agriculture Subindex TR ETN    Ipatha Series B B;JJAB
+1122;DJ-UBS Copper TR Sub-Idx ETN Ipath;JJC
+1123;Copper Subindex TR ETN         Ipatha Series B B;JJCB
+1124;DJ-UBS Energy TR Sub-Idx ETN Ipath;JJE
+1125;Ipatha Series B Bloomberg Energy Subindex Total;JJEB
+1126;DJ-UBS Grains TR Sub-Idx ETN Ipath;JJG
+1127;Grains Subindex TR ETN         Ipatha Series B B;JJGB
+1128;DJ-UBS Ind Metals TR Sub-Idx ETN Ipath;JJM
+1129;Industrial Metals Subindex TR ETN   Ipatha Serie;JJMB
+1130;DJ-UBS Nickel TR Sub-Idx ETN Ipath;JJN
+1131;DJ-UBS Prec Metals TR Sub-Idx ETN Ipath;JJP
+1132;Ipatha Series B Bloomberg Precious Metals Subind;JJPB
+1133;DJ-UBS Softs TR Sub-Idx ETN Ipath;JJS
+1134;DJ-UBS Tin TR Sub-Idx ETN Ipath;JJT
+1135;Ipatha Series B Bloomberg Tin Subindex Total Ret;JJTB
+1136;DJ-UBS Aluminum TR Sub-Idx ETN Ipath;JJU
+1137;Ipatha Series B Bloomberg Aluminum Subindex Tota;JJUB
+1138;Mstar Large Core Index Ishares;JKD
+1139;Mstar Large Growth Index Ishares;JKE
+1140;Mstar Large Value Index Ishares;JKF
+1141;Mstar Mid Core Index Ishares;JKG
+1142;Mstar Mid Growth Index Ishares;JKH
+1143;Mstar Small Core Index Ishares;JKJ
+1144;Mstar Small Growth Index Ishares;JKK
+1145;Mstar Small Value Index Ishares;JKL
+1146;Jpmorgan U.S. Minimum Volatility ETF;JMIN
+1147;Jpmorgan U.S. Momentum Factor ETF;JMOM
+1148;High Yield Bond ETF SPDR;JNK
+1149;Direxion Junior Gold Mine Bull 3X;JNUG
+1150;DJ-UBS Coffee TR Sub-Idx ETN Ipath;JO
+1151;General Employment Enterprises;JOB
+1152;Jpmorgan Event Driven ETF;JPED
+1153;JPM Dvsd Rtns Europe Currency Hedged;JPEH
+1154;JPM Dvsd Rtns EM ETF;JPEM
+1155;JPM Dvsd Rtns Europe Equity ETF;JPEU
+1156;JPM Global Bond Opportunities ETF;JPGB
+1157;JPM Dvsd Rtns Global Equity;JPGE
+1158;JPM Dvsd Alternatives ETF;JPHF
+1159;JPM Disp Hi Yld ETF;JPHY
+1160;JPM Dvsd Rtns Intl Currency Hedged;JPIH
+1161;JPM Dvsd Rtns Intl Equity ETF;JPIN
+1162;Jpmorgan Long/Short ETF;JPLS
+1163;Jpmorgan USD Emerging Markets Sovereign Bond ETF;JPMB
+1164;JPM Dvsd Rtns US Midcap ETF;JPME
+1165;Jpmorgan Managed Futures Strategy ETF;JPMF
+1166;Japan Minimum Vola Ishares ETF;JPMV
+1167;Db-Xt Jpn Jpx Nikkei 400 Eq;JPN
+1168;Direxion Japan Bull 3X;JPNL
+1169;JPM Dvsd Rtns US Smallcap Equity ETF;JPSE
+1170;J.P. Morgan Exchange-Traded Fund Trust;JPST
+1171;JPM Dvsd Rtns US Equity ETF;JPUS
+1172;Ishares Jpx-Nikkei 400 ETF;JPXN
+1173;Jpmorgan U.S. Quality Factor ETF;JQUA
+1174;Cvsl Inc;JRJR
+1175;Jpmorgan U.S. Value Factor ETF;JVAL
+1176;S&P Global Utilities Ishares;JXI
+1177;JPY/USD Exchange Rate ETN Ipath;JYN
+1178;Kraneshares Electric Vehicles and Future Mobilit;KARS
+1179;Kranes Bosera MSCI China A;KBA
+1180;S&P Bank ETF SPDR;KBE
+1181;S&P Capital Markets ETF SPDR;KCE
+1182;Kranes E Fund China Comm Paper ETF;KCNY
+1183;Kranes FTSE EM ETF;KEMP
+1184;Kraneshares Emerging Markets Consumer Technology;KEMQ
+1185;Kranes New China ETF;KFYP
+1186;Kraneshares MSCI China Environment Index ETF;KGRN
+1187;S&P Insurance ETF SPDR;KIE
+1188;Kelso Technologies I;KIQ
+1189;Exchange Listed Funds Trust Gav;KLDW
+1190;Klondex Mines Ltd;KLDX
+1191;All Cap Insider Sentiment Direxion;KNOW
+1192;Innovation Shares Nextgen Protocol ETF;KOIN
+1193;Coal ETF Vaneck;KOL
+1194;Ultrashort Natural Gas Proshares;KOLD
+1195;Advisorshares Kim Korea Equity ETF;KOR
+1196;American Century Dvfd Corp Bond ETF;KORP
+1197;Direxion South Korea Bull 3X;KORU
+1198;S&P Regional Banking ETF SPDR;KRE
+1199;IQ Australia Smallcap ETF;KROO
+1200;Ishares Saudi Arabia Capped ETF;KSA
+1201;Kraneshares MSCI All China Health Care Index ETF;KURE
+1202;Kranes CSI China ETF;KWEB
+1203;S&P Global Cons Staples Ishares;KXI
+1204;Direxion S&P Biotech Bear 3X;LABD
+1205;Direxion S&P Biotech Bull 3X;LABU
+1206;Latin America Equity Fund;LAQ
+1207;Etracs Mt Pay 2X Levd Wells Bdc ETN Series B;LBDC
+1208;Latin America Bull 3X Direxion;LBJ
+1209;Libbey Inc;LBY
+1210;Ipath Lead Subindex TR ETN;LD
+1211;Innovator Ibd ETF Leaders ETF;LDRS
+1212;Pimco Low Duration ETF;LDUR
+1213;Reality Divcon Leaders Dividend ETF;LEAD
+1214;Lead Pure Beta ETN Ipath;LEDD
+1215;Emrg Mkts Local Cur Bond Ishares;LEMB
+1216;Centrus Energy Corp;LEU
+1217;Level Brands Inc;LEVB
+1218;Vaneck Vectors Ndr Cmg Long/Flat Allocation ETF;LFEQ
+1219;LGL Group;LGL
+1220;SSGA US Large Cap Low Vol Index SPDR;LGLV
+1221;Liqtech International Inc;LIQT
+1222;G-X Lithium ETF;LIT
+1223;Lilis Energy Inc;LLEX
+1224;Ishares 10 Year Investment Grade Corporate Bond;LLQD
+1225;Etracs Mt Pay 2X MLP Ex-Energy ETN;LMLP
+1226;Cheniere Energy;LNG
+1227;Comstock Mining Inc;LODE
+1228;Global X Iconic U.S. Brands ETF;LOGO
+1229;Spark Networks Plc;LOV
+1230;ACWI Low Carbon Target MSCI ETF SPDR;LOWC
+1231;Iboxx $ Invest Grade Corp Bond Ishares;LQD
+1232;Ishares Int-Rate Hedged Corp Bond;LQDH
+1233;Etracs Mt Pay 2X MSCI US REIT Index ETN;LRET
+1234;Ishares US Multifactor ETF;LRGF
+1235;Natixis Loomis Sayles Short Duration Income ETF;LSST
+1236;Livestock Pure Beta Ipath ETN;LSTK
+1237;Velocity VIX Variable Long Short;LSVX
+1238;Ultra Telecommunications Proshares;LTL
+1239;15+ Year US TIPS Index ETF Pimco;LTPZ
+1240;Ladenburg Thalmann Financial Inc;LTS
+1241;Ladenburg Thalmann Financial Se;LTS-A
+1242;Ladenburg Thalmann Financial Services Inc 6.50%;LTSL
+1243;Elkhorn Lunt Low Vol/High Beta Tactical ETF;LVHB
+1244;Legg EM Low Vol Hi Div ETF;LVHE
+1245;Legg Intl Low Vol High Div ETF;LVHI
+1246;Multifactor Low Volatility International Equity;LVIN
+1247;S&P Global Divd Opps Guggenheim;LVL
+1248;Multifactor Low Volatility US Equity ETF;LVUS
+1249;Eaton Vance Massachusetts Muni Bond;MAB
+1250;MAG Silver Corp;MAG
+1251;Point Bridge Gop Stock Tracker ETF;MAGA
+1252;Ishares Materials Multifactor;MATF
+1253;Meidell Tactical Advantage ETF;MATH
+1254;Mortgage Backed Bond ETF SPDR;MBG
+1255;Contango Oil & Gas Company;MCF
+1256;IQ Hedge Macro Tracker ETF;MCRO
+1257;S&P Midcap 400 SPDR;MDY
+1258;S&P Midcap Growth ETF SPDR;MDYG
+1259;S&P Midcap Value ETF SPDR;MDYV
+1260;Ishares Short Maturity Municipal ETF;MEAR
+1261;Direxion Daily MSCI Mexico Bull 3X Shares;MEXX
+1262;Pimco RAFI Dynamic Multi-Factor Internation;MFDX
+1263;Pimco RAFI Dynamic Multi-Factor Emerging Ma;MFEM
+1264;Ipath Long Enhanced MSCI EAFE Index ETN;MFLA
+1265;Pimco RAFI Dynamic Multi-Factor U.S. Equity;MFUS
+1266;Megacap 300 Index ETF Vanguard;MGC
+1267;Megacap 300 Growth Index ETF Vanguard;MGK
+1268;Megacap 300 Value Index ETF Vanguard;MGV
+1269;Massachusetts Health and Education Tax-Exempt TR;MHE
+1270;Mastech Holdings Inc;MHH
+1271;Micron Solutions Inc;MICR
+1272;Direxion Mid Cap Bull 3X;MIDU
+1273;Midcap Bear 3X Direxion;MIDZ
+1274;Advisorshares Newfleet Multi-Se;MINC
+1275;Enhanced Short-Maturity Strgy ETF Pimco;MINT
+1276;Eaton Vance Michigan Muni Bond Fund;MIW
+1277;Etfmg Alternative Harvest ETF;MJ
+1278;Majesco;MJCO
+1279;Long Municipal Index ETF Vaneck;MLN
+1280;G-X MLP ETF;MLPA
+1281;Etracs Alerian MLP Infrastruc ETN;MLPB
+1282;C-Tracks MLP Miller/Howard Perf Fundamental;MLPC
+1283;C-Tracks MLP Miller/Howard Fundamental Series B;MLPE
+1284;Alerian Natural Gas MLP ETN UBS E-Tracs;MLPG
+1285;Alerian MLP Infrastrctr ETN UBS E-Tracs;MLPI
+1286;CS S&P MLP Index ETN;MLPO
+1287;Etracs Mt 2X Alerian MLP Infra ETN Series B;MLPQ
+1288;Alerian MLP Short Infr ETN UBS E-Tracs;MLPS
+1289;G-X MLP & Energy Infrasture ETF;MLPX
+1290;Cushing MLP Hi Income ETN Morgan Stanley;MLPY
+1291;Etracs Mt 2X S&P MLP ETN Series B;MLPZ
+1292;Ishares 5-10 Year Investment Grade Corporate Bon;MLQD
+1293;Milestone Scientific;MLSS
+1294;CS X-Links Multi-Asset High Income ETN;MLTI
+1295;IQ Mackay Shields Municipal Insured ETF ETF;MMIN
+1296;S&P 1500 Momentum Tilt ETF SPDR;MMTM
+1297;Eaton Vance Massachusetts Muni Income Trust;MMV
+1298;IQ Merger Arbitrage ETF;MNA
+1299;Mcclatchy Company;MNI
+1300;Wide Moat Vaneck ETF;MOAT
+1301;Command Security Corp;MOC
+1302;US Momentum Mkt Neutral ETF Quantshares;MOM
+1303;Agribusiness ETF Vaneck;MOO
+1304;Etracs Mt Pay 2X Mortgage REIT ETN;MORL
+1305;Mortgage REIT Vaneck ETF;MORT
+1306;Morningstar Intl Moat Vaneck ETF;MOTI
+1307;Merger ETF Proshares;MRGR
+1308;Etracs Mt Pay 2X Mortgage REIT ETN Series B;MRRL
+1309;Emerson Radio Corp;MSN
+1310;Matinas Biopharma Hl;MTNB
+1311;USA Momentum Factor Ishares ETF;MTUM
+1312;S&P National Amt-Free Muni Bd Ishares;MUB
+1313;Interm Muni Bond Strgy ETF Pimco;MUNI
+1314;Munivest Fund;MVF
+1315;Natixis Seeyond Intl Min Vol ETF;MVIN
+1316;Ultra Midcap 400 Proshares;MVV
+1317;Mexco Energy Corp;MXC
+1318;Nationwide Max Diverse U.S. Core Equity ETF;MXDU
+1319;S&P Global Materials Ishares;MXI
+1320;Myomo Inc;MYO
+1321;Midcap 400 Short Proshares;MYY
+1322;Muniyield Arizona Fund;MZA
+1323;Ultrashort Midcap400 Proshares;MZZ
+1324;Direxion Homebuild & Suppliers Bull 3X;NAIL
+1325;Northern Dynasty Minerals;NAK
+1326;S&P North American Natural SPDR;NANR
+1327;Navidea Biopharmaceuticals Inc;NAVB
+1328;Neuberger Berman Intermediate Fund Inc;NBH
+1329;Neuberger Berman New York Intermediate Fund Inc;NBO
+1330;Neuberger Berman California Intermediate Fund In;NBW
+1331;Novabay Pharmaceuticals;NBY
+1332;Maturity Bond Short Ishares;NEAR
+1333;New England Realty Associates Limited Partnershi;NEN
+1334;Nuverra Environmental Solutions;NES
+1335;Virtus Multi-Sector Uncstd Bond;NFLT
+1336;Insider Sentiment Guggenheim;NFO
+1337;Flexshares Global Broad Infr Fund;NFRA
+1338;Novagold Resources Inc;NG
+1339;New Gold Inc;NGD
+1340;G-X Nigeria Index ETF;NGE
+1341;National Healthcare Corp;NHC
+1342;Neuberger Berman High Yield Strategies;NHS
+1343;DJ-UBS Cocoa TR Sub-Idx ETN Ipath;NIB
+1344;Nickel Pure Beta ETN Ipath;NINI
+1345;Uranium+Nuclear Energy Vaneck ETF;NLR
+1346;Neuberger Berman MLP Income Fun;NML
+1347;Nanoviricides Inc;NNVC
+1348;S&P 500 Aristocrats Proshares;NOBL
+1349;Northern Oil and Gas;NOG
+1350;G-X Norway ETF;NORW
+1351;Neuberger Berman Real Estate Securities;NRO
+1352;Inspiremd Inc Warrant;NSP.W
+1353;Inspiremd Inc Series B Warrants;NSP.X
+1354;Inspiremd Inc;NSPR
+1355;Nevsun Resources Ltd;NSU
+1356;Network-1 Sec Solu;NTIP
+1357;Ntn Buzztime;NTN
+1358;Nushares US Aggregate Bond ETF;NUAG
+1359;Nushares ESG U.S. Aggregate Bond ETF;NUBD
+1360;Nushares ESG Intl Developed Markets Equity ETF;NUDM
+1361;Nushares ESG Emerging Markets Equity ETF;NUEM
+1362;Gold Miners Bull 3X Direxion ETF;NUGT
+1363;Nushares ESG Largecap Growth ETF;NULG
+1364;Nushares ESG Largecap Value ETF;NULV
+1365;Nushares ESG Midcap Growth ETF;NUMG
+1366;Nushares ESG Midcap Value ETF;NUMV
+1367;Nushares Short-Term REIT ETF;NURE
+1368;1-5 Year U.S. Aggregate Nushares;NUSA
+1369;Nushares ESG Smallcap ETF;NUSC
+1370;Nexgen Energy Ltd;NXE
+1371;S&P NY Municipal Bond Ishares;NYF
+1372;Eaton Vance New York Muni Bond Fund II;NYH
+1373;O's Asia Pacific Qlty Divd ETF;OASI
+1374;Kraneshares MSCI One Belt One Road Index ETF;OBOR
+1375;ETF Series Solutions Trust ETF;OCIO
+1376;Oncocyte Corp;OCX
+1377;S&P 100 Ishares;OEF
+1378;O's Europe Qlty Divd ETF;OEUR
+1379;Guggenheim ETF Trust ETF;OEW
+1380;Empire State Realty Op LP Se;OGCP
+1381;Oragenics Inc;OGEN
+1382;Oil Services Vaneck ETF;OIH
+1383;CS X-Links WTI Crude Oil Index ETN;OIIL
+1384;S&P GSCI Crude Oil TR ETN Ipath;OIL
+1385;S&P GSCI Crude Oil TR Ipath B ETN;OILB
+1386;Ultrapro Short Crude Oil Proshares;OILD
+1387;Crude Oil Strategy Proshares;OILK
+1388;Ultrapro Crude Oil Proshares;OILU
+1389;Etracs S&P GSCI Crude Oil TR ETN;OILX
+1390;Crude Oil Pure Beta ETN Ipath;OLEM
+1391;DB Crude Oil ETN Powershares;OLO
+1392;Oppenheimer Rus 1000 Dynamic Multifactor ETF;OMFL
+1393;Oppenheimer Rus 2000 Dynamic Multifactor ETF;OMFS
+1394;Oppenheimer Rus 1000 Momentum Factor ETF;OMOM
+1395;Russell 1000 Momentum Focus ETF SPDR;ONEO
+1396;Russell 1000 Low Vol ETF SPDR;ONEV
+1397;Russell 1000 Yield Focus ETF SPDR;ONEY
+1398;Energy Pure Beta ETN Ipath;ONG
+1399;Orient Paper;ONP
+1400;O's Russell Intl Qlty Divd ETF;ONTL
+1401;Oppenheimer Rus 1000 Quality Factor ETF;OQAL
+1402;Owens Realty Mortgage Inc;ORM
+1403;Oppenheimer Rus 1000 Size Factor ETF;OSIZ
+1404;Gold Shares Vaneck;OUNZ
+1405;O's U.S. Qlty Divd ETF;OUSA
+1406;O's Russell Smallcap Qlty Divd ETF;OUSM
+1407;Guggenheim US Largecap Optimized ETF;OVLC
+1408;Oppenheimer Rus 1000 Value Factor ETF;OVLU
+1409;Oppenheimer Rus 1000 Low Volatility Factor ETF;OVOL
+1410;Oppenheimer Rus 1000 Yield Factor ETF;OYLD
+1411;FTSE RAFI Asia Pacific Ex-Jp Powershares;PAF
+1412;G-X MSCI Pakistan ETF;PAK
+1413;Physical Palladium;PALL
+1414;G-X US Infr Development ETF;PAVE
+1415;Global Clean Energy Powershares;PBD
+1416;PS FTSE Developed Ex-North America Portfolio;PBDM
+1417;Dynamic Biotech & Genome Powershares;PBE
+1418;PS FTSE Emerging Markets Portfolio;PBEE
+1419;Dynamic Food & Beverage Powershares;PBJ
+1420;Powershares Exchange-Traded Fund Trust II;PBND
+1421;S&P 500 Buywrite Powershares;PBP
+1422;Dynamic Media Powershares;PBS
+1423;PS MSCI USA Small Cap Portfolio;PBSM
+1424;PS 0-5 Yr US TIPS Portfolio;PBTP
+1425;PS MSCI USA Portfolio;PBUS
+1426;Wilderhill Clean Energy Powershares;PBW
+1427;CEF Income Composite Powershares;PCEF
+1428;Pacific Gas El 6.00;PCG-A
+1429;Pacific Gas El 5.50;PCG-B
+1430;Pacific Gas El 5.00;PCG-C
+1431;Pacific Gas El 5.00;PCG-D
+1432;Pacific Gas El 5.00;PCG-E
+1433;Pacific Gas El 4.80;PCG-G
+1434;Pacific Gas El 4.50;PCG-H
+1435;Pacific Gas El 4.36;PCG-I
+1436;Emrg Mkts Sovereign Debt Powershares;PCY
+1437;FTSE RAFI Dev Mkts Ex-US S/M Powershares;PDN
+1438;Pedevco Corp;PED
+1439;Dynamic Leisure & Entertain Powershares;PEJ
+1440;China ETF Vaneck;PEK
+1441;Global Listed Private Proshares;PEX
+1442;Global X U.S. Preferred ETF;PFFD
+1443;Infracap REIT Preferred ETF;PFFR
+1444;Fundamental Inv Gr Corp Bond Powershares;PFIG
+1445;Pfenex Inc;PFNX
+1446;Preferred Securities Vaneck ETF;PFXF
+1447;G-X FTSE Portugal 20 ETF;PGAL
+1448;Asian & Gulf Currency Reval ETN Ipath;PGD
+1449;Financial Preferred Powershares;PGF
+1450;Global Short Term Hi Yld PS;PGHY
+1451;DJ-UBS Platinum TR Sub-Idx ETN Ipath;PGM
+1452;Platinum Subindex Total Return ETN;PGMB
+1453;Preferred Portfolio Powershares;PGX
+1454;Fundamental High Yld Corp Bond Powershares;PHB
+1455;S&P 500 Downside Hedged PS;PHDG
+1456;Sprott Physical Gold Trust;PHYS
+1457;Intl Corporate Bond Powershares;PICB
+1458;Global Sel Metals & Mining Prd MSCI Ishares;PICK
+1459;Direxion Daily Pharmaceutical & Medical Bull 3X;PILL
+1460;India Powershares;PIN
+1461;Dynamic Pharmaceuticals Powershares;PJP
+1462;Dynamic Building & Construct Powershares;PKB
+1463;Platinum Group Metals Ltd;PLG
+1464;Polymet Mining;PLM
+1465;Poland Vaneck ETF;PLND
+1466;Graniteshares Platinum Shares ETF;PLTM
+1467;Protalix Biotherapeutics;PLX
+1468;Plymouth Industrial REIT Inc Cum Red Pfd Ser A;PLY-A
+1469;Plymouth Industrial REIT Inc;PLYM
+1470;Dynamic Retail Powershares;PMR
+1471;Aerospace & Defense Powershares;PPA
+1472;Portfolio Developed Markets ETF;PPDM
+1473;Portfolio Emerging Markets ETF;PPEM
+1474;Portfolio S&P 500 ETF;PPLC
+1475;Cushing 30 MLP Index Etns Due June 15 2037;PPLN
+1476;Physical Platinum;PPLT
+1477;Portfolio S&P Mid Cap ETF;PPMC
+1478;Portfolio S&P Small Cap;PPSC
+1479;Portfolio Total Bond Markets ETF;PPTB
+1480;Pre-Refunded Muni ETF Vaneck;PRB
+1481;Principal Spectrum Preferred Securities Active E;PREF
+1482;FTSE RAFI US 1000 Powershares;PRF
+1483;Insightshares Lgbt Employment Equality ETF;PRID
+1484;Park National Corp;PRK
+1485;Heitman Global Prime Real Estate ETF FT;PRME
+1486;3D Printing ETF;PRNT
+1487;Dynamic Semiconductors Powershares;PSI
+1488;Dynamic Software Powershares;PSJ
+1489;Wells Fargo Preferred Stock SPDR;PSK
+1490;Sprott Physical Silver Trust ETV;PSLV
+1491;Balanced Multi-Asset Allocation PS;PSMB
+1492;Conservative Multi-Asset Allocation PS;PSMC
+1493;Growth Multi-Asset Allocation Portfolio PS;PSMG
+1494;Moderately Conservative Multi-Asset PS;PSMM
+1495;Global Listed Private Eq Powershares;PSP
+1496;QQQ Short Proshares;PSQ
+1497;Active US Real Estate Powershares;PSR
+1498;Ultrashort 7-10 Year Treasury Proshares;PST
+1499;Pacer Trendpilot European Index ETF;PTEU
+1500;Pacer Trendpilot 750 ETF;PTLC
+1501;Long Platinum TR ETN UBS E-Tracs;PTM
+1502;Pacer Trendpilot 450 ETF;PTMC
+1503;Palatin Technologies;PTN
+1504;Pacer Trendpilot 100 ETF;PTNQ
+1505;Wisdomtree CBOE S&P 500 Put Write;PUTW
+1506;Wilderhill Progressive Energy Powershares;PUW
+1507;Vrdo Tax-Free Weekly Powershares;PVI
+1508;Pittsburgh & West Virginia Railroad;PW
+1509;Power REIT 7.75% Series A Cumul;PW-A
+1510;Dynamic Largecap Growth Powershares;PWB
+1511;Dynamic Market Powershares;PWC
+1512;Pacer Trendpilot;PWS
+1513;Dynamic Largecap Value Powershares;PWV
+1514;Insured Cali Muni Bond Powershares;PWZ
+1515;Dynamic Energy Explor & Prod Powershares;PXE
+1516;FTSE RAFI Dev Mkts Ex-US Powershares;PXF
+1517;FTSE RAFI Emrg Mkts Powershares;PXH
+1518;Dynamic Oil & Gas Services Powershares;PXJ
+1519;Fundamental Pure Large Grow Powershares;PXLG
+1520;Fundamental Pure Large Value Powershares;PXLV
+1521;Fundamental Pure Mid Growth Powershares;PXMG
+1522;Fundamental Pure Mid Value Powershares;PXMV
+1523;Dynamic Networking Powershares;PXQ
+1524;Emrg Mkts Infrastructure Powershares;PXR
+1525;Fundamental Pure Small Grow Powershares;PXSG
+1526;Fundamental Pure Small Value Powershares;PXSV
+1527;Insured National Muni Bond Powershares;PZA
+1528;Cleantech Powershares;PZD
+1529;Paramount Gold and Silver;PZG
+1530;Zacks Micro Cap Powershares;PZI
+1531;Insured NY Muni Bond Powershares;PZT
+1532;IQ Hedge Multi-Strategy Tracker ETF;QAI
+1533;Canada Quality Mix Ishares ETF;QCAN
+1534;Flexshares Quality Div Def Fund;QDEF
+1535;Germany Quality Mix Ishares ETF;QDEU
+1536;Flexshares Quality Div Fund;QDF
+1537;Flexshares Quality Div Dyn Fund;QDYN
+1538;IQ Hedge Event-Driven Tracker ETF;QED
+1539;EAFE Qlty Mix MSCI ETF SPDR;QEFA
+1540;EM Strategicfactors MSCI ETF SPDR;QEMM
+1541;UK Quality Mix Ishares ETF;QGBR
+1542;IQ Leaders Gtaa Tracker ETF;QGTA
+1543;Ultrashort QQQ Proshares;QID
+1544;Japan Quality Mix Ishares ETF;QJPN
+1545;Ultra QQQ Proshares;QLD
+1546;IQ Hedge Long Short Tracker ETF;QLS
+1547;AAA - A Rated Corporate Bond Ishares;QLTA
+1548;IQ Hedge Market Neutral Tracker ETF;QMN
+1549;Quantitative Momentum ETF;QMOM
+1550;Nasdaq 100 EW Index Direxion;QQQE
+1551;Wisdomtree U.S. Quality Shareholder Yield Fund;QSY
+1552;USA Quality Factor Ishares ETF;QUAL
+1553;USA Qlty Mix MSCI ETF SPDR;QUS
+1554;US Quantitative Valueshares ETF;QVAL
+1555;Arrow Qvm Equity Factor ETF;QVM
+1556;World Qlty Mix MSCI ETF SPDR;QWLD
+1557;Quantx Risk Managed Growth ETF ETF;QXGG
+1558;Quantx Risk Managed Multi-Asset Income ETF;QXMI
+1559;Quantx Risk Managed Real Return ETF;QXRR
+1560;Quantx Risk Managed Multi-Asset Total Return ETF;QXTR
+1561;RAFI Long/Short Proshares;RALS
+1562;Flexshares Ready Access Variable Income;RAVI
+1563;Nationwide Risk-Based International Equity ETF;RBIN
+1564;Nationwide Risk-Based U.S. Equity ETF;RBUS
+1565;S&P 500 Cons Disc EW Guggenheim;RCD
+1566;Renaissance Capital Growth & Income Fund III;RCG
+1567;Elkhorn Fundamental Commodity Strategy ETF;RCOM
+1568;Ultra Dividend Revenue ETF Oppenheimer;RDIV
+1569;Reeds Inc;REED
+1570;Oppenheimer Revenue Weighted ETF Trust ETF;REEM
+1571;Ishares Global REIT ETF;REET
+1572;Oppenheimer International Revenue ETF;REFA
+1573;S&P Midcap 400 Divd Proshares;REGL
+1574;Ring Energy Inc;REI
+1575;Real Estate Short Proshares;REK
+1576;FTSE Nareit Mort Plus Cp Idx Ishares;REM
+1577;X-Links Mthy Pay 2X Leveraged Mortgage REIT;REML
+1578;Rare Earth/Strategic Metals Vaneck ETF;REMX
+1579;Retail Bull 3X Direxion;RETL
+1580;Ultrashort Technology Proshares;REW
+1581;Ishares Residential Real Estate ETF;REZ
+1582;Riverfront Core Income Fund ETF;RFCI
+1583;Riverfront US Dividend Adv ETF;RFDA
+1584;Riverfront US Flex-Cap ETF;RFFC
+1585;S&P Midcap 400 Pure Growth Guggenheim;RFG
+1586;Riverfront Unconstrained Income ETF;RFUN
+1587;S&P Midcap 400 Pure Value Guggenheim;RFV
+1588;S&P 500 Industrial EW Guggenheim;RGI
+1589;Oppenheimer Global Revenue ETF;RGLB
+1590;Regional Health Properties;RHE
+1591;Regional Health Properties 10.875% Series A;RHE-A
+1592;S&P 500 Cons Staples EW Guggenheim;RHS
+1593;Rmr Real Estate Income Fund;RIF
+1594;Riverfront Strategic Income Fund ETF;RIGS
+1595;30 Year Tips/Tsy Spread Proshares;RINF
+1596;Sit Rising Rate ETF;RISE
+1597;Rogers Agriculture ETN Elements;RJA
+1598;Rogers Commodity ETN Elements;RJI
+1599;Rogers Energy ETN Elements;RJN
+1600;Rogers Metal ETN Elements;RJZ
+1601;Radiant Logistics Inc 9.75% S;RLG-A
+1602;Radiant Logistics;RLGT
+1603;SSGA Multi-Asset Real Return ETF SPDR;RLY
+1604;Rexahn Pharmaceuticals;RNN
+1605;Lattice EM Strategy ETF;ROAM
+1606;Lattice Developed Markets Ex-US ETF;RODM
+1607;Lattice Global Smallcap Strategy ETF;ROGS
+1608;Long Extd Russell 1000 TR ETN Ipath;ROLA
+1609;Ultra Technology Proshares;ROM
+1610;IQ US Real Estate Smallcap ETF;ROOF
+1611;Lattice Real Estate Strategy ETF;RORE
+1612;Lattice US Equity Strategy ETF;ROUS
+1613;Castle Brands;ROX
+1614;S&P 500 Pure Growth Guggenheim;RPG
+1615;Wisdomtree CBOE Russell 2000 Putwrite Strategy F;RPUT
+1616;S&P 500 Pure Value Guggenheim;RPV
+1617;S&P 500 EW Guggenheim;RSP
+1618;Russia Vaneck ETF;RSX
+1619;Russia Smallcap Vaneck ETF;RSXJ
+1620;Retail ETF Vaneck;RTH
+1621;Ipath Long Extended Russell 2000 TR;RTLA
+1622;S&P 500 Materials EW Guggenheim;RTM
+1623;Russia Bull 3X Direxion;RUSL
+1624;Russia Bear 3X Direxion;RUSS
+1625;Db-Xt Municipal Infrastructure ETF;RVNU
+1626;Retractable Technologies;RVP
+1627;Reverse Cap Weighted US Large Cap ETF;RVRS
+1628;Relm Wireless Corp;RWC
+1629;Smallcap Revenue ETF Oppenheimer;RWJ
+1630;Midcap Revenue ETF Oppenheimer;RWK
+1631;Largecap Revenue ETF Oppenheimer;RWL
+1632;Russell 2000 Short Proshares;RWM
+1633;DJ Global Real Estate ETF SPDR;RWO
+1634;DJ REIT ETF SPDR;RWR
+1635;Financial Sector Revenue ETF Oppenheimer;RWW
+1636;DJ Intl Real Estate ETF SPDR;RWX
+1637;Ultrashort Health Care Proshares;RXD
+1638;S&P Global Cons Disc Ishares;RXI
+1639;Ultra Health Care Proshares;RXL
+1640;S&P 500 Energy Equal Weight Guggenheim;RYE
+1641;S&P 500 Financials EW Guggenheim;RYF
+1642;S&P 500 Healthcare EW Guggenheim;RYH
+1643;Rj Sb-1 Equity Guggenheim ETF;RYJ
+1644;S&P 500 Technology EW Guggenheim;RYT
+1645;S&P 500 Utilities EW Guggenheim;RYU
+1646;S&P Smallcap 600 Pure Growth Guggenheim;RZG
+1647;S&P Smallcap 600 Pure Value Guggenheim;RZV
+1648;Ultra Smallcap 600 Proshares;SAA
+1649;Sachem Capital Corp;SACH
+1650;Total Bond Market Bear -1X Direxion;SAGG
+1651;Sandstorm Gold Ltd;SAND
+1652;Smallcap 600 Short Proshares;SBB
+1653;Alps Medical Breakthroughs ETF;SBIO
+1654;Basic Materials Short Proshares;SBM
+1655;Ipath Pure Beta Broad Commodity;SBV
+1656;Advisorshares Cornerstone Small;SCAP
+1657;Ultrashort Consumer Services Proshares;SCC
+1658;South CA Edis 408 Pf;SCE-B
+1659;South CA Edis 424 Pf;SCE-C
+1660;South CA Edis 431 Pf;SCE-D
+1661;South CA Edis 478 Pf;SCE-E
+1662;Schwab US Smallcap ETF;SCHA
+1663;Schwab US Broad Market ETF;SCHB
+1664;Schwab Intl Smallcap ETF;SCHC
+1665;Schwab US Dividend Equity ETF;SCHD
+1666;Schwab EM Mkts Equity ETF;SCHE
+1667;Schwab Intl Equity ETF;SCHF
+1668;Schwab US Largecap Growth ETF;SCHG
+1669;Schwab US REIT ETF;SCHH
+1670;Schwab 1000 Index ETF;SCHK
+1671;Schwab US Midcap ETF;SCHM
+1672;Schwab Short-Term US Trsy ETF;SCHO
+1673;Schwab US TIPS ETF;SCHP
+1674;Schwab Interm-Term US Treasury;SCHR
+1675;Schwab US Largecap Value ETF;SCHV
+1676;Schwab US Largecap ETF;SCHX
+1677;Schwab US Aggregate Bond ETF;SCHZ
+1678;G-X Scientific Beta Europe ETF;SCID
+1679;India Smallcap ETF Vaneck;SCIF
+1680;G-X Scientific Beta Japan ETF;SCIJ
+1681;India Smallcap Egshares;SCIN
+1682;G-X Scientific Beta US ETF;SCIU
+1683;G-X Scientific Beta Asia Ex-Jpn ETF;SCIX
+1684;Japan Smallcap MSCI Ishares;SCJ
+1685;Ultrashort DJ-UBS Crude Oil Proshares;SCO
+1686;G-X JPM US Sector Rotator ETF;SCTO
+1687;Ultrashort Smallcap 600 Proshares;SDD
+1688;G-X Super Dividend EM ETF;SDEM
+1689;G-X Superdividend ETF;SDIV
+1690;Alps Sector Dividend Dogs ETF;SDOG
+1691;Ultrapro Short DOW 30 Proshares;SDOW
+1692;Ultrashort Utilities Proshares;SDP
+1693;Superior Drilling Products Inc;SDPI
+1694;Ultrashort S&P 500 Proshares;SDS
+1695;S&P Dividend SPDR;SDY
+1696;Etracs Mt Pay 2X S&P Div ETN;SDYL
+1697;Shipping Guggenheim ETF;SEA
+1698;Seaboard Corp;SEB
+1699;Northern Lights IV Main Sector Rotation ETF;SECT
+1700;Financials Short Proshares;SEF
+1701;Senseonics Holdings;SENS
+1702;Wisdomtree Short-Term Hi Yld Corp Bond Fundament;SFHY
+1703;Wisdomtree Short-Term Corp Bond Fundamental;SFIG
+1704;Long Extd S&P 500 TR ETN Ipath;SFLA
+1705;Saga Communications;SGA
+1706;Sugar Pure Beta ETN Ipath;SGAR
+1707;Southwest Georgia Financial Corp;SGB
+1708;Alps ETF Trust Sprott Junior Gold;SGDJ
+1709;Sprott Gold Miners ETF;SGDM
+1710;DJ-UBS Sugar TR Sub-Idx ETN Ipath;SGG
+1711;Ipatha Sugar Series B Bloomberg Subindex Total R;SGGB
+1712;Physical Swiss Gold;SGOL
+1713;Stone Energy Corp;SGY.W
+1714;S&P 500 Short Proshares;SH
+1715;Wisdomtree Yield Enhanced U.S. Short-Term Aggreg;SHAG
+1716;SSGA Gender Diversity ETF SPDR;SHE
+1717;Short-Term Muni Bond ETF SPDR;SHM
+1718;Direxion Silver Miners Bull 2X;SHNY
+1719;Short High-Yield Vaneck ETF;SHYD
+1720;0-5 Year Hi Yld Core Ishares;SHYG
+1721;Xtrackers Short Duration High Yield Bond ETF;SHYL
+1722;Sifco Industries;SIF
+1723;Ultrashort Industrials Proshares;SIJ
+1724;G-X Silver Miners ETF;SIL
+1725;Purefunds ISE Junior Silver ETF;SILJ
+1726;Grupo Simec S.A. De C.V.;SIM
+1727;Physical Silver;SIVR
+1728;US Size Mkt Neutral ETF Quantshares;SIZ
+1729;USA Size Factor Ishares ETF;SIZE
+1730;High Yld Short Proshares;SJB
+1731;ST High Yield Bond ETF SPDR;SJNK
+1732;Ultrashort Financials Proshares;SKF
+1733;Skyline Corp;SKY
+1734;Silver Trust Ishares;SLV
+1735;Global Silver Miners MSCI Ishares;SLVP
+1736;Steel Vaneck ETF;SLX
+1737;S&P Smallcap 600 SPDR;SLY
+1738;S&P Smallcap Growth ETF SPDR;SLYG
+1739;S&P Smallcap Value ETF SPDR;SLYV
+1740;Municipal Short Vaneck ETF;SMB
+1741;Ultrapro Short Midcap 400 Proshares;SMDD
+1742;Russell 2000 Divd Proshares;SMDV
+1743;Euro Stoxx Smallcap ETF SPDR;SMEZ
+1744;Semiconductor Vaneck ETF;SMH
+1745;Etracs Mt Pay 2X US Smallcap Hi Div ETN;SMHD
+1746;India Smallcap MSCI Ishares;SMIN
+1747;Ishares US Smallcap Multifactor ETF;SMLF
+1748;Direxion Smallcap Bull;SMLL
+1749;SSGA US Smallcap Low Vol Index SPDR;SMLV
+1750;Ishares Trust;SMMD
+1751;Short-Term Muni Bond Strgy ETF Pimco;SMMU
+1752;Ishares Min Vol USA Smallcap ETF;SMMV
+1753;Ultrashort Basic Materials Proshares;SMN
+1754;Sierra Metals Inc;SMTS
+1755;Sanchez Midstream Partners LP;SNMP
+1756;G-X Fertilizers/Potash ETF;SOIL
+1757;Cambria Sovereign High Yield Bo;SOVB
+1758;Semiconductor Bull 3X Direxion;SOXL
+1759;Semiconductor Bear 3X Direxion;SOXS
+1760;Teucrium Soybean;SOYB
+1761;SPDR Aggregate Bond Portfolio ETF;SPAB
+1762;Direxion S&P 500 Bear 1X;SPDN
+1763;Aam S&P 500 High Dividend Value ETF;SPDV
+1764;SPDR World Ex-US Portfolio ETF;SPDW
+1765;SPDR Emerging Markets Portfolio ETF;SPEM
+1766;G-X Superincome Preferred ETF;SPFF
+1767;S&P 500 High Beta Powershares;SPHB
+1768;S&P 500 Hi Div Low Vol PS;SPHD
+1769;S&P 500 High Qlty Powershares;SPHQ
+1770;SPDR Intermediate Term Corporate Bond Portfolio;SPIB
+1771;SPDR Long Term Corporate Bond Portfolio ETF;SPLB
+1772;SPDR Large Cap Portfolio ETF;SPLG
+1773;S&P 500 Low Vol Powershares;SPLV
+1774;Etracs Mt Reset 2X S&P 500 TR ETN;SPLX
+1775;SPDR Mid Cap Portfolio ETF;SPMD
+1776;S&P 500 Momentum Portfolio PS;SPMO
+1777;Powershares S&P 500 Minimum Variance Portfolio;SPMV
+1778;Sprott Physical Platinum and Palladium;SPPP
+1779;SPDR Short Term Corporate Bond Portfolio ETF;SPSB
+1780;SPDR Small Cap Portfolio ETF;SPSM
+1781;SPDR Long Term Treasury Portfolio ETF;SPTL
+1782;SPDR Total Stock Market Portfolio ETF;SPTM
+1783;SPDR Short Term Treasury Portfolio ETF;SPTS
+1784;Global Spin-Off Vaneck;SPUN
+1785;Direxion S&P 500 Bull 2X;SPUU
+1786;S&P 500 Value Momentum Portfolio PS;SPVM
+1787;S&P 500 Value Portfolio PS;SPVU
+1788;S&P 500 Ex-Energy Proshares;SPXE
+1789;Velocity Vol Hedge;SPXH
+1790;Direxion S&P 500 Bull 3X;SPXL
+1791;S&P 500 Ex-Financials Proshares;SPXN
+1792;Direxion S&P 500 Bear 3X;SPXS
+1793;S&P 500 Ex-Technology Proshares;SPXT
+1794;Ultrapro Short S&P 500 Proshares;SPXU
+1795;S&P 500 Ex-Health Care Proshares;SPXV
+1796;S&P 500 SPDR;SPY
+1797;S&P 500 Buyback ETF SPDR;SPYB
+1798;SPDR S&P 500 High Dividend Portfolio ETF;SPYD
+1799;SPDR S&P 500 Growth Portfolio ETF;SPYG
+1800;SPDR S&P 500 Value Portfolio ETF;SPYV
+1801;S&P 500 Ex-Fossil Fuel ETF SPDR;SPYX
+1802;Src Energy Inc;SRCI
+1803;Blackstone Gso Senior Loan SPDR;SRLN
+1804;Ultrashort Real Estate Proshares;SRS
+1805;Ultrapro Short Russell 2000 Proshares;SRTY
+1806;Ultrashort Semiconductors Proshares;SSG
+1807;Ultra S&P 500 Proshares;SSO
+1808;Sunlink Health Systems;SSY
+1809;0-5 Year TIPS Bond Ishares;STIP
+1810;Short Duration TR Tactical ETF SPDR;STOT
+1811;1-5 Year US TIPS Index ETF Pimco;STPZ
+1812;Straight Path Communications In;STRP
+1813;S&P S/T National Muni Bond Ishares;SUB
+1814;Ishares Trust;SUSA
+1815;Silvercorp Metals Inc;SVM
+1816;Servotronics Inc;SVT
+1817;VIX Short-Term Fut Short Proshares;SVXY
+1818;MFS Core Equity ETF SPDR;SYE
+1819;MFS Growth Equity ETF SPDR;SYG
+1820;Cambria Shareholder Yield ETF;SYLD
+1821;Synthetic Biologics Inc;SYN
+1822;MFS Value Equity ETF SPDR;SYV
+1823;Ultrashort Consumer Goods Proshares;SZK
+1824;DB Crude Oil -1X ETN Powershares;SZO
+1825;Teucrium Agricultural;TAGS
+1826;Cambria Tail Risk ETF;TAIL
+1827;Solar ETF Guggenheim;TAN
+1828;China Real Estate Guggenheim;TAO
+1829;Transatlantic Petroleum Ltd;TAT
+1830;U.S. Tax Reform Fund;TAXR
+1831;20+ Year Short Treasury Proshares;TBF
+1832;Managed Portfolio Series Tortoise Water Fund;TBLU
+1833;Ultrashort 20+ Year Treasury Proshares;TBT
+1834;7-10 Year Short Treasury Proshares;TBX
+1835;Ishares Technology Multifactor;TCHF
+1836;Premise Capital Frontier Advantage Dvsfd Tct ETF;TCTL
+1837;Iboxx 5Yr Target Dur TIPS ETF Flexshares;TDTF
+1838;Iboxx 3Yr Target Dur TIPS ETF Flexshares;TDTT
+1839;Technology Bull 3X Direxion;TECL
+1840;Technology Bear 3X Direxion;TECS
+1841;Equitycompass Tactical Risk Manager ETF;TERM
+1842;Industry Exposure & Fin Srvs ETF;TETF
+1843;Pareteum Corp;TEUM
+1844;Muni Bond ETF SPDR;TFI
+1845;Treasury Floating Rate Ishares;TFLO
+1846;Taseko Mines Ltd;TGB
+1847;Tengasco Inc;TGC
+1848;Thailand Index MSCI Ishares;THD
+1849;International Tower Hill Mines Ltd;THM
+1850;Tel-Instrument Electronics;TIK
+1851;Mstar US Mkt Factors Tilt ETF Flexshares;TILT
+1852;TIPS Bond Ishares;TIP
+1853;Barclays 1-10 Year TIPS SPDR;TIPX
+1854;Broad U.S. TIPS Index ETF Pimco;TIPZ
+1855;Orchids Paper Products Company;TIS
+1856;Takung Art Co. Ltd;TKAT
+1857;Flexshares Dm Ex-US Factor Tilt Index Fund;TLDH
+1858;Flexshares EM Factor Tilt Index Fund;TLEH
+1859;10-20 Year Treasury Bd Ishares;TLH
+1860;Flexshares Dev Mkt Ex-US Factor Tilt Index Fund;TLTD
+1861;Flexshares EM Factor Tilt Index Fund;TLTE
+1862;20+ Year Trsy Bull 3X Direxion;TMF
+1863;Motley Fool 100 Index ETF ETF;TMFC
+1864;Tompkinstrustco;TMP
+1865;Trilogy Metals Inc;TMQ
+1866;20+ Year Trsy Bear 3X Direxion;TMV
+1867;Smallcap Bull 3X Direxion;TNA
+1868;Kokusai Index MSCI Ishares;TOK
+1869;DJ Brookfield Global Proshares;TOLZ
+1870;Total Return Tactical ETF SPDR;TOTL
+1871;Trinity Pl Hldgs Inc;TPHS
+1872;Direxion Daily Transportation Bull 3X Shares;TPOR
+1873;Tortoise North Amer Pipeline Fund;TPYP
+1874;Velocity Tail Risk Hedged;TRSK
+1875;Trio-Tech International;TRT
+1876;Tanzanian Royalty Exploration Corp;TRX
+1877;Transenterix Inc;TRXC
+1878;Trimtabs Float Shrink ETF;TTAC
+1879;Trimtabs ETF Trust ETF;TTAI
+1880;Advisorshares Wilshire Buyback ETF;TTFS
+1881;Ultrapro Short 20+ Year Trsy Proshares;TTT
+1882;1-3 Year US Treasury Index ETF Pimco;TUZ
+1883;Ultrashort Russell 2000 Proshares;TWM
+1884;20+ Year Trsy Bear 1X Direxion;TYBS
+1885;7-10 Year Treasury Bull 3X Direxion;TYD
+1886;7-10 Year Treasury Bear -1X Direxion;TYNS
+1887;7-10 Year Treasury Bear -3X Direxion;TYO
+1888;Smallcap Bear 3X Direxion;TZA
+1889;CMCI Agriculture TR ETN UBS E-Tracs;UAG
+1890;U S Antimony Corp;UAMY
+1891;Citigroup Global Markets Holdings Inc;UAUD
+1892;CMCI Livestock TR ETN UBS E-Tracs;UBC
+1893;CMCI Gold TR ETN UBS E-Tracs;UBG
+1894;CMCI Industrial Metals TR ETN UBS E-Tracs;UBM
+1895;CMCI Energy TR ETN UBS E-Tracs;UBN
+1896;Ultra MSCI Brazil Proshares;UBR
+1897;CS Axelatrader 3X Long Brent Crude Oil ETN;UBRT
+1898;Ultra 20+ Year Treasury Proshares;UBT
+1899;Ultra Consumer Services Proshares;UCC
+1900;Citigroup Global Markets Holdings Inc;UCHF
+1901;CMCI TR ETN UBS E-Tracs;UCI
+1902;Etracs UBS Bberg Constant Maturity ETN;UCIB
+1903;Ultra DJ-UBS Crude Oil Proshares;UCO
+1904;DB US Dollar Bearish Powershares;UDN
+1905;Ultrapro DOW 30 Proshares;UDOW
+1906;Uranium Energy;UEC
+1907;Citigroup Global Markets Holdings Inc;UEUR
+1908;Usaa MSCI EM Value Momentum Blend Index ETF;UEVM
+1909;Unique Fabricating Inc;UFAB
+1910;US Gasoline;UGA
+1911;Natural Gas 3X Long ETN Velocityshares;UGAZ
+1912;Citigroup Global Markets Holdings Inc;UGBP
+1913;Ultra Consumer Goods Proshares;UGE
+1914;Ultra Gold Proshares;UGL
+1915;US Heating Oil;UHN
+1916;Usaa Core Intermediate-Term Bond ETF;UITB
+1917;Usaa MSCI Intl Value Momentum Blend Index ETF;UIVM
+1918;Ultra High Yield Proshares;UJB
+1919;Citigroup Global Markets Holdings Inc;UJPY
+1920;Citigroup Global Markets Holdings Inc Velocitysh;ULBR
+1921;Ultra Euro Proshares;ULE
+1922;SSGA Ultra Short Term Bond SPDR;ULST
+1923;Usaa MSCI USA Value Momentum Blend Index ETF;ULVM
+1924;Ultrapro Midcap 400 Proshares;UMDD
+1925;US Natural Gas Fund;UNG
+1926;US 12 Month Natural Gas;UNL
+1927;Ultrapro S&P 500 Proshares;UPRO
+1928;Ultra FTSE Europe Proshares;UPV
+1929;Ultra Utilities Proshares;UPW
+1930;Uqm Technologies Inc;UQM
+1931;G-X Uranium ETF;URA
+1932;Ultra Real Estate Proshares;URE
+1933;Ur Energy Inc;URG
+1934;Euro 2X ETN Vaneck;URR
+1935;World Index MSCI Ishares;URTH
+1936;Ultrapro Russell 2000 Proshares;URTY
+1937;US Agriculture Index;USAG
+1938;American Energy Independence ETF;USAI
+1939;Americas Silver Corp;USAS
+1940;US Commodity Index;USCI
+1941;Ultra Semiconductors Proshares;USD
+1942;Wisdomtree USD Bullish Fund;USDU
+1943;Horizons Cadence Hedged US Dividend Yield ETF;USDY
+1944;Powershares Russell 1000 Enhanced Equal Weight P;USEQ
+1945;Wisdomtree Floating Rate Treasury Fund;USFR
+1946;Ishares Broad USD High Yield Corporate Bond ETF;USHY
+1947;US 12 Month Oil;USL
+1948;Wisdomtree U.S. Multifactor Fund;USMF
+1949;US Min Vol MSCI Ishares;USMV
+1950;US Oil Fund;USO
+1951;United States 3X Short Oil Fund;USOD
+1952;United States 3X Oil Fund;USOU
+1953;Ishares Core US REIT ETF;USRT
+1954;Ultra 7-10 Year Treasury Proshares;UST
+1955;Usaa Core Short-Term Bond ETF;USTB
+1956;CMCI Silver TR ETN UBS E-Tracs;USV
+1957;Usaa MSCI USA Small Cap Value Momentum Blend Ind;USVM
+1958;Reaves Utilities ETF;UTES
+1959;Reaves Utility;UTG
+1960;Ishares Utilities Multifactor;UTLF
+1961;Direxion Daily Utilities Bull 3X Shares;UTSL
+1962;DB US Dollar Bullish Powershares;UUP
+1963;Universal Security Instruments;UUU
+1964;Energy Fuels Inc Warrants;UUU.W
+1965;Energy Fuels Inc;UUUU
+1966;Ultra VIX Short-Term Fut Proshares;UVXY
+1967;Ultra Russell 2000 Proshares;UWM
+1968;Nevada Gold & Casinos;UWN
+1969;Velocity 3X Long Crude Oil;UWT
+1970;Ultra Industrials Proshares;UXI
+1971;Ultra Financials Proshares;UYG
+1972;Ultra Basic Materials Proshares;UYM
+1973;American Century Stoxx U.S. Quality Value ETF;VALQ
+1974;Cambria ETF Trust Cambria Value;VAMO
+1975;Materials ETF Vanguard;VAW
+1976;Smallcap ETF Vanguard;VB
+1977;Smallcap Growth ETF Vanguard;VBK
+1978;Vident Core U.S. Bond Strategy Fund;VBND
+1979;Smallcap Value ETF Vanguard;VBR
+1980;Delaware Colorado Muni Income Fund Inc;VCF
+1981;Consumer Disc ETF Vanguard;VCR
+1982;Consumer Staples ETF Vanguard;VDC
+1983;Energy ETF Vanguard;VDE
+1984;FTSE Developed Markets Vanguard;VEA
+1985;Advisorshares Star Global Buy-Write ETF;VEGA
+1986;Global Agriculture Prod MSCI Ishares;VEGI
+1987;Virtus Enhanced Short U.S. Equity ETF;VESH
+1988;FTSE All-World Ex-US ETF Vanguard;VEU
+1989;Financial ETF Vanguard;VFH
+1990;Delaware Florida Insured Muni;VFL
+1991;Vanguard U.S. Liquidity Factor ETF;VFLQ
+1992;Vanguard U.S. Multifactor ETF;VFMF
+1993;Vanguard U.S. Momentum Factor ETF;VFMO
+1994;Vanguard U.S. Minimum Volatility ETF;VFMV
+1995;Vanguard U.S. Quality Factor ETF;VFQY
+1996;Vanguard Wellington Fund ETF;VFVA
+1997;Virtus Wmc Global Factor Opportunities ETF;VGFO
+1998;Europe ETF FTSE Vanguard;VGK
+1999;Information Technology ETF Vanguard;VGT
+2000;Vista Gold Corp;VGZ
+2001;Virnetx Holding Corp;VHC
+2002;Healthcare ETF Vanguard;VHT
+2003;Vident Intl Equity Fund;VIDI
+2004;Dividend Appreciation ETF Vanguard;VIG
+2005;Vicon Industries Inc;VII
+2006;S&P Smallcap 600 Growth Vanguard;VIOG
+2007;S&P Smallcap 600 Index Vanguard;VIOO
+2008;S&P Smallcap 600 Value Vanguard;VIOV
+2009;Industrials ETF Vanguard;VIS
+2010;Volt Information Services Inc;VISI
+2011;VIX Mid-Term Futures Proshares;VIXM
+2012;VIX Short-Term Futures Proshares;VIXY
+2013;Invesco Advantage Muni Income Trust II;VKI
+2014;S&P 1500 Value Tilt ETF SPDR;VLU
+2015;USA Value Factor Ishares ETF;VLUE
+2016;Rex Volmaxx Long VIX Weekly Futures;VMAX
+2017;Rex Volmaxx Inverse VIX Weekly;VMIN
+2018;Delaware Minnesota Muni II;VMM
+2019;Alpha Architect Value Momentum Trend ETF;VMOT
+2020;Janus Short Duration Income ETF;VNLA
+2021;Vietnam Vaneck ETF;VNM
+2022;Vanguard Real Estate ETF;VNQ
+2023;Volitionrx Ltd;VNRX
+2024;Midcap ETF Vanguard;VO
+2025;Midcap Value ETF Vanguard;VOE
+2026;S&P 500 ETF Vanguard;VOO
+2027;S&P 500 Growth ETF Vanguard;VOOG
+2028;S&P 500 Value ETF Vanguard;VOOV
+2029;Midcap Growth ETF Vanguard;VOT
+2030;Telecom Services ETF Vanguard;VOX
+2031;Pacific ETF FTSE Vanguard;VPL
+2032;Utilities ETF Vanguard;VPU
+2033;S&P 500 Dynamic Veqtor ETN Barclays;VQT
+2034;Variable Rate Preferred Portfolio PS;VRP
+2035;Volshares Large Cap ETF;VSL
+2036;FTSE All-World Ex-US Smcp Idx ETF Vanguard;VSS
+2037;Total World Stock Index ETF Vanguard;VT
+2038;Tax-Exempt Bond Vanguard;VTEB
+2039;Total Stock Market ETF Vanguard;VTI
+2040;Value ETF Vanguard;VTV
+2041;Growth ETF Vanguard;VUG
+2042;Vident Core US Equity;VUSE
+2043;Largecap ETF Vanguard;VV
+2044;Emrg Mkts ETF MSCI Vanguard;VWO
+2045;Extended Market Index ETF Vanguard;VXF
+2046;VIX Short-Term Futures ETN Ipath;VXX
+2047;Ipath S&P 500 VIX Short-Term Futures ETN;VXXB
+2048;VIX Mid-Term Futures ETN Ipath;VXZ
+2049;Ipath S&P 500 VIX Mid-Term Futures ETN;VXZB
+2050;High Dividend Yld Indx ETF Vanguard;VYM
+2051;Wisdomtree Balanced Income Fund;WBAL
+2052;WBI Smg Growth Shares;WBIA
+2053;WBI Smg Value Shares;WBIB
+2054;WBI Smg Yield Shares;WBIC
+2055;WBI Smg Select Shares;WBID
+2056;WBI Largecap Growth Shares;WBIE
+2057;WBI Largecap Value Shares;WBIF
+2058;WBI Largecap Growth Shares;WBIG
+2059;WBI High Income Shares;WBIH
+2060;WBI Income Shares;WBII
+2061;WBI Largecap Select Shares;WBIL
+2062;WBI Rotation Shares;WBIR
+2063;WBI Largecap Yield Shares;WBIY
+2064;Wisdomtree Icbccs S& P China 500 Fund;WCHN
+2065;S&P Global Dividend SPDR;WDIV
+2066;Direxion Regional Banks Bear 3X;WDRW
+2067;Wear ETF;WEAR
+2068;Teucrium Wheat;WEAT
+2069;Grains Pure Beta ETN Ipath;WEET
+2070;Wisdomtree US Export and Multinational Fund;WEXP
+2071;Wisdomtree US Hi Yld Corp Bond Fundamental;WFHY
+2072;Wisdomtree US Corp Bond Fundamental;WFIG
+2073;Barclays Women In Leadership ETF;WIL
+2074;DB Intl Govt Infl-Protected Bond SPDR;WIP
+2075;Affinity World Leaders Equity ETF ETF;WLDR
+2076;Microcap ETF Wilshire;WMCR
+2077;Mstar Wide Moat Focus ETN Elements;WMW
+2078;S&P Dev Ex-US Property Ishares;WPS
+2079;US REIT ETF Wilshire;WREI
+2080;Western Copper Corp;WRN
+2081;Spirited Funds/Etfmg Whiskey & Spirits ETF;WSKY
+2082;Crude Daily -3X Inverse Proshares;WTID
+2083;Crude Daily 3X Long Proshares;WTIU
+2084;Wisdomtree Managed Futures Strategy Fund;WTMF
+2085;Summit Water Infrastructure Multifactor ETF;WTRX
+2086;Wireless Telecom Group Inc;WTT
+2087;Wisdomtree US Domestic Economy Fund;WUSA
+2088;CDS Short N Amer HY Credit Proshares;WYDE
+2089;Widepoint Corp;WYY
+2090;S&P Aerospace & Defense SPDR;XAR
+2091;S&P Biotech SPDR;XBI
+2092;Columbia EM Core Ex-China ETF;XCEM
+2093;U.S. Equity Ex-Dividend Fund Series 2027 Shares;XDIV
+2094;S&P Oil & Gas Eqpt & Services SPDR;XES
+2095;S&P Homebuilders SPDR;XHB
+2096;S&P Healthcare Equipment SPDR;XHE
+2097;S&P Healthcare Services SPDR;XHS
+2098;China A Shares IMI MSCI ETF SPDR;XINA
+2099;Factset Innovative Technology SPDR;XITK
+2100;Velocity VIX Short Vol Hedged;XIVH
+2101;SPDR Kensho Future Security ETF;XKFS
+2102;SPDR Kensho Intelligent Structures ETF;XKII
+2103;SPDR Kensho Smart Mobility ETF;XKST
+2104;S&P 500 Materials Sector SPDR;XLB
+2105;S&P 500 Energy Sector SPDR;XLE
+2106;S&P 500 Financials Sector SPDR;XLF
+2107;Russell Top 50 Guggenheim;XLG
+2108;S&P 500 Industrial Sector SPDR;XLI
+2109;S&P 500 Info Tech Sector SPDR;XLK
+2110;S&P 500 Cons Staples Sector SPDR;XLP
+2111;S&P 500 Real Estate Sector SPDR;XLRE
+2112;S&P 500 Utilities Sector SPDR;XLU
+2113;S&P 500 Healthcare Sector SPDR;XLV
+2114;S&P 500 Cons Disc Sector SPDR;XLY
+2115;S&P Metals & Mining SPDR;XME
+2116;S&P Midcap Low Vol Portfolio PS;XMLV
+2117;CEF Municipal Income ETF Vaneck;XMPT
+2118;Wisdomtree Global Ex-Mexico Equity Fund;XMX
+2119;SPDR Series Trust;XNTK
+2120;China Xiniya Fashion;XNY
+2121;S&P Oil & Gas Expl & Prod SPDR;XOP
+2122;S&P Pharmaceuticals SPDR;XPH
+2123;Solitario Exploration & Royalty Corp;XPL
+2124;Ultra FTSE China 25 Proshares;XPP
+2125;S&P 500 Ex-Rate Low Vol ETF PS;XRLV
+2126;S&P Retail SPDR;XRT
+2127;S&P Semiconductor SPDR;XSD
+2128;S&P Smallcap Hi Div Low Vol Portolio PS;XSHD
+2129;S&P Smallcap Qlty Portfolio PS;XSHQ
+2130;S&P Smallcap Low Vol Portfolio PS;XSLV
+2131;Wisdomtree EM Ex-Soe Fund;XSOE
+2132;S&P Software & Srvs ETF SPDR;XSW
+2133;S&P Tech Hardware Et SPDR;XTH
+2134;S&P 500 Telecom Sector SPDR;XTL
+2135;S&P Transportation SPDR;XTN
+2136;Xtant Medical Holdings Inc;XTNT
+2137;Quantx Dynamic Beta US Equity ETF;XUSA
+2138;S&P 500 Dynamic VIX ETN Ipath;XVZ
+2139;S&P Internet ETF SPDR;XWEB
+2140;22nd Century Group Inc;XXII
+2141;S&P 500 VIX Inv S/T Fut ETN Ipath;XXV
+2142;Direxion FTSE China Bear 3X;YANG
+2143;China All-Cap Guggenheim;YAO
+2144;Ultra Yen Proshares;YCL
+2145;Ultrashort Yen Proshares;YCS
+2146;Amplify Yieldshares Senior Loan & Income ETF;YESR
+2147;Direxion FTSE China Bull 3X;YINN
+2148;Principal Edge Active Income ETF;YLD
+2149;High Income Infrastructure MLP Fund Vaneck;YMLI
+2150;High Income MLP ETF Yorkville;YMLP
+2151;Yuma Energy Inc;YUMA
+2152;China 25 Short Proshares;YXI
+2153;Yieldshares High Income ETF;YYY
+2154;Bats Bzx Exchange Test Issue;ZBZX
+2155;Zedge Inc Class B;ZDGE
+2156;Direxion Zacks MLP High Income ETF;ZMLP
+2157;Zomedica Pharmaceuticals Corp;ZOM
+2158;25+ Year Zero Cpn U.S. Trsy Idx ETF Pimco;ZROZ
+2159;Ultrashort Silver Proshares;ZSL
+2160;NYSE Arca Test Stock;ZVV
