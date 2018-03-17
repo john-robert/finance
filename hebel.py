@@ -286,7 +286,7 @@ def timed_job(interval_in_s, job, *args, **kwargs):
 	time_in_s = time.time()
 	while True:
 		
-		print(u"Execute '%s', on: %s" % (job.__name__, dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')) )
+		print(u"Execute '%s', on: %s (UTC %+dh, summertime: %s)" % (job.__name__, dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), int(-time.timezone/3600),time.localtime().tm_isdst ))
 		job(*args, **kwargs)
 		print(u'')
 
