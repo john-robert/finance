@@ -193,11 +193,12 @@ def testlauf(hostname_news_page):
 
 	articles = get_news(hostname_news_page)
 
-	for article in articles:
-		print_article(article)
 
 	if len(articles)>0:
-		print(u'%s news to' % articles)
+		for article in articles:
+			print_article(article)
+		print(u'%s news.' len(articles))
+
 	else:
 		print(u'No news.')
 
