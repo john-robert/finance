@@ -136,7 +136,7 @@ def make_uuid(version=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
 
 
 ###  news $ stock related  ###
-def get_news(hostname_news_page, forget_articles_of_last_time=True):
+def get_articles(hostname_news_page, forget_articles_of_last_time=True):
 
 	"""
 	Pass hostname of news paper page. E.g.: "http://www.finanznachrichten.de"
@@ -191,13 +191,13 @@ def print_article(article, outfile='./LOG/log.txt'):
 		sys.stdout = sys.__stdout__												# reset stdout to normal 
 def testlauf(hostname_news_page):
 
-	articles = get_news(hostname_news_page)
+	articles = get_articles(hostname_news_page)
 
 
 	if len(articles)>0:
 		for article in articles:
 			print_article(article)
-		print(u'%s news.' len(articles))
+		print(u'%s news.' % len(articles))
 
 	else:
 		print(u'No news.')
