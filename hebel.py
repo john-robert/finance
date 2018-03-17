@@ -491,7 +491,7 @@ def main():
 
 	hostname_news_page = u'http://www.finanznachrichten.de'
 
-	Thread             = threading.Thread(target=timed_job, args=(30, get_news, hostname_news_page), kwargs={})
+	Thread             = threading.Thread(target=timed_job, args=(300, get_news, hostname_news_page), kwargs={})
 	#Thread.daemon = True
 	Thread.start()
 	#print(threading.currentThread())
