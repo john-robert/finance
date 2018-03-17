@@ -20,27 +20,28 @@ import os
 import re
 import sys
 import uuid
+import time
 import smtplib
+import threading
 import datetime as dt
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
+#import multiprocessing
 
 #from secrets.util import gmail_auth								# private libaries
 from email.mime.multipart import MIMEMultipart
 from email.utils import formatdate
 
-
-
 import newspaper
 import fake_useragent
-import pandas_datareader.data as web
-import pandas as pd
-import requests
-import csv
-from apscheduler.schedulers.background import BackgroundScheduler
+#import pandas_datareader.data as web
+#import pandas as pd
+#import requests
+#import csv
 
 
 ######################  functions and classes  ######################
+###  little helpers  ###
 class Logger(object):
 
 	""" 
@@ -78,8 +79,6 @@ def make_random_useragent(update_database=False, ua_fallback='Mozilla/5.0 (Macin
         in html request headers to send basic information 
         (parse engine, browser, OS, ) to web servers.
 
-    If no other user_agent is used, the "request" package via the "torrequest"
-    package sends this user agent: python-requests/2.18.1
 	"""
 
 	ua_db_file  = './SUP/fake_useragent%s.json' % fake_useragent.VERSION										# when path given, database file is stored and accessed here
@@ -99,6 +98,7 @@ def make_uuid(version=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
 
 	:type version:  int
 	:param version: uuid version to be used. check given links for details.
+	                default version=4, which means random using the OS provided (pseudo)random number generators.
 
 	:type uuid_base:  uuid object
 	:param uuid_base: "base uuid" to generate a new uuid when using either version 3 or 5, together with a passed string 'uuid_string'.
@@ -108,39 +108,39 @@ def make_uuid(version=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
 						Two created uuids with same 'uuid_base' and 'uuid_string' will be identic, so 'uuid_string' should be unique.
 	"""
 
-
 	if version==1:
-		uuid = uuid.uuid1()											# uses MAC adress + Datetime
+		uuid_hash = uuid.uuid1()											# uses MAC adress + Datetime
 
 	elif version==3:
 		try:
-			uuid = uuid.uuid3(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
+			uuid_hash = uuid.uuid3(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
 		except AttributeError:
-			uuid = uuid.uuid3(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
+			uuid_hash = uuid.uuid3(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
 			print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
 
 	elif version==4:
-		uuid = uuid.uuid4()											# uses os random number generator
+		uuid_hash = uuid.uuid4()											# uses os random number generator
 
 	elif version==5:
 		try:
-			uuid = uuid.uuid5(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
+			uuid_hash = uuid.uuid5(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
 		except AttributeError:
-			uuid = uuid.uuid5(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
+			uuid_hash = uuid.uuid5(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
 			print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
 
 	else:
 		print(u'WARNING:    Uuid version %s not valid (only 1, 3, 4, or 5). Used instead version 4 (random number).' % version)
-		uuid = uuid.uuid4()
+		uuid_hash = uuid.uuid4()
 
-	return str(uuid)
+	return str(uuid_hash)
 
 
+###  news $ stock related  ###
 def get_news(hostname_news_page, forget_articles_of_last_time=True, outfile='./LOG/log.txt'):
 
 	"""
 	Pass hostname of news paper page. E.g.: "http://www.finanznachrichten.de"
-	Print URL, time, title, summary ... into shell and also into outfile (if that is given).
+	Print URL, time, UUID, title, summary ... into shell and also into outfile (if that is given).
 	"""
 
 
@@ -167,24 +167,29 @@ def get_news(hostname_news_page, forget_articles_of_last_time=True, outfile='./L
 			time                 = match.group(2)
 			time_object          = dt.datetime.strptime('%s %s' % (date, time), '%d.%m.%Y %H:%M')
 			date_time            = time_object.strftime('%Y-%m-%d, %H:%M Uhr')
+			uuid_hash            = make_uuid()
 		except Exception:
-			date_time            = '---'
+			continue
 
+		print(u'')
 		print(u'- - - ' * 30)
 		print(u'URL:        %s'  % article.url)
 		print(u'TIME:       %s'  % date_time)										# not specified by finanznachrichten.de, solved manually
+		print(u'UUID:       %s'  % uuid_hash)
 		print(u'TITLE:      %s'  % article.title)
 		#print(u'AUTHOR:     %s'  % article.authors)								# not specified by finanznachrichten.de
 		#print(u'TEXT:       %s'  % article.text)									# needs parse
 		print(u'SUMMARY:    %s'  % article.summary.replace('\n','\n            '))	# needs nlp, replace() is prepend to each new line spaces (just so output is nice)
 		print(u'KEYWORDS:   %s'  % ', '.join(article.keywords))						# needs nlp
 		print(u'- - - ' * 30)
-		print(u'')
 
-	print(u'Finished. Got %s news.' % len(news_page.articles))
 	if outfile:
-		print(u'Written to: %s' % outfile)
 		sys.stdout = sys.__stdout__													# reset stdout to normal 
+
+	if len(news_page.articles)>0:
+		print(u'Written %s news to: %s' % (len(news_page.articles),outfile))
+	else:
+		print(u'No news.')
 def get_share_values(ticker, data_source, start, end):
 
 	"""
@@ -258,6 +263,38 @@ def get_google_finance_intraday(ticker, period=60, days=1):
                             columns=columns)
     else:
         return pd.DataFrame(rows, index=pd.DatetimeIndex(times, name='Date'))
+
+
+###  infracstructure  ###
+def timed_job(interval_in_s, job, *args, **kwargs):
+
+	""" 
+	Executes function 'job' all 'interval_in_s' seconds, together with arguement
+	'*args' and keyword argument '**kwargs'.
+
+	Code works that way, that after having processed 'job', the rest of the time
+	until 'interval_in_s' is reach, the this script sleeps. 
+
+	If execution time takes longer than 'interval_in_s' (i.e., ValueError),
+	no further sleeping is applied and next iteration exectuted right away.
+
+	There shouldn't be any shift in start times of job, as it is the case
+	with other options. 
+	"""
+
+	time_in_s = time.time()
+	while True:
+		
+		print(u"Execute '%s', on: %s" % (job.__name__, dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')) )
+		job(*args, **kwargs)
+		print(u'')
+
+		time_in_s += interval_in_s;
+		try:
+			time.sleep(time_in_s - time.time())			# if negative, i.e., job took longer than 'interval_in_s', it raises ValueError
+		except ValueError as err:
+			pass 										# no sleeping, i.e., go right away into next iteration and do job
+
 
 ###  e-mail  ###
 def validMail(mail):
@@ -444,6 +481,7 @@ def sendMail(sender, recipients, cc=[], bcc=[], replyto=[], subject='', text='',
 	server.sendmail(sender, recipients + cc + bcc, text)
 	server.quit()
 
+
 ######################  main  ######################
 def main():
 
@@ -451,19 +489,24 @@ def main():
 	Main program.
 	"""
 
-	sched = BackgroundScheduler()
+	hostname_news_page = u'http://www.finanznachrichten.de'
 
-	def job_function():
-		print("Hello World")
-		time.sleep(5)
+	Thread             = threading.Thread(target=timed_job, args=(30, get_news, hostname_news_page), kwargs={})
+	#Thread.daemon = True
+	Thread.start()
+	#print(threading.currentThread())
+	#print(threading.enumerate())
+	#print(threading.activeCount())
 
 
-	print(dt.datetime.now())
 
-	# Schedules job_function to be run on the third Friday
-	# of June, July, August, November and December at 00:00, 01:00, 02:00 and 03:00
-	sched.add_job(job_function, 'cron', second=1)
-	sched.start()
+	#def f(name):
+	#	print('hello', name)
+	#
+	#p = multiprocessing.Process(target=f, args=('bob',))
+	#p.start()
+	#p.join()
+
 
 ######################  _ _ N A M E _ _ = = " _ _ M A I N _ _ "  ##############
 if __name__ == "__main__":
