@@ -40,7 +40,7 @@ import fake_useragent
 
 
 ######################  functions and classes  ######################
-###  little helpers  ###
+###  classes  ###
 class Logger(object):
 
 	""" 
@@ -189,7 +189,7 @@ class Artikelein(newspaper.article.Article):
 			related_companies += list( match['Company'] )
 			related_stocks    += list( match['Symbol'] )
 
-		return related_companies, related_stocks
+		return list(set(related_companies)), list(set(related_stocks))
 
 
 	def _auto_weight(self):
@@ -237,7 +237,7 @@ class Artikelein(newspaper.article.Article):
 			#fp.write(self.title)
 
 
-###  news $ stock related  ###
+###  news & stock related  ###
 def get_articles(hostname_news_page, forget_articles_of_last_time=True):
 
 	"""
@@ -290,6 +290,12 @@ def timed_job(interval_in_s, job, *args, **kwargs):
 		except ValueError as err:
 			pass 										# no sleeping, i.e., go right away into next iteration and do job
 def ablauf(hostname_news_page):
+
+	"""
+
+
+	"""
+
 	articles             = get_articles(hostname_news_page, forget_articles_of_last_time=True)
 	artikeleins          = [Artikelein(articles[i]) for i in range(len(articles)) if Artikelein(articles[i]).is_datetime == True]
 
