@@ -16,6 +16,7 @@
 
 
 ###############  python modules import  ##############
+# python's standard linaries
 import os
 import re
 import sys
@@ -26,18 +27,16 @@ import threading
 import datetime as dt
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-#import multiprocessing
+import multiprocessing
 
 #from secrets.util import gmail_auth								# private libaries
 from email.mime.multipart import MIMEMultipart
 from email.utils import formatdate
 
+# libaries need extra installment
+import pandas
 import newspaper
 import fake_useragent
-#import pandas_datareader.data as web
-import pandas as pd
-#import requests
-#import csv
 
 
 ######################  functions and classes  ######################
@@ -65,74 +64,177 @@ class Logger(object):
 		#this handles the flush command by doing nothing.
 		#you might want to specify some extra behavior here.
 		pass 
-def make_random_useragent(update_database=False, ua_fallback='Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0'):
-
-	"""
-	Uses fake_useragent libary from:
-
-	  https://pypi.python.org/pypi/fake-useragent
-
-    - grabs up to date useragent from useragentstring.com
-    - randomize with real world statistic via w3schools.com
-
-    ==> Allows to construct strings of "USER_AGENT". These are used
-        in html request headers to send basic information 
-        (parse engine, browser, OS, ) to web servers.
+class RandomUserAgent():
 
 	"""
 
-	ua_db_file  = './SUP/fake_useragent%s.json' % fake_useragent.VERSION										# when path given, database file is stored and accessed here
-	ua          = fake_useragent.UserAgent(path=ua_db_file, fallback=ua_fallback)
-	if update_database:
-		ua.update()
-	return ua.random 																							# random user agent from real world statistic via w3schools.com
-def make_uuid(version=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
-
-	"""
-	Create universal unique identifier and return it as string.
-
-	Check:
-		https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions
-		https://docs.python.org/2/library/uuid.html
-		https://stackoverflow.com/a/28776880/3429748
-
-	:type version:  int
-	:param version: uuid version to be used. check given links for details.
-	                default version=4, which means random using the OS provided (pseudo)random number generators.
-
-	:type uuid_base:  uuid object
-	:param uuid_base: "base uuid" to generate a new uuid when using either version 3 or 5, together with a passed string 'uuid_string'.
-
-	:type uuid_string:  string
-	:param uuid_string: String to create a new uuid together with uuid_base for either version 3 or 5.
-						Two created uuids with same 'uuid_base' and 'uuid_string' will be identic, so 'uuid_string' should be unique.
 	"""
 
-	if version==1:
-		uuid_hash = uuid.uuid1()											# uses MAC adress + Datetime
+	def __init__(self, update_database=False, ua_fallback='Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0'): 
 
-	elif version==3:
-		try:
-			uuid_hash = uuid.uuid3(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
-		except AttributeError:
-			uuid_hash = uuid.uuid3(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
-			print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
+		"""
+		Uses fake_useragent libary from:
+	
+		  https://pypi.python.org/pypi/fake-useragent
+	
+		- grabs up to date useragent from useragentstring.com
+		- randomize with real world statistic via w3schools.com
+	
+			==> Allows to construct strings of "USER_AGENT". These are used
+			in html request headers to send basic information 
+			(parse engine, browser, OS, ) to web servers.
+		"""
 
-	elif version==4:
-		uuid_hash = uuid.uuid4()											# uses os random number generator
 
-	elif version==5:
-		try:
-			uuid_hash = uuid.uuid5(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
-		except AttributeError:
-			uuid_hash = uuid.uuid5(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
-			print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
+		ua_db_file  = './SUP/fake_useragent%s.json' % fake_useragent.VERSION
+		ua          = fake_useragent.UserAgent(path=ua_db_file, fallback=ua_fallback)	# when path given, database file is stored and accessed here
+		if update_database:
+			ua.update()
+		self.random = ua.random 														# random user agent from real world statistic via w3schools.com
+class Artikelein(newspaper.article.Article):
 
-	else:
-		print(u'WARNING:    Uuid version %s not valid (only 1, 3, 4, or 5). Used instead version 4 (random number).' % version)
-		uuid_hash = uuid.uuid4()
+	"""
 
-	return str(uuid_hash)
+	"""
+
+
+	def __init__(self, article, *args, **kwargs):
+
+		article.build()
+
+		match                  = re.search(r'(\d{2}.\d{2}.\d{4})\s*.\s*(\d{2}:\d{2})', article.html)
+		if match:
+			date_str           = match.group(1)
+			time_str           = match.group(2)
+			time_object        = dt.datetime.strptime('%s %s' % (date_str, time_str), '%d.%m.%Y %H:%M')
+			date_time          = time_object.strftime('%Y-%m-%d, %H:%M Uhr') + '(UTC %+dh)' % int(-time.timezone/3600)
+			self.is_datetime   = True
+		else:
+			date_time          = "---"
+			self.is_datetime   = False
+
+		self.html              = article.html
+		self.url               = article.url
+		self.time              = date_time
+		self.title             = article.title
+		self.authors           = article.authors									# not specified by finanznachrichten.de
+		self.text              = article.text										# needs parse
+		self.summary           = article.summary									# needs nlp
+		self.keywords          = article.keywords									# needs nlp
+ 
+		self.uuid_hash         = self._make_uuid_hash(variant=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None)
+		self.related_companies, self.related_stocks = self._related_stocks()
+		self.auto_weight       = self._auto_weight()
+		self.manu_weight       = None
+
+
+	def _make_uuid_hash(self, variant=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
+
+		"""
+		Create universal unique identifier and return it as string.
+	
+		Check:
+			https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions
+			https://docs.python.org/2/library/uuid.html
+			https://stackoverflow.com/a/28776880/3429748
+	
+		:type variant:  int
+		:param variant: uuid variant to be used. check given links for details.
+		                default variant=4, which means random using the OS provided (pseudo)random number generators.
+	
+		:type uuid_base:  uuid object
+		:param uuid_base: "base uuid" to generate a new uuid when using either variant 3 or 5, together with a passed string 'uuid_string'.
+	
+		:type uuid_string:  string
+		:param uuid_string: String to create a new uuid together with uuid_base for either variant 3 or 5.
+							Two created uuids with same 'uuid_base' and 'uuid_string' will be identic, so 'uuid_string' should be unique.
+		"""
+
+		if variant==1:
+			uuid_hash = uuid.uuid1()											# uses MAC adress + Datetime
+
+		elif variant==3:
+			try:
+				uuid_hash = uuid.uuid3(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
+			except AttributeError:
+				uuid_hash = uuid.uuid3(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
+				print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
+
+		elif variant==4:
+			uuid_hash = uuid.uuid4()											# uses os random number generator
+
+		elif variant==5:
+			try:
+				uuid_hash = uuid.uuid5(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
+			except AttributeError:
+				uuid_hash = uuid.uuid5(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
+				print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
+
+		else:
+			print(u'WARNING:    Uuid variant %s not valid (only 1, 3, 4, or 5). Used instead variant 4 (random number).' % variant)
+			uuid_hash = uuid.uuid4()
+
+		return str(uuid_hash)
+
+
+	def _related_stocks(self):
+		csv_ticker             = pandas.read_csv('./SUP/ticker_symbols/XETRA.csv', sep=';')
+		campanies              = csv_ticker['Company']
+		related_companies      = []
+		related_stocks         = []
+
+		for keyword in self.keywords:			# muss noch verbessert werdeb
+			keyword            = keyword.upper()
+			match              = csv_ticker[ csv_ticker['Company'].str.contains(keyword) ]
+			related_companies += list( match['Company'] )
+			related_stocks    += list( match['Symbol'] )
+
+		return related_companies, related_stocks
+
+
+	def _auto_weight(self):
+		# Google AI
+		return 0
+
+
+	def _manu_weight(self):
+		self.show()
+		weight               =         input('How do you think this news impacts the related stock(s):  [-3, -2, -1, 0, 1, 2, 3]:\t')
+		return weight
+
+
+	def reassign_related_stocks(self):
+		self.related_companies, self.related_stocks = self._related_stocks()
+
+
+	def redo_auto_weight(self):
+		self.auto_weight     = _auto_weighting()
+
+
+	def set_manu_weight(self, weight):
+		self.manu_weighting  = weight
+
+
+	def show(self):
+		print(u'')
+		print(u'- - - ' * 30)
+		print(u'URL:        %s'  % self.url)
+		print(u'TIME:       %s'  % self.time)
+		print(u'UUID:       %s'  % self.uuid_hash)
+		print(u'TITLE:      %s'  % self.title)
+		#print(u'AUTHOR:     %s'  % self.authors)
+		#print(u'TEXT:       %s'  % self.text)
+		print(u'SUMMARY:    %s'  % self.summary.replace('\n','\n            '))
+		print(u'KEYWORDS:   %s'  % ', '.join(self.keywords))
+		print(u'COMPANIES:  %s'  % ', '.join(self.related_companies))
+		print(u'REL_TICKER: %s'  % ', '.join(self.related_stocks))
+		print(u'- - - ' * 30)
+
+
+	def save(self, outfile='./LOG/log.txt'):
+		with open(outfile, "a") as fp:
+			pass
+			#fp.write(self.title)
 
 
 ###  news $ stock related  ###
@@ -144,63 +246,18 @@ def get_articles(hostname_news_page, forget_articles_of_last_time=True):
 	"""
 
 	# random user_agent
-	user_agent     = make_random_useragent()
+	user_agent     = RandomUserAgent().random
 
 	# get news from page
 	news_page      = newspaper.build(hostname_news_page, language='de', memoize_articles=forget_articles_of_last_time, fetch_images=False, browser_user_agent=user_agent)
 	articles       = news_page.articles
 
 	return articles
-def print_article(article, outfile='./LOG/log.txt'):
+def get_share_data(ticker, data_source, start, end):
 
 	"""
 
 	"""
-
-	# if outfile given (and no error occurs, e.g., directory does not exist ...)
-	if outfile:
-		sys.stdout = Logger(outfile)												# prints everything into shell but also into the logfile! Basically, I redirected standard out to both. stdout is set to normal at end of script.
-
-	article.download()					# download article (obviously)
-	article.parse()						# parse html to extract meaningful content like authors, body-text, .. (article needs to be downloaded first)
-	article.nlp()						# Natural Languange Properties (nlp). Need to call download and parse before ...
-
-	match = re.search(r'(\d{2}.\d{2}.\d{4})\s*.\s*(\d{2}:\d{2})',article.html)	# find often on finanznachrichte.de date/time as: 20.02.2018 / 08:30 (for now does not work for other pages)
-	try:
-		date                 = match.group(1)
-		time                 = match.group(2)
-		time_object          = dt.datetime.strptime('%s %s' % (date, time), '%d.%m.%Y %H:%M')
-		date_time            = time_object.strftime('%Y-%m-%d, %H:%M Uhr (UTC %+dh)' % int(-time.timezone/3600))
-		uuid_hash            = make_uuid()
-	except Exception:
-		return
-
-	print(u'')
-	print(u'- - - ' * 30)
-	print(u'URL:        %s'  % article.url)
-	print(u'TIME:       %s'  % date_time)										# not specified by finanznachrichten.de, solved manually
-	print(u'UUID:       %s'  % uuid_hash)
-	print(u'TITLE:      %s'  % article.title)
-	#print(u'AUTHOR:     %s'  % article.authors)								# not specified by finanznachrichten.de
-	#print(u'TEXT:       %s'  % article.text)									# needs parse
-	print(u'SUMMARY:    %s'  % article.summary.replace('\n','\n            '))	# needs nlp, replace() is prepend to each new line spaces (just so output is nice)
-	print(u'KEYWORDS:   %s'  % ', '.join(article.keywords))						# needs nlp
-	print(u'- - - ' * 30)
-
-	if outfile:
-		sys.stdout = sys.__stdout__												# reset stdout to normal 
-def testlauf(hostname_news_page):
-
-	articles = get_articles(hostname_news_page)
-
-
-	if len(articles)>0:
-		for article in articles:
-			print_article(article)
-		print(u'%s news.' % len(articles))
-
-	else:
-		print(u'No news.')
 
 
 ###  infracstructure  ###
@@ -232,11 +289,18 @@ def timed_job(interval_in_s, job, *args, **kwargs):
 			time.sleep(time_in_s - time.time())			# if negative, i.e., job took longer than 'interval_in_s', it raises ValueError
 		except ValueError as err:
 			pass 										# no sleeping, i.e., go right away into next iteration and do job
-def get_share_values(ticker, data_source, start, end):
+def ablauf(hostname_news_page):
+	articles             = get_articles(hostname_news_page, forget_articles_of_last_time=True)
+	artikeleins          = [Artikelein(articles[i]) for i in range(len(articles)) if Artikelein(articles[i]).is_datetime == True]
 
-	"""
+	if artikeleins:
+		for artikel in artikeleins:
+			artikel.show()
+		print(u'%s news.' % len(artikeleins))
+	
+	else:
+		print(u'No news.')
 
-	"""
 
 ###  e-mail  ###
 def validMail(mail):
@@ -430,17 +494,17 @@ def main():
 	"""
 	Main program.
 	"""
+
 	alpha_vantage_APIkey = u'7NSGBW8REI0PSVAC'
 	hostname_news_page   = u'http://www.finanznachrichten.de'
 
-	Thread               = threading.Thread(target=timed_job, args=(300, testlauf, hostname_news_page), kwargs={})
+
+	Thread               = threading.Thread(target=timed_job, args=(300, ablauf, hostname_news_page), kwargs={})
 	#Thread.daemon = True
 	Thread.start()
 	#print(threading.currentThread())
 	#print(threading.enumerate())
 	#print(threading.activeCount())
-
-
 
 	#def f(name):
 	#	print('hello', name)
