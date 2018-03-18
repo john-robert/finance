@@ -1,4 +1,5 @@
 How to get list of stock symbols
+--------------------------------
 
 Downloaded list of stock symbols as txt files for specific stock exchanges (last update: 2018-03-17):
 http://www.eoddata.com/symbols.aspx
@@ -18,13 +19,7 @@ To convert theses files to csv files, I did in Python via the pandas libary:
 
 ```
 df = pd.read_csv(file+'.txt', sep="\t", header=1, names=["Symbol", "Company"])	# read file with tab seperator, ignore first header line, assign names as column titles
-df = df[['Company', 'Symbol']]	
-```
-
-
-column so that first 'Company', then 'Symbol'
-
-```
+df = df[['Company', 'Symbol']]							# rewrite column order so that first 'Company', then 'Symbol'
 df.to_csv(file+'.csv', sep=";")	
 ```
 
