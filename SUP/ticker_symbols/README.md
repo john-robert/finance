@@ -1,9 +1,10 @@
 How to get list of stock symbols
 --------------------------------
 
-Downloaded list of stock symbols as txt files for specific stock exchanges (last update: 2018-03-17):
+Downloaded list of stock symbols as txt files for specific stock exchanges (last update: 2018-03-17):  
 http://www.eoddata.com/symbols.aspx
-For XETRA, I downloaded symbols from:
+
+For XETRA, I downloaded symbols from:  
 http://www.xetra.com/xetra-en/instruments/instruments
 
 For now there is:
