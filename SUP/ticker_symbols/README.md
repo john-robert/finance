@@ -16,9 +16,19 @@ For 'eoddata' data, you get a tab-sperated txt file with 1 header line as follow
 
 To convert theses files to csv files, I did in Python via the pandas libary:
 
+```
 df = pd.read_csv(file+'.txt', sep="\t", header=1, names=["Symbol", "Company"])	# read file with tab seperator, ignore first header line, assign names as column titles
-df = df[['Company', 'Symbol']]													# order column so that first 'Company', then 'Symbol'
-df.to_csv(file+'.csv', sep=";")													# write file as csv file, using tab seperation
+df = df[['Company', 'Symbol']]	
+```
+
+
+column so that first 'Company', then 'Symbol'
+
+```
+df.to_csv(file+'.csv', sep=";")	
+```
+
+file as csv file, using tab seperation
 
 where 'file' is the downloaded file name without file extension.
 A similar processing applies to the XETRA file downloaded where column organisation is different.
