@@ -15,7 +15,7 @@
 #---------------------------------------------------------------------
 
 
-# Python libaries
+# Python standard libaries
 import os
 import re
 import numpy

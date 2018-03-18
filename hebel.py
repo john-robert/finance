@@ -15,8 +15,8 @@
 #---------------------------------------------------------------------
 
 
-###############  python modules import  ##############
-# python's standard linaries
+###############  PYTHON  MODULES  IMPORT  ##############
+# Python standard libaries
 import os
 import re
 import sys
@@ -28,17 +28,17 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 import multiprocessing
 
-# privcate libary
+# private libary
 from email_custom import Email
 
-# libaries need extra installment
+# libaries that need extra installation (e.g. via conda, pip, or direct from source code)
 import pandas
 import newspaper
 import fake_useragent
 
 
 
-######################  functions and classes  ######################
+######################  classes & classes  ######################
 ###  classes  ###
 class Logger(object):
 
@@ -178,7 +178,6 @@ class Artikelein:
 
 	def _related_stocks(self):
 		csv_ticker             = pandas.read_csv('./SUP/ticker_symbols/XETRA.csv', sep=';')
-		campanies              = csv_ticker['Company']
 		related_companies      = []
 		related_stocks         = []
 
