@@ -29,7 +29,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 import multiprocessing
 
 # private libary
-from email_custom import Email
+#from email_custom import Email
 
 # libaries that need extra installation (e.g. via conda, pip, or direct from source code)
 import pandas
@@ -105,16 +105,17 @@ class Artikelein:
 		if match:
 			date_str           = match.group(1)
 			time_str           = match.group(2)
-			time_object        = dt.datetime.strptime('%s %s' % (date_str, time_str), '%d.%m.%Y %H:%M')
-			date_time          = time_object.strftime('%Y-%m-%d, %H:%M Uhr') + '(UTC %+dh)' % int(-time.timezone/3600)
+			time_object        = dt.datetime.strptime('%s %s' % (date_str, time_str), '%d.%m.%Y %H:%M') 
+			date_time_pretty   = time_object.strftime('%Y-%m-%d, %H:%M Uhr') + '(UTC %+dh)' % int(-time.timezone/3600)
 			self.is_datetime   = True
 		else:
-			date_time          = "---"
+			date_time_pretty   = "---"
 			self.is_datetime   = False
 
 		self.html              = article.html
 		self.url               = article.url
-		self.time              = date_time
+		self.date_time_pretty  = date_time_pretty
+		self.publish_date      = article.publish_date
 		self.title             = article.title
 		self.authors           = article.authors									# not specified by finanznachrichten.de
 		self.text              = article.text										# needs parse
@@ -131,7 +132,7 @@ class Artikelein:
 
 		"""
 		Create universal unique identifier and return it as string.
-	
+
 		Check:
 			https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions
 			https://docs.python.org/2/library/uuid.html
@@ -143,7 +144,7 @@ class Artikelein:
 	
 		:type uuid_base:  uuid object
 		:param uuid_base: "base uuid" to generate a new uuid when using either variant 3 or 5, together with a passed string 'uuid_string'.
-	
+
 		:type uuid_string:  string
 		:param uuid_string: String to create a new uuid together with uuid_base for either variant 3 or 5.
 							Two created uuids with same 'uuid_base' and 'uuid_string' will be identic, so 'uuid_string' should be unique.
@@ -197,7 +198,7 @@ class Artikelein:
 
 	def _manu_weight(self):
 		self.show()
-		weight               =         input('How do you think this news impacts the related stock(s):  [-3, -2, -1, 0, 1, 2, 3]:\t')
+		weight                = input('How do you think this news impacts the related stock(s):  [-3, -2, -1, 0, 1, 2, 3]:\t')
 		return weight
 
 
@@ -206,26 +207,27 @@ class Artikelein:
 
 
 	def redo_auto_weight(self):
-		self.auto_weight     = _auto_weighting()
+		self.auto_weight      = _auto_weighting()
 
 
 	def set_manu_weight(self, weight):
-		self.manu_weighting  = weight
+		self.manu_weighting   = weight
 
 
 	def show(self):
 		print(u'')
 		print(u'- - - ' * 30)
 		print(u'URL:         %s'  % self.url)
-		print(u'TIME:        %s'  % self.time)
+		print(u'TIME:        %s'  % self.date_time_pretty)
 		print(u'UUID:        %s'  % self.uuid_hash)
 		print(u'TITLE:       %s'  % self.title)
-		#print(u'AUTHOR:      %s'  % self.authors)
+		print(u'AUTHOR:      %s'  % self.authors)
+		print(u'PUB DATE:    %s'  % self.publish_date)
 		#print(u'TEXT:        %s'  % self.text)
 		print(u'SUMMARY:     %s'  % self.summary.replace('\n','\n             '))
 		print(u'KEYWORDS:    %s'  % ', '.join(self.keywords))
-		print(u'COMPANIES:   %s'  % ', '.join(self.related_companies))
-		print(u'REL_TICKER:  %s'  % ', '.join(self.related_stocks))
+		#print(u'COMPANIES:   %s'  % ', '.join(self.related_companies))
+		#print(u'REL_TICKER:  %s'  % ', '.join(self.related_stocks))
 		print(u'- - - ' * 30)
 
 
@@ -250,6 +252,9 @@ def get_articles(hostname_news_page, forget_articles_of_last_time=True):
 	news_page      = newspaper.build(hostname_news_page, language='de', memoize_articles=forget_articles_of_last_time, fetch_images=False, browser_user_agent=user_agent)
 	articles       = news_page.articles
 
+	#for feed_url in news_page.feed_urls():
+	#	print(feed_url)
+
 	return articles
 def get_share_data(ticker, data_source, start, end):
 
@@ -258,7 +263,7 @@ def get_share_data(ticker, data_source, start, end):
 	"""
 
 
-###  infracstructure  ###
+###  infra-structure  ###
 def timed_job(interval_in_s, job, *args, **kwargs):
 
 	""" 
@@ -294,8 +299,10 @@ def ablauf(hostname_news_page):
 
 	"""
 
-	articles             = get_articles(hostname_news_page, forget_articles_of_last_time=True)
-	artikeleins          = [Artikelein(articles[i]) for i in range(len(articles)) if Artikelein(articles[i]).is_datetime == True]
+	articles             = get_articles(hostname_news_page, forget_articles_of_last_time=False)
+	artikeleins          = [Artikelein(article) for article in articles if Artikelein(article).is_datetime == True]
+
+
 
 	if artikeleins:
 		for artikel in artikeleins:
@@ -316,7 +323,9 @@ def main():
 
 	alpha_vantage_APIkey = u'7NSGBW8REI0PSVAC'
 	hostname_news_page   = u'http://www.finanznachrichten.de'
-
+	#hostname_news_page   = u'http://www.finanznachrichten.de/nachrichten-aktien/alibaba-group-holding-ltd-adr.htm'
+	hostname_news_page   = u'http://www.finanznachrichten.de/nachrichten-aktien/alibaba-group-holding-ltd-adr.htm'
+	
 
 	Thread               = threading.Thread(target=timed_job, args=(300, ablauf, hostname_news_page), kwargs={})
 	#Thread.daemon = True
