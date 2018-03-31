@@ -143,8 +143,8 @@ class BetterArticle:
 
 
 	def _manu_weight(self):
-		self.show()
-		weight                = input('How do you think this news impacts the related stock(s):  [-3, -2, -1, 0, 1, 2, 3]:\t')
+		print(self)
+		weight = input('How do you think this news impacts the related stock(s):  [-3, -2, -1, 0, 1, 2, 3]:\t')
 		return weight
 
 
@@ -180,6 +180,7 @@ class Equity:
 
 
 	"""
+
 
 	def __init__(self, ticker='MSFT', start=None, end=None, alpha_vantage_APIkey='7NSGBW8REI0PSVAC'):
 
