@@ -2,17 +2,15 @@
 # -*- coding: utf-8 -*-
 
 #----------------------------------------------------------------------
-#   Filename:  hebel.py
-""" Box of self-written helper functions for Python. """
-#   Author:    JRS
+""" Box of self-written helper functions for Python3. """
 #   Date:      Feb 2018
 #   License:   GPLv3
 #---------------------------------------------------------------------
 
 
-#---------------------------------------------------------------------
-#------------------------ use of: PYTHON 3 ---------------------------
-#---------------------------------------------------------------------
+###############  INITIATION  ##############
+__title__ = 'kampfname'
+__author__ = 'John-Robert Scholz'
 
 
 ###############  PYTHON  MODULES  IMPORT  ##############
@@ -22,6 +20,7 @@ import re
 import sys
 import uuid
 import time
+import pickle
 import threading
 import datetime as dt
 import warnings
@@ -44,33 +43,29 @@ pd.set_option('display.width', 100)
 
 ######################  classes & classes  ######################
 ###  classes  ###
-class RandomUserAgent:
+class Logger:
 
+	""" 
+	Print commands are shown in shell and written to 'logfile'
+	at the same time !
+	Usage: 
+	sys.stdout = Logger(logfile)
 	"""
 
-	"""
+	def __init__(self, logfile):
+		self.terminal = sys.stdout
+		self.logfile  = logfile
+		self.log      = open(self.logfile, "a")
 
-	def __init__(self, update_database=False, ua_fallback='Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0'): 
+	def write(self, message):
+		self.terminal.write(message)
+		self.log.write(message)  
 
-		"""
-		Uses fake_useragent libary from:
-	
-		  https://pypi.python.org/pypi/fake-useragent
-	
-		- grabs up to date useragent from useragentstring.com
-		- randomize with real world statistic via w3schools.com
-	
-			==> Allows to construct strings of "USER_AGENT". These are used
-			in html request headers to send basic information 
-			(parse engine, browser, OS, ) to web servers.
-		"""
-
-
-		ua_db_file  = './SUP/fake_useragent%s.json' % fake_useragent.VERSION
-		ua          = fake_useragent.UserAgent(path=ua_db_file, fallback=ua_fallback)	# when path given, database file is stored and accessed here
-		if update_database:
-			ua.update()
-		self.random = ua.random 														# random user agent from real world statistic via w3schools.com
+	def flush(self):
+		#this flush method is needed for python 3 compatibility.
+		#this handles the flush command by doing nothing.
+		#you might want to specify some extra behavior here.
+		pass 
 class BetterArticle:
 
 	"""
@@ -103,7 +98,7 @@ class BetterArticle:
 		self.summary           = article.summary									# needs nlp
 		self.keywords          = article.keywords									# needs nlp
  
-		self.uuid_hash         = self._make_uuid_hash(variant=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None)
+		self.uuid_hash         = make_uuid_hash(variant=5, uuid_base=uuid.NAMESPACE_URL, uuid_string=self.url)
 		self.related_companies, self.related_stocks = self._related_stocks()
 		self.auto_weight       = self._auto_weight()
 		self.manu_weight       = None
@@ -128,57 +123,8 @@ class BetterArticle:
 		return string_representation
 
 
-	def _make_uuid_hash(self, variant=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
-
-		"""
-		Create universal unique identifier and return it as string.
-
-		Check:
-			https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions
-			https://docs.python.org/2/library/uuid.html
-			https://stackoverflow.com/a/28776880/3429748
-	
-		:type variant:  int
-		:param variant: uuid variant to be used. check given links for details.
-		                default variant=4, which means random using the OS provided (pseudo)random number generators.
-	
-		:type uuid_base:  uuid object
-		:param uuid_base: "base uuid" to generate a new uuid when using either variant 3 or 5, together with a passed string 'uuid_string'.
-
-		:type uuid_string:  string
-		:param uuid_string: String to create a new uuid together with uuid_base for either variant 3 or 5.
-							Two created uuids with same 'uuid_base' and 'uuid_string' will be identic, so 'uuid_string' should be unique.
-		"""
-
-		if variant==1:
-			uuid_hash = uuid.uuid1()											# uses MAC adress + Datetime
-
-		elif variant==3:
-			try:
-				uuid_hash = uuid.uuid3(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
-			except AttributeError:
-				uuid_hash = uuid.uuid3(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
-				print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
-
-		elif variant==4:
-			uuid_hash = uuid.uuid4()											# uses os random number generator
-
-		elif variant==5:
-			try:
-				uuid_hash = uuid.uuid5(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
-			except AttributeError:
-				uuid_hash = uuid.uuid5(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
-				print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
-
-		else:
-			print(u'WARNING:    Uuid variant %s not valid (only 1, 3, 4, or 5). Used instead variant 4 (random number).' % variant)
-			uuid_hash = uuid.uuid4()
-
-		return str(uuid_hash)
-
-
 	def _related_stocks(self):
-		csv_ticker             = pandas.read_csv('./SUP/ticker_symbols/XETRA.csv', sep=';')
+		csv_ticker             = pd.read_csv('./INFO/ticker_symbols/XETRA.csv', sep=';')
 		related_companies      = []
 		related_stocks         = []
 
@@ -202,16 +148,22 @@ class BetterArticle:
 		return weight
 
 
+	def store(self):
+		article_path = os.path.join('./NEWS', self.uuid_hash)
+		pickle.dump(self, open(article_path, 'wb'))
+		print(u'Article stored: %s' % article_path)
+
+
 	def reassign_related_stocks(self):
 		self.related_companies, self.related_stocks = self._related_stocks()
 
 
 	def redo_auto_weight(self):
-		self.auto_weight      = _auto_weighting()
+		self.auto_weight      = _auto_weight()
 
 
 	def set_manu_weight(self, weight):
-		self.manu_weighting   = weight
+		self.manu_weight      = weight
 
 
 	def show(self):
@@ -222,18 +174,18 @@ class BetterArticle:
 		with open(outfile, "a") as fp:
 			pass
 			#fp.write(self.title)
-class Stock:
+class Equity:
 
 	"""
 
 
 	"""
-
 
 	def __init__(self, ticker='MSFT', start=None, end=None, alpha_vantage_APIkey='7NSGBW8REI0PSVAC'):
 
 		self.ticker              = ticker
-		
+		self.plot_filename       = None
+
 		# handel start and end date of request
 		self.retrieve_day        = dt.datetime.today()
 		if start:
@@ -260,7 +212,7 @@ class Stock:
 
 
 	def __str__(self):
-		return self.ticker
+		return '%s (from: %s to: %s)' % (self.ticker, self.data.index[0].strftime("%Y-%m-%d"), self.data.index[-1].strftime("%Y-%m-%d"))
 
 
 	def first(self, n=1):
@@ -275,50 +227,100 @@ class Stock:
 		self.data                = self.data
 
 
-	def plot(self, plot_outfile=None):
-		self.plot_outfile            = plot_outfile
+	def plot(self, columns='1. open', kind='line', show=True, plot_filename=None):
+
+		"""
+		columns: default: '1. open'. Or choose e.g.: ['1. open, '2. high', '3. low', '4. close', '5. volume']. Or: columns=list(self.data.columns.values)[:-1]
+		kind: 'line', 'bar', 'barh', 'scatter', ... Check: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html
+		"""
 
 		fig = plt.figure(num=None, figsize=(14, 10), dpi=80, facecolor='w', edgecolor='k')
-		fig.tight_layout()
-		ax = fig.add_subplot(111)
-		self.data.plot(y='4. close', ax=ax, lw=2, label='daily closing course')
+		ax  = fig.add_subplot(111)
 		ax.grid(ls='-.', lw=1)
-		ax.legend(loc='upper left', fontsize=9)
-		ax.set_title('%s (from: %s to: %s)' % (self.ticker, self.data.index[0].strftime("%Y-%m-%d"), self.data.index[-1].strftime("%Y-%m-%d")), fontsize=14)
+		ax.legend(loc='upper left', fontsize=10)
 		ax.tick_params(axis='both', which='major', labelsize=10)
 		ax.tick_params(axis='both', which='minor', labelsize=9)
 		ax.set_xlabel('Dates (%s trading days)' % len(self.data), fontsize=12)
 		ax.set_ylabel('Equity value', fontsize=12)
-		plt.show()
-		if self.plot_outfile:
-			plt.savefig(self.plot_outfile)
-			print(u'Figure saved to:\n%s' % self.plot_outfile)
+		ax.set_title('%s' % self.__str__(), fontsize=14)
+		self.data.plot(y=columns, kind=kind, ax=ax, lw=2)
+		fig.tight_layout()
+
+		if show:
+			plt.show()
+
+		if plot_filename:
+			self.plot_filename = os.path.join('./PLOTS', plot_filename)
+			plt.savefig(self.plot_filename)
+			print(u'Equity plot stored:\n%s' % self.plot_filename)
+def random_useragent(update_database=False, ua_fallback='Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0'): 
+
+		"""
+		Uses fake_useragent libary from:
+	
+		  https://pypi.python.org/pypi/fake-useragent
+	
+		- grabs up to date useragent from useragentstring.com
+		- randomize with real world statistic via w3schools.com
+	
+			==> Allows to construct strings of "USER_AGENT". These are used
+			in html request headers to send basic information 
+			(parse engine, browser, OS, ) to web servers.
+		"""
 
 
-###  news & stock related  ###
-def get_articles(hostname_news_page, forget_articles_of_last_time=True):
+		ua_db_file  = './INFO/fake_useragent%s.json' % fake_useragent.VERSION
+		ua          = fake_useragent.UserAgent(path=ua_db_file, fallback=ua_fallback)	# when path given, database file is stored and accessed here
+		if update_database:
+			ua.update()
+		return ua.random 														# random user agent from real world statistic via w3schools.com
+def make_uuid_hash(variant=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
 
 	"""
-	Pass hostname of news paper page. E.g.: "http://www.finanznachrichten.de"
-	Download, parse and return atricles as list of 'article' object
+	Create universal unique identifier and return it as string.
+
+	Check:
+		https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions
+		https://docs.python.org/2/library/uuid.html
+		https://stackoverflow.com/a/28776880/3429748
+
+	:type variant:  int
+	:param variant: uuid variant to be used. check given links for details.
+	                default variant=4, which means random using the OS provided (pseudo)random number generators.
+
+	:type uuid_base:  uuid object
+	:param uuid_base: "base uuid" to generate a new uuid when using either variant 3 or 5, together with a passed string 'uuid_string'.
+
+	:type uuid_string:  string
+	:param uuid_string: String to create a new uuid together with uuid_base for either variant 3 or 5.
+						Two created uuids with same 'uuid_base' and 'uuid_string' will be identic, so 'uuid_string' should be unique.
 	"""
 
-	# random user_agent
-	user_agent     = RandomUserAgent().random
+	if variant==1:
+		uuid_hash = uuid.uuid1()										# uses MAC adress + Datetime
 
-	# get news from page
-	news_page      = newspaper.build(hostname_news_page, language='de', memoize_articles=forget_articles_of_last_time, fetch_images=False, browser_user_agent=user_agent)
-	articles       = news_page.articles
+	elif variant==3:
+		try:
+			uuid_hash = uuid.uuid3(uuid_base,uuid_string)				# uses MD5 algorithm for hashing
+		except AttributeError:
+			uuid_hash = uuid.uuid3(uuid.NAMESPACE_URL,uuid_string)		# uses MD5 algorithm for hashing
+			print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
 
-	#for feed_url in news_page.feed_urls():
-	#	print(feed_url)
+	elif variant==4:
+		uuid_hash = uuid.uuid4()										# uses os random number generator
 
-	return articles
-def get_share_data(ticker, data_source, start, end):
+	elif variant==5:
+		try:
+			uuid_hash = uuid.uuid5(uuid_base,uuid_string)				# uses SHA1 algorithm for hashing
+		except AttributeError:
+			uuid_hash = uuid.uuid5(uuid.NAMESPACE_URL,uuid_string)		# uses SHA1 algorithm for hashing
+			print(u"WARNING:    Uuid namespace (base uuid) is no valid uuid object. Used uuid.NAMESPACE_URL ('6ba7b811-9dad-11d1-80b4-00c04fd430c8') instead.")
 
-	"""
+	else:
+		print(u'WARNING:    Uuid variant %s not valid (only 1, 3, 4, or 5). Used instead variant 4 (random number).' % variant)
+		uuid_hash = uuid.uuid4()
 
-	"""
+	return str(uuid_hash)
 
 
 ###  infra-structure  ###
@@ -361,7 +363,6 @@ def ablauf(hostname_news_page):
 	better_articles      = [BetterArticle(article) for article in articles]
 	better_articles      = [article for article in better_articles if article.is_datetime==True]	# select only such that have a datetime parsed (i.e. =True)
 
-
 	if better_articles:																				# not empty
 		for artikel in better_articles:
 			artikel.show()
@@ -370,8 +371,21 @@ def ablauf(hostname_news_page):
 	
 	else:																							# emtpy
 		print(u'No news.')
+def get_articles(hostname_news_page, forget_articles_of_last_time=True):
 
+	"""
+	Pass hostname of news paper page. E.g.: "http://www.finanznachrichten.de"
+	Download, parse and return atricles as list of 'article' object
+	"""
 
+	# random user_agent
+	user_agent     = random_useragent()
+
+	# get news from page
+	news_page      = newspaper.build(hostname_news_page, language='de', memoize_articles=forget_articles_of_last_time, fetch_images=False, browser_user_agent=user_agent)
+	articles       = news_page.articles
+
+	return articles
 
 
 ######################  main  ######################
@@ -382,13 +396,12 @@ def main():
 	"""
 
 	hostname_news_page   = u'http://www.finanznachrichten.de'
-	#hostname_news_page   = u'http://www.finanznachrichten.de/nachrichten-aktien/alibaba-group-holding-ltd-adr.htm'
 	hostname_news_page   = u'http://www.finanznachrichten.de/nachrichten-aktien/alibaba-group-holding-ltd-adr.htm'
 	
 
-	Thread               = threading.Thread(target=timed_job, args=(300, ablauf, hostname_news_page), kwargs={})
+	#Thread               = threading.Thread(target=timed_job, args=(600, ablauf, hostname_news_page), kwargs={})
 	#Thread.daemon = True
-	Thread.start()
+	#Thread.start()
 	#print(threading.currentThread())
 	#print(threading.enumerate())
 	#print(threading.activeCount())
