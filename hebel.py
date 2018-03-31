@@ -26,43 +26,24 @@ import threading
 import datetime as dt
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-import multiprocessing
+warnings.filterwarnings("ignore", category=UserWarning)
+#import multiprocessing
 
 # private libary
 #from email_custom import Email
 
 # libaries that need extra installation (e.g. via conda, pip, or direct from source code)
-import pandas
 import newspaper
 import fake_useragent
-
+import dateutil as du
+import matplotlib.pyplot as plt
+import alpha_vantage.timeseries as ts
+import pandas as pd
+pd.set_option('display.width', 100)
 
 
 ######################  classes & classes  ######################
 ###  classes  ###
-class Logger(object):
-
-	""" 
-	Print commands are shown in shell and written to 'logfile'
-	at the same time !
-	Usage: 
-	sys.stdout = Logger(logfile)
-	"""
-
-	def __init__(self, logfile):
-		self.terminal = sys.stdout
-		self.logfile  = logfile
-		self.log      = open(self.logfile, "a")
-
-	def write(self, message):
-		self.terminal.write(message)
-		self.log.write(message)  
-
-	def flush(self):
-		#this flush method is needed for python 3 compatibility.
-		#this handles the flush command by doing nothing.
-		#you might want to specify some extra behavior here.
-		pass 
 class RandomUserAgent:
 
 	"""
@@ -90,7 +71,7 @@ class RandomUserAgent:
 		if update_database:
 			ua.update()
 		self.random = ua.random 														# random user agent from real world statistic via w3schools.com
-class Artikelein:
+class BetterArticle:
 
 	"""
 
@@ -126,6 +107,25 @@ class Artikelein:
 		self.related_companies, self.related_stocks = self._related_stocks()
 		self.auto_weight       = self._auto_weight()
 		self.manu_weight       = None
+
+
+	def __str__(self):
+		string_representation = u'\n'                \
+								u'{}\n'              \
+								u'URL:         {}\n' \
+								u'TIME:        {}\n' \
+								u'UUID:        {}\n' \
+								u'TITLE:       {}\n' \
+								u'AUTHOR:      {}\n' \
+								u'PUB DATE:    {}\n' \
+								u'SUMMARY:     {}\n' \
+								u'KEYWORDS:    {}\n' \
+								u'{}\n'.format(u'- - - ' * 30, self.url, self.date_time_pretty, self.uuid_hash, self.title, self.authors, self.publish_date, self.summary.replace('\n','\n             '), ', '.join(self.keywords), u'- - - ' * 30, )
+								 #print(u'TEXT:        %s'  % self.text)
+								 #print(u'COMPANIES:   %s'  % ', '.join(self.related_companies))
+								 #print(u'REL_TICKER:  %s'  % ', '.join(self.related_stocks))
+
+		return string_representation
 
 
 	def _make_uuid_hash(self, variant=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
@@ -215,26 +215,84 @@ class Artikelein:
 
 
 	def show(self):
-		print(u'')
-		print(u'- - - ' * 30)
-		print(u'URL:         %s'  % self.url)
-		print(u'TIME:        %s'  % self.date_time_pretty)
-		print(u'UUID:        %s'  % self.uuid_hash)
-		print(u'TITLE:       %s'  % self.title)
-		print(u'AUTHOR:      %s'  % self.authors)
-		print(u'PUB DATE:    %s'  % self.publish_date)
-		#print(u'TEXT:        %s'  % self.text)
-		print(u'SUMMARY:     %s'  % self.summary.replace('\n','\n             '))
-		print(u'KEYWORDS:    %s'  % ', '.join(self.keywords))
-		#print(u'COMPANIES:   %s'  % ', '.join(self.related_companies))
-		#print(u'REL_TICKER:  %s'  % ', '.join(self.related_stocks))
-		print(u'- - - ' * 30)
+		print(self)
 
 
 	def save(self, outfile='./LOG/log.txt'):
 		with open(outfile, "a") as fp:
 			pass
 			#fp.write(self.title)
+class Stock:
+
+	"""
+
+
+	"""
+
+
+	def __init__(self, ticker='MSFT', start=None, end=None, alpha_vantage_APIkey='7NSGBW8REI0PSVAC'):
+
+		self.ticker              = ticker
+		
+		# handel start and end date of request
+		self.retrieve_day        = dt.datetime.today()
+		if start:
+			self.start           = du.parser.parse(start)
+		else:
+			self.start           = self.retrieve_day-dt.timedelta(days=1000)
+		if end:
+			self.end             = du.parser.parse(end)
+		else:
+			self.end             = self.retrieve_day
+		if self.start > self.end:
+			self.start, self.end = self.end, self.start
+		if self.start >= self.retrieve_day-dt.timedelta(days=140) and self.end >= self.retrieve_day-dt.timedelta(days=140):
+			outputsize = 'compact'
+		else:
+			outputsize = 'full'
+
+		# get data according to specified times
+		timeseries               = ts.TimeSeries(key=alpha_vantage_APIkey, output_format='pandas')
+		self.data, self.metadata = timeseries.get_daily(symbol=self.ticker, outputsize=outputsize)
+		self.data.Date           = pd.to_datetime(self.data.index, format='%Y-%m-%d')
+		self.data.set_index(self.data.Date, inplace=True)
+		self.data                = self.data[self.start:self.end]
+
+
+	def __str__(self):
+		return self.ticker
+
+
+	def first(self, n=1):
+		return self.data.iloc[:n,:]
+
+
+	def last(self, n=1):
+		return self.data.iloc[-n:,:]
+
+
+	def update(self):
+		self.data                = self.data
+
+
+	def plot(self, plot_outfile=None):
+		self.plot_outfile            = plot_outfile
+
+		fig = plt.figure(num=None, figsize=(14, 10), dpi=80, facecolor='w', edgecolor='k')
+		fig.tight_layout()
+		ax = fig.add_subplot(111)
+		self.data.plot(y='4. close', ax=ax, lw=2, label='daily closing course')
+		ax.grid(ls='-.', lw=1)
+		ax.legend(loc='upper left', fontsize=9)
+		ax.set_title('%s (from: %s to: %s)' % (self.ticker, self.data.index[0].strftime("%Y-%m-%d"), self.data.index[-1].strftime("%Y-%m-%d")), fontsize=14)
+		ax.tick_params(axis='both', which='major', labelsize=10)
+		ax.tick_params(axis='both', which='minor', labelsize=9)
+		ax.set_xlabel('Dates (%s trading days)' % len(self.data), fontsize=12)
+		ax.set_ylabel('Equity value', fontsize=12)
+		plt.show()
+		if self.plot_outfile:
+			plt.savefig(self.plot_outfile)
+			print(u'Figure saved to:\n%s' % self.plot_outfile)
 
 
 ###  news & stock related  ###
@@ -300,17 +358,19 @@ def ablauf(hostname_news_page):
 	"""
 
 	articles             = get_articles(hostname_news_page, forget_articles_of_last_time=False)
-	artikeleins          = [Artikelein(article) for article in articles if Artikelein(article).is_datetime == True]
+	better_articles      = [BetterArticle(article) for article in articles]
+	better_articles      = [article for article in better_articles if article.is_datetime==True]	# select only such that have a datetime parsed (i.e. =True)
 
 
-
-	if artikeleins:
-		for artikel in artikeleins:
+	if better_articles:																				# not empty
+		for artikel in better_articles:
 			artikel.show()
-		print(u'%s news.' % len(artikeleins))
+			#print(artikel)
+		print(u'%s news.' % len(better_articles))
 	
-	else:
+	else:																							# emtpy
 		print(u'No news.')
+
 
 
 
@@ -321,7 +381,6 @@ def main():
 	Main program.
 	"""
 
-	alpha_vantage_APIkey = u'7NSGBW8REI0PSVAC'
 	hostname_news_page   = u'http://www.finanznachrichten.de'
 	#hostname_news_page   = u'http://www.finanznachrichten.de/nachrichten-aktien/alibaba-group-holding-ltd-adr.htm'
 	hostname_news_page   = u'http://www.finanznachrichten.de/nachrichten-aktien/alibaba-group-holding-ltd-adr.htm'
@@ -346,3 +405,4 @@ def main():
 if __name__ == "__main__":
 	argues = sys.argv
 	eval(argues[1])
+
