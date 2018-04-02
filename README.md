@@ -1,6 +1,13 @@
-Execute in Python3 environment (newspaper, fake_useragent, pandas, alpha_vantage, dateutil, and matplotlib packages installed):
+REQUIREMENTS:
+-------------
+numpy
+matplotlib
+pandas
+dateutil
+newspaper
+fake_useragent
+alpha_vantage
 
 ```
-cd ../../kampfname
 hebel.py "main()"
 ```

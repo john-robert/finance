@@ -9,8 +9,8 @@
 
 
 ###############  INITIATION  ##############
-__title__ = 'kampfname'
-__author__ = 'John-Robert Scholz'
+__title__ = u'kampfname'
+__author__ = u'John-Robert Scholz'
 
 
 ###############  PYTHON  MODULES  IMPORT  ##############
@@ -31,8 +31,9 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # private libary
 #from email_custom import Email
 
-# libaries that need extra installation (e.g. via conda, pip, or direct from source code)
+# libaries that need extra installation (e.g. via conda, pip, or directly from source code)
 import newspaper
+import numpy as np
 import fake_useragent
 import dateutil as du
 import matplotlib.pyplot as plt
@@ -41,31 +42,8 @@ import pandas as pd
 pd.set_option('display.width', 100)
 
 
-######################  classes & classes  ######################
-###  classes  ###
-class Logger:
-
-	""" 
-	Print commands are shown in shell and written to 'logfile'
-	at the same time !
-	Usage: 
-	sys.stdout = Logger(logfile)
-	"""
-
-	def __init__(self, logfile):
-		self.terminal = sys.stdout
-		self.logfile  = logfile
-		self.log      = open(self.logfile, "a")
-
-	def write(self, message):
-		self.terminal.write(message)
-		self.log.write(message)  
-
-	def flush(self):
-		#this flush method is needed for python 3 compatibility.
-		#this handles the flush command by doing nothing.
-		#you might want to specify some extra behavior here.
-		pass 
+######################  CLASSES & FUNCTIONS  ######################
+###  important  ###
 class BetterArticle:
 
 	"""
@@ -73,7 +51,7 @@ class BetterArticle:
 	"""
 
 
-	def __init__(self, article, *args, **kwargs):
+	def __init__(self, article, **kwargs):
 
 		article.build()
 
@@ -81,16 +59,14 @@ class BetterArticle:
 		if match:
 			date_str           = match.group(1)
 			time_str           = match.group(2)
-			time_object        = dt.datetime.strptime('%s %s' % (date_str, time_str), '%d.%m.%Y %H:%M') 
-			date_time_pretty   = time_object.strftime('%Y-%m-%d, %H:%M Uhr') + '(UTC %+dh)' % int(-time.timezone/3600)
-			self.is_datetime   = True
+			date_time          = dt.datetime.strptime('%s %s' % (date_str, time_str), '%d.%m.%Y %H:%M') 
+			self.has_datetime  = True
 		else:
-			date_time_pretty   = "---"
-			self.is_datetime   = False
+			date_time          = dt.datetime.now()
+			self.has_datetime  = False
 
 		self.html              = article.html
 		self.url               = article.url
-		self.date_time_pretty  = date_time_pretty
 		self.publish_date      = article.publish_date
 		self.title             = article.title
 		self.authors           = article.authors									# not specified by finanznachrichten.de
@@ -98,10 +74,12 @@ class BetterArticle:
 		self.summary           = article.summary									# needs nlp
 		self.keywords          = article.keywords									# needs nlp
  
+		self.date_time         = date_time
 		self.uuid_hash         = make_uuid_hash(variant=5, uuid_base=uuid.NAMESPACE_URL, uuid_string=self.url)
-		self.related_companies, self.related_stocks = self._related_stocks()
 		self.auto_weight       = self._auto_weight()
-		self.manu_weight       = None
+		self.manu_weight       = 0
+		self.is_pickled        = False
+		self.pickle_file       = None
 
 
 	def __str__(self):
@@ -115,7 +93,7 @@ class BetterArticle:
 								u'PUB DATE:    {}\n' \
 								u'SUMMARY:     {}\n' \
 								u'KEYWORDS:    {}\n' \
-								u'{}\n'.format(u'- - - ' * 30, self.url, self.date_time_pretty, self.uuid_hash, self.title, self.authors, self.publish_date, self.summary.replace('\n','\n             '), ', '.join(self.keywords), u'- - - ' * 30, )
+								u'{}'.format(u'- - - ' * 30, self.url, self.date_time, self.uuid_hash, self.title, ', '.join(self.authors), self.publish_date, self.summary.replace('\n','\n             '), ', '.join(self.keywords), u'- - - ' * 30, )
 								 #print(u'TEXT:        %s'  % self.text)
 								 #print(u'COMPANIES:   %s'  % ', '.join(self.related_companies))
 								 #print(u'REL_TICKER:  %s'  % ', '.join(self.related_stocks))
@@ -123,22 +101,8 @@ class BetterArticle:
 		return string_representation
 
 
-	def _related_stocks(self):
-		csv_ticker             = pd.read_csv('./INFO/ticker_symbols/XETRA.csv', sep=';')
-		related_companies      = []
-		related_stocks         = []
-
-		for keyword in self.keywords:			# muss noch verbessert werdeb
-			keyword            = keyword.upper()
-			match              = csv_ticker[ csv_ticker['Company'].str.contains(keyword) ]
-			related_companies += list( match['Company'] )
-			related_stocks    += list( match['Symbol'] )
-
-		return list(set(related_companies)), list(set(related_stocks))
-
-
 	def _auto_weight(self):
-		# Google AI
+		# Google Tensorflow 
 		return 0
 
 
@@ -148,32 +112,42 @@ class BetterArticle:
 		return weight
 
 
-	def store(self):
-		article_path = os.path.join('./NEWS', self.uuid_hash)
-		pickle.dump(self, open(article_path, 'wb'))
-		print(u'Article stored: %s' % article_path)
+	def pickle(self, target_dir):
+		# create target_dir if not existing
+		if not os.path.isdir( target_dir ):
+			os.makedirs( target_dir )
+
+		# pickle article object
+		self.is_pickled  = True
+		self.pickle_file = os.path.join(target_dir, self.uuid_hash+'.p')
+		pickle.dump(self, open(self.pickle_file, 'wb'))
+		print(u'Article object pickled: %s' % self.pickle_file)
+
+		# update news_list of company
+		news_list = os.path.join(target_dir, 'news_list.txt')
+		with open(news_list, 'a') as fp:
+			line = '{:>8.2f}{:>8.2f}{:>20s}{:>40s}'.format(self.auto_weight, self.manu_weight, self.date_time.strftime('%Y-%m-%dT%H:%M'), self.uuid_hash+'.p')
+			fp.write( '\n' + line)
 
 
-	def reassign_related_stocks(self):
-		self.related_companies, self.related_stocks = self._related_stocks()
+	#def reassign_related_stocks(self):
+	#	self.related_companies, self.related_stocks = self._related_stocks()
 
 
 	def redo_auto_weight(self):
-		self.auto_weight      = _auto_weight()
+		self.auto_weight      = self._auto_weight()
 
 
 	def set_manu_weight(self, weight):
-		self.manu_weight      = weight
+		self.manu_weight      = self._manu_weight()
 
 
 	def show(self):
 		print(self)
 
 
-	def save(self, outfile='./LOG/log.txt'):
-		with open(outfile, "a") as fp:
-			pass
-			#fp.write(self.title)
+	def print(self):
+		print(self)
 class Equity:
 
 	"""
@@ -182,38 +156,58 @@ class Equity:
 	"""
 
 
-	def __init__(self, ticker='MSFT', start=None, end=None, alpha_vantage_APIkey='7NSGBW8REI0PSVAC'):
+	def __init__(self, ticker=u'MSFT', start=None, end=None, alpha_vantage_APIkey=u'7NSGBW8REI0PSVAC', *args, **kwargs):
 
 		self.ticker              = ticker
-		self.plot_filename       = None
-
-		# handel start and end date of request
 		self.retrieve_day        = dt.datetime.today()
+		self.start, self.end     = self._handle_dates(start, end)
+		self.data, self.metadata = self._get_data(alpha_vantage_APIkey)
+		self.is_plotsaved        = False
+		self.plot_file           = None
+
+
+	def __str__(self):
+		return u'%s (from: %s to: %s)' % (self.ticker, self.data.index[0].strftime("%Y-%m-%d"), self.data.index[-1].strftime("%Y-%m-%d"))
+
+
+	def _handle_dates(self, start, end):
+		# handel start and end date of request
 		if start:
-			self.start           = du.parser.parse(start)
+			start      = du.parser.parse(start)
 		else:
-			self.start           = self.retrieve_day-dt.timedelta(days=1000)
+			start      = self.retrieve_day-dt.timedelta(days=1000)
 		if end:
-			self.end             = du.parser.parse(end)
+			end        = du.parser.parse(end)
 		else:
-			self.end             = self.retrieve_day
-		if self.start > self.end:
-			self.start, self.end = self.end, self.start
+			end        = self.retrieve_day
+
+		if start > end:
+			start, end = end, start
+
+		return start, end
+
+
+	def _get_data(self, alpha_vantage_APIkey):
+		# determine output size. Might be time critical, maybe not.
 		if self.start >= self.retrieve_day-dt.timedelta(days=140) and self.end >= self.retrieve_day-dt.timedelta(days=140):
 			outputsize = 'compact'
 		else:
 			outputsize = 'full'
 
 		# get data according to specified times
-		timeseries               = ts.TimeSeries(key=alpha_vantage_APIkey, output_format='pandas')
-		self.data, self.metadata = timeseries.get_daily(symbol=self.ticker, outputsize=outputsize)
-		self.data.Date           = pd.to_datetime(self.data.index, format='%Y-%m-%d')
-		self.data.set_index(self.data.Date, inplace=True)
-		self.data                = self.data[self.start:self.end]
+		timeseries     = ts.TimeSeries(key=alpha_vantage_APIkey, output_format='pandas')
+		data, metadata = timeseries.get_daily(symbol=self.ticker, outputsize=outputsize)
+		data.Date      = pd.to_datetime(data.index, format='%Y-%m-%d')
+		data.set_index(data.Date, inplace=True)
+		data           = data[self.start:self.end]
+
+		return data, metadata
 
 
-	def __str__(self):
-		return '%s (from: %s to: %s)' % (self.ticker, self.data.index[0].strftime("%Y-%m-%d"), self.data.index[-1].strftime("%Y-%m-%d"))
+	def _depickle_objects(self, dir_objects, regex=r'\.p\Z'):
+		pickled_objects = [os.path.join(dir_objects,file) for file in os.listdir(dir_objects) if re.search(regex, file)]
+		objects         = [pickle.load( open( pickled_object, 'rb' )) for pickled_object in pickled_objects]
+		return objects
 
 
 	def first(self, n=1):
@@ -224,37 +218,76 @@ class Equity:
 		return self.data.iloc[-n:,:]
 
 
-	def update(self):
-		self.data                = self.data
+	#def update(self):
+	#	self.data                = self.data
 
 
-	def plot(self, columns='1. open', kind='line', show=True, plot_filename=None):
+	def plot(self, columns='3. low', kind='line', start=None, end=None, show=True, return_axis=False, save_dir=None, news_dir=None, **kwargs):
 
 		"""
-		columns: default: '1. open'. Or choose e.g.: ['1. open, '2. high', '3. low', '4. close', '5. volume']. Or: columns=list(self.data.columns.values)[:-1]
+		columns: default: columns='3. low'. Or choose: columns=['1. open, '2. high', '3. low', '4. close', '5. volume'] or: columns=list(self.data.columns.values)[:-1] or: ...
 		kind: 'line', 'bar', 'barh', 'scatter', ... Check: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html
 		"""
 
+		# handle start and end dates only for plotting (actual equity data may have been retrieved for larger times ...)
+		if start:
+			start           = du.parser.parse(start)
+		else:
+			start           = self.start
+		if end:
+			end             = du.parser.parse(end)
+		else:
+			end             = self.end
+		if start > end:
+			start, end      = end, start
+		plot_data           = self.data[start:end]
+		plot_data_first_day = plot_data.index[0].strftime("%Y-%m-%d")
+		plot_data_last_day  = plot_data.index[-1].strftime("%Y-%m-%d")
+
+		# plot commands ...
 		fig = plt.figure(num=None, figsize=(14, 10), dpi=80, facecolor='w', edgecolor='k')
 		ax  = fig.add_subplot(111)
-		ax.grid(ls='-.', lw=1)
-		ax.legend(loc='upper left', fontsize=10)
+		plot_data.plot(y=columns, kind=kind, ax=ax, lw=2)
+		ax.grid(ls='-.', lw=0.5)
+		ax.set_ylabel(u'Equity value', fontsize=12)
+		ax.set_xlabel(u'Dates (%s trading days)' % len(plot_data), fontsize=12)
+		ax.set_title('%s (from: %s to: %s)' % (self.ticker, plot_data_first_day, plot_data_last_day), fontsize=14)
 		ax.tick_params(axis='both', which='major', labelsize=10)
 		ax.tick_params(axis='both', which='minor', labelsize=9)
-		ax.set_xlabel('Dates (%s trading days)' % len(self.data), fontsize=12)
-		ax.set_ylabel('Equity value', fontsize=12)
-		ax.set_title('%s' % self.__str__(), fontsize=14)
-		self.data.plot(y=columns, kind=kind, ax=ax, lw=2)
+
+		if news_dir:
+			ylim       = ax.get_ylim()
+			try:
+				articles   = self._depickle_objects(news_dir)
+				for article in articles:
+					if articles.index(article) == 0:	# to avoid more than one label that goes 'News'
+						label=u'News'
+					else:
+						label = None
+					ax.plot( [article.date_time,article.date_time], ylim, color='k', lw=0.5, label=label)
+					#ax.text()
+			except FileNotFoundError as err:
+				print(u'Equity plot no news plotted. Error: %s' % err)
+		ax.legend(loc='upper left', fontsize=10)
 		fig.tight_layout()
+
+		if save_dir:
+			# create target_dir if not existing
+			if not os.path.isdir( save_dir ):
+				os.makedirs( save_dir )
+
+			# save plot
+			self.is_plotsaved = True
+			self.plot_file    = os.path.join(save_dir, self.ticker+'_'+plot_data_last_day+'.png')
+			plt.savefig(self.plot_file)
+			print(u'Equity plot stored: %s' % self.plot_file)
 
 		if show:
 			plt.show()
 
-		if plot_filename:
-			self.plot_filename = os.path.join('./PLOTS', plot_filename)
-			plt.savefig(self.plot_filename)
-			print(u'Equity plot stored:\n%s' % self.plot_filename)
-def random_useragent(update_database=False, ua_fallback='Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0'): 
+		if return_axis:
+			return ax
+def random_useragent(update_database=False, ua_fallback=u'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:54.0) Gecko/20100101 Firefox/54.0'): 
 
 		"""
 		Uses fake_useragent libary from:
@@ -270,7 +303,7 @@ def random_useragent(update_database=False, ua_fallback='Mozilla/5.0 (Macintosh;
 		"""
 
 
-		ua_db_file  = './INFO/fake_useragent%s.json' % fake_useragent.VERSION
+		ua_db_file  = './SUP/fake_useragent%s.json' % fake_useragent.VERSION
 		ua          = fake_useragent.UserAgent(path=ua_db_file, fallback=ua_fallback)	# when path given, database file is stored and accessed here
 		if update_database:
 			ua.update()
@@ -278,7 +311,7 @@ def random_useragent(update_database=False, ua_fallback='Mozilla/5.0 (Macintosh;
 def make_uuid_hash(variant=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
 
 	"""
-	Create universal unique identifier and return it as string.
+	Create universal unique identifier and return it as string (has 36 characters).
 
 	Check:
 		https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions
@@ -322,6 +355,20 @@ def make_uuid_hash(variant=4, uuid_base=uuid.NAMESPACE_URL, uuid_string=None):
 		uuid_hash = uuid.uuid4()
 
 	return str(uuid_hash)
+def log(self, log_message, logfile=u'./LOG/log.txt'):
+	# create target_dir if not existing
+	if not os.path.isdir( os.path.dirname(logfile) ):
+		os.makedirs( os.path.dirname(logfile) )
+
+	# make log
+	with open(logfile, "a") as fp:
+		fp.write(log_message)
+
+
+###  helpers  ###
+def get_company_pages(file_company_pages=u'./SUP/deutsche_unternehmen_urls.txt'):
+	companies_and_infos = np.loadtxt(file_company_pages)
+	return companies_and_infos
 
 
 ###  infra-structure  ###
@@ -353,24 +400,34 @@ def timed_job(interval_in_s, job, *args, **kwargs):
 			time.sleep(time_in_s - time.time())			# if negative, i.e., job took longer than 'interval_in_s', it raises ValueError
 		except ValueError as err:
 			pass 										# no sleeping, i.e., go right away into next iteration and do job
-def ablauf(hostname_news_page):
+def ablauf():
 
 	"""
 
 
 	"""
 
-	articles             = get_articles(hostname_news_page, forget_articles_of_last_time=False)
-	better_articles      = [BetterArticle(article) for article in articles]
-	better_articles      = [article for article in better_articles if article.is_datetime==True]	# select only such that have a datetime parsed (i.e. =True)
+	company_infos_list   = [[u'http://www.finanznachrichten.de/nachrichten-aktien/alphabet-inc-cl-a.htm', 'GOOG'],
+							[u'http://www.finanznachrichten.de/nachrichten-aktien/microsoft-corporation.htm', 'MSFT']]
 
-	if better_articles:																				# not empty
-		for artikel in better_articles:
-			artikel.show()
-			#print(artikel)
-		print(u'%s news.' % len(better_articles))
+	for company_news_page, company_ticker in company_infos_list:
+
+		news_dir             = os.path.join('./NEWS',company_ticker)
+		articles             = get_articles(company_news_page, forget_articles_of_last_time=True)
+		better_articles      = [BetterArticle(article) for article in articles]
+		better_articles      = [article for article in better_articles if article.has_datetime==True]	# select only such that have a datetime parsed (i.e. ==True)
 	
-	else:																							# emtpy
+		if better_articles:																				# not empty
+			for artikel in better_articles:
+				print(artikel)
+				artikel.pickle( news_dir )
+			print(u'%s news.' % len(better_articles))
+
+		goo = Equity(company_ticker)
+		goo.plot(news_dir=news_dir, save_dir='./PLOTS', show=False)
+
+	
+	else:																								# emtpy
 		print(u'No news.')
 def get_articles(hostname_news_page, forget_articles_of_last_time=True):
 
@@ -389,16 +446,14 @@ def get_articles(hostname_news_page, forget_articles_of_last_time=True):
 	return articles
 
 
-######################  main  ######################
+######################  MAIN FUNCTION  ######################
 def main():
 
 	"""
 	Main program.
 	"""
 
-	hostname_news_page   = u'http://www.finanznachrichten.de'
-	hostname_news_page   = u'http://www.finanznachrichten.de/nachrichten-aktien/alibaba-group-holding-ltd-adr.htm'
-	
+	timed_job(600, ablauf)
 
 	#Thread               = threading.Thread(target=timed_job, args=(600, ablauf, hostname_news_page), kwargs={})
 	#Thread.daemon = True
@@ -417,6 +472,11 @@ def main():
 
 ######################  _ _ N A M E _ _ = = " _ _ M A I N _ _ "  ##############
 if __name__ == "__main__":
+	#switch path to directory of this file. It's important for relative paths coded.
+	this_file_dir = os.path.dirname(__file__)
+	os.chdir( this_file_dir)
+
+	# any passed function+arguments of script will be executed due to those lines
 	argues = sys.argv
 	eval(argues[1])
 
